@@ -1,0 +1,13 @@
+﻿studio_title,official_url,fetch_status,area_sqm,ceiling_height_m,capacity,floor_type,has_mirror,has_speaker,has_tripod,has_shower,has_changing_room,hourly_rate_yen,dancer_summary
+BUZZ レンタルスタジオ 新宿ハウス店,https://buzz-st.com/shinjuku2/,ok,23.0,2.6,,不明,,,,,,1100.0,木目スタジオ・少人数向け・各フロアトイレ完備
+レンタルダンススタジオ LANDstudio 新宿店,https://land-studio.jp/?utm_source=gbp&utm_medium=referral,"error:HTTPSConnectionPool(host='land-studio.jp', port=443): Max re",,,,,,,,,,,
+ソニズレンタルスタジオ新宿店,https://sonysdance.com/,ok,,,20.0,不明,,,,,True,2400.0,新宿駅徒歩8分・格安レンタル
+レンタルスタジオマイレッスン 新宿御苑前,https://www.my-lesson.jp/,ok,,,,不明,,,,,,,Wi-Fi完備・複数エリア展開
+レンタルスタジオ「Ten（テン）」,https://shierushan.com/,"error:('Connection aborted.', RemoteDisconnected('Remote end close",,,,,,,,,,,
+レンタルスタジオ 301,https://shierushan.com/,"error:('Connection aborted.', RemoteDisconnected('Remote end close",,,,,,,,,,,
+新宿 だんすた レンタルスタジオ,https://shinjuku2.inforent.jp/,ok,65.7,3.2,,リノリウム,,True,,,,500.0,バレエ床・高天井・衝撃吸収で膝に優しい
+ICHIBANGAI Dance Studio,http://www.studio1b.jp/,ok,,,,,,,,,,,
+ＴＨ会場,https://sinjukuth.jimdofree.com/,ok,,,,不明,,,,,,1000.0,
+STUDIO COCORO（スタジオココロ）- 新宿代々木のレンタルスペース&ダンススタジオ - 数々のイベントやメディアに出演,http://studio-cocoro.tokyo/,parse_error,,,,,,,,,,,
+Beat Box Dance Studio,http://www.beatbox-jp.com/,ok,,,,,,,,,,,
+Ｍ＆Ｓダンススタジオ,http://www.msc-dance.net/,ok,,,,,,,,,,,

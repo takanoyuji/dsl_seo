@@ -1,0 +1,3783 @@
+{
+  "スタジオピアーチェ春日後楽園店": {
+    "primary_station": "後楽園駅",
+    "distance_to_primary_station_m": 679,
+    "candidate_stations": "後楽園駅|春日駅|飯田橋駅|茗荷谷駅|江戸川橋駅|神楽坂駅|水道橋駅|白山駅|牛込神楽坂駅|東大前駅",
+    "station_count": 10
+  },
+  "スタジオピアーチェ池袋店": {
+    "primary_station": "北池袋駅",
+    "distance_to_primary_station_m": 439,
+    "candidate_stations": "北池袋駅|下板橋駅|池袋駅|板橋駅|新板橋駅|東池袋駅|要町駅|向原駅|庚申塚駅|大塚駅",
+    "station_count": 10
+  },
+  "レンタルスタジオAivic池袋東口1号店": {
+    "primary_station": "向原駅",
+    "distance_to_primary_station_m": 618,
+    "candidate_stations": "向原駅|東池袋駅|東池袋四丁目駅|池袋駅|大塚駅|都電雑司ヶ谷駅|北池袋駅|新大塚駅|庚申塚駅|雑司が谷駅",
+    "station_count": 10
+  },
+  "スタジオ五軒町／『鏡張り』の多目的に利用できる『防音』スタジオ": {
+    "primary_station": "湯島駅",
+    "distance_to_primary_station_m": 308,
+    "candidate_stations": "湯島駅|御徒町駅|京成上野駅|御茶ノ水駅|新御徒町駅|新御茶ノ水駅|岩本町駅|上野駅|神田駅|根津駅",
+    "station_count": 10
+  },
+  "SPICYCANDY DANCESTUDIO": {
+    "primary_station": "浅草橋駅",
+    "distance_to_primary_station_m": 341,
+    "candidate_stations": "浅草橋駅|馬喰町駅|岩本町駅|両国駅|新御徒町駅|神田駅|御徒町駅|人形町駅|三越前駅|湯島駅",
+    "station_count": 10
+  },
+  "スタジオピアーチェ江戸川橋店": {
+    "primary_station": "江戸川橋駅",
+    "distance_to_primary_station_m": 141,
+    "candidate_stations": "江戸川橋駅|神楽坂駅|茗荷谷駅|護国寺駅|早稲田駅|牛込神楽坂駅|牛込柳町駅|飯田橋駅|面影橋駅|新大塚駅",
+    "station_count": 10
+  },
+  "レンタルスタジオAivic築地": {
+    "primary_station": "築地駅",
+    "distance_to_primary_station_m": 84,
+    "candidate_stations": "築地駅|新富町駅|東銀座駅|八丁堀駅|宝町駅|銀座一丁目駅|銀座駅|京橋駅|有楽町駅|月島駅",
+    "station_count": 10
+  },
+  "Dubway レンタルスタジオ小岩": {
+    "primary_station": "小岩駅",
+    "distance_to_primary_station_m": 488,
+    "candidate_stations": "小岩駅|京成小岩駅|江戸川駅|国府台駅|新柴又駅",
+    "station_count": 5
+  },
+  "レンタルピラティススタジオAivic北参道": {
+    "primary_station": "北参道駅",
+    "distance_to_primary_station_m": 36,
+    "candidate_stations": "北参道駅|千駄ケ谷駅|代々木駅|国立競技場駅|原宿駅|明治神宮前〈原宿〉駅|参宮橋駅|新宿御苑前駅|信濃町駅|新宿駅",
+    "station_count": 10
+  },
+  "日暮里リーダンススタジオ": {
+    "primary_station": "日暮里駅",
+    "distance_to_primary_station_m": 232,
+    "candidate_stations": "日暮里駅|西日暮里駅|三河島駅|新三河島駅|千駄木駅|鶯谷駅|田端駅|荒川区役所前駅|赤土小学校前駅|根津駅",
+    "station_count": 10
+  },
+  "Hina STUDIO(ヒナスタジオ)【新宿西口アネックス】": {
+    "primary_station": "西武新宿駅",
+    "distance_to_primary_station_m": 234,
+    "candidate_stations": "西武新宿駅|新宿西口駅|西新宿駅|大久保駅|都庁前駅|新宿駅|新大久保駅|新宿三丁目駅|東新宿駅|南新宿駅",
+    "station_count": 10
+  },
+  "チェリッシュスタジオ1号館/6号館": {
+    "primary_station": "神泉駅",
+    "distance_to_primary_station_m": 170,
+    "candidate_stations": "神泉駅|渋谷駅|駒場東大前駅|池尻大橋駅|代官山駅|中目黒駅|代々木公園駅|代々木八幡駅|明治神宮前〈原宿〉駅|原宿駅",
+    "station_count": 10
+  },
+  "Hina STUDIO（ヒナスタジオ）【目黒スタジオ】": {
+    "primary_station": "明治神宮前〈原宿〉駅",
+    "distance_to_primary_station_m": 488,
+    "candidate_stations": "明治神宮前〈原宿〉駅|原宿駅|渋谷駅|表参道駅|神泉駅|代々木公園駅|代々木八幡駅|北参道駅|外苑前駅|参宮橋駅",
+    "station_count": 10
+  },
+  "チェリッシュスタジオ7号館": {
+    "primary_station": "渋谷駅",
+    "distance_to_primary_station_m": 515,
+    "candidate_stations": "渋谷駅|神泉駅|代官山駅|中目黒駅|恵比寿駅|池尻大橋駅|駒場東大前駅|表参道駅|明治神宮前〈原宿〉駅|原宿駅",
+    "station_count": 10
+  },
+  "チェリッシュスタジオ4号館/8号館": {
+    "primary_station": "渋谷駅",
+    "distance_to_primary_station_m": 515,
+    "candidate_stations": "渋谷駅|神泉駅|代官山駅|中目黒駅|恵比寿駅|池尻大橋駅|駒場東大前駅|表参道駅|明治神宮前〈原宿〉駅|原宿駅",
+    "station_count": 10
+  },
+  "ザ・スペース大久保南口": {
+    "primary_station": "渋谷駅",
+    "distance_to_primary_station_m": 515,
+    "candidate_stations": "渋谷駅|神泉駅|代官山駅|中目黒駅|恵比寿駅|池尻大橋駅|駒場東大前駅|表参道駅|明治神宮前〈原宿〉駅|原宿駅",
+    "station_count": 10
+  },
+  "SOUND STUDIO M 小岩店": {
+    "primary_station": "大久保駅",
+    "distance_to_primary_station_m": 184,
+    "candidate_stations": "大久保駅|新大久保駅|西武新宿駅|新宿西口駅|西新宿駅|東新宿駅|都庁前駅|新宿駅|新宿三丁目駅|中野坂上駅",
+    "station_count": 10
+  },
+  "チェリッシュスタジオ5号館": {
+    "primary_station": "渋谷駅",
+    "distance_to_primary_station_m": 379,
+    "candidate_stations": "渋谷駅|神泉駅|代官山駅|駒場東大前駅|池尻大橋駅|中目黒駅|明治神宮前〈原宿〉駅|原宿駅|代々木公園駅|恵比寿駅",
+    "station_count": 10
+  },
+  "チェリッシュスタジオ11号館/12号館/13号館/14号館": {
+    "primary_station": "表参道駅",
+    "distance_to_primary_station_m": 809,
+    "candidate_stations": "表参道駅|乃木坂駅|外苑前駅|広尾駅|六本木駅|青山一丁目駅|麻布十番駅|明治神宮前〈原宿〉駅|渋谷駅|六本木一丁目駅",
+    "station_count": 10
+  },
+  "レンタルピラティススタジオAivic新宿": {
+    "primary_station": "東新宿駅",
+    "distance_to_primary_station_m": 339,
+    "candidate_stations": "東新宿駅|新宿三丁目駅|西武新宿駅|新宿西口駅|新宿駅|新宿御苑前駅|新大久保駅|大久保駅|若松河田駅|西新宿駅",
+    "station_count": 10
+  },
+  "BUZZ関内": {
+    "primary_station": "日本大通り駅",
+    "distance_to_primary_station_m": 274,
+    "candidate_stations": "日本大通り駅|関内駅|馬車道駅|伊勢佐木長者町駅|石川町(元町・中華街)駅|桜木町駅|元町・中華街 (山下公園)駅|日ノ出町駅|みなとみらい駅|阪東橋駅",
+    "station_count": 10
+  },
+  "Dubway レンタルスタジオ大塚": {
+    "primary_station": "大塚駅",
+    "distance_to_primary_station_m": 241,
+    "candidate_stations": "大塚駅|向原駅|庚申塚駅|新庚申塚駅|新大塚駅|巣鴨駅|西巣鴨駅|東池袋四丁目駅|東池袋駅|北池袋駅",
+    "station_count": 10
+  },
+  "レンタルスタジオAivic渋谷道玄坂": {
+    "primary_station": "神泉駅",
+    "distance_to_primary_station_m": 78,
+    "candidate_stations": "神泉駅|渋谷駅|駒場東大前駅|池尻大橋駅|代官山駅|代々木公園駅|中目黒駅|代々木八幡駅|明治神宮前〈原宿〉駅|原宿駅",
+    "station_count": 10
+  },
+  "レンタルスタジオAivic神田": {
+    "primary_station": "神田駅",
+    "distance_to_primary_station_m": 251,
+    "candidate_stations": "神田駅|岩本町駅|三越前駅|馬喰町駅|新御茶ノ水駅|人形町駅|日本橋駅|大手町駅|御茶ノ水駅|浅草橋駅",
+    "station_count": 10
+  },
+  "レンタルスタジオAivic高田馬場": {
+    "primary_station": "高田馬場駅",
+    "distance_to_primary_station_m": 278,
+    "candidate_stations": "高田馬場駅|西早稲田駅|下落合駅|新大久保駅|面影橋駅|学習院下駅|大久保駅|目白駅|東新宿駅|雑司が谷駅",
+    "station_count": 10
+  },
+  "レンタルスタジオAivic池袋西口": {},
+  "レンタルスタジオAivic池袋西口 レンタルスタジオAivic池袋西口": {
+    "primary_station": "池袋駅",
+    "distance_to_primary_station_m": 353,
+    "candidate_stations": "池袋駅|要町駅|目白駅|東池袋駅|椎名町駅|都電雑司ヶ谷駅|雑司が谷駅|東池袋四丁目駅|北池袋駅|学習院下駅",
+    "station_count": 10
+  },
+  "レンタルスタジオAivic池袋東口2号店": {
+    "primary_station": "池袋駅",
+    "distance_to_primary_station_m": 749,
+    "candidate_stations": "池袋駅|向原駅|東池袋駅|北池袋駅|東池袋四丁目駅|大塚駅|都電雑司ヶ谷駅|庚申塚駅|新大塚駅|板橋駅",
+    "station_count": 10
+  },
+  "BEATs レンタルスタジオ ビーツ": {
+    "primary_station": "代々木駅",
+    "distance_to_primary_station_m": 259,
+    "candidate_stations": "代々木駅|参宮橋駅|北参道駅|新宿駅|新宿三丁目駅|都庁前駅|千駄ケ谷駅|新宿西口駅|初台駅|新宿御苑前駅",
+    "station_count": 10
+  },
+  "Dubway レンタルスタジオ中野": {
+    "primary_station": "中野駅",
+    "distance_to_primary_station_m": 167,
+    "candidate_stations": "中野駅|新中野駅|新井薬師前駅|東高円寺駅|沼袋駅|東中野駅|高円寺駅|中野新橋駅|中野坂上駅|落合駅",
+    "station_count": 10
+  },
+  "チェリッシュスタジオ9号館": {
+    "primary_station": "渋谷駅",
+    "distance_to_primary_station_m": 423,
+    "candidate_stations": "渋谷駅|神泉駅|代官山駅|中目黒駅|恵比寿駅|池尻大橋駅|駒場東大前駅|表参道駅|明治神宮前〈原宿〉駅|原宿駅",
+    "station_count": 10
+  },
+  "レンタルスタジオAivic新橋": {
+    "primary_station": "新橋駅",
+    "distance_to_primary_station_m": 408,
+    "candidate_stations": "新橋駅|虎ノ門駅|虎ノ門ヒルズ駅|汐留駅|日比谷駅|神谷町駅|銀座駅|有楽町駅|東銀座駅|大門駅",
+    "station_count": 10
+  },
+  "Hina STUDIO(ヒナスタジオ)【新宿西口スタジオ】": {
+    "primary_station": "新宿西口駅",
+    "distance_to_primary_station_m": 136,
+    "candidate_stations": "新宿西口駅|西武新宿駅|西新宿駅|新宿駅|都庁前駅|新宿三丁目駅|大久保駅|新大久保駅|東新宿駅|代々木駅",
+    "station_count": 10
+  },
+  "レンタルスタジオAivic大塚": {
+    "primary_station": "大塚駅",
+    "distance_to_primary_station_m": 274,
+    "candidate_stations": "大塚駅|向原駅|庚申塚駅|新庚申塚駅|新大塚駅|西巣鴨駅|巣鴨駅|東池袋四丁目駅|東池袋駅|北池袋駅",
+    "station_count": 10
+  },
+  "レンタルスタジオAivic恵比寿": {
+    "primary_station": "恵比寿駅",
+    "distance_to_primary_station_m": 233,
+    "candidate_stations": "恵比寿駅|代官山駅|中目黒駅|渋谷駅|広尾駅|神泉駅|目黒駅|祐天寺駅|表参道駅|白金台駅",
+    "station_count": 10
+  },
+  "レンタルスタジオAivic恵比寿2号店": {
+    "primary_station": "広尾駅",
+    "distance_to_primary_station_m": 628,
+    "candidate_stations": "広尾駅|恵比寿駅|白金台駅|代官山駅|目黒駅|白金高輪駅|中目黒駅|麻布十番駅|渋谷駅",
+    "station_count": 9
+  },
+  "レンタルピラティススタジオAivic渋谷1号店": {
+    "primary_station": "渋谷駅",
+    "distance_to_primary_station_m": 384,
+    "candidate_stations": "渋谷駅|表参道駅|明治神宮前〈原宿〉駅|神泉駅|原宿駅|代官山駅|恵比寿駅|代々木公園駅|外苑前駅|代々木八幡駅",
+    "station_count": 10
+  },
+  "レンタルピラティススタジオAivic渋谷2号店": {
+    "primary_station": "渋谷駅",
+    "distance_to_primary_station_m": 526,
+    "candidate_stations": "渋谷駅|神泉駅|明治神宮前〈原宿〉駅|原宿駅|代々木公園駅|代々木八幡駅|駒場東大前駅|表参道駅|代官山駅|池尻大橋駅",
+    "station_count": 10
+  },
+  "レンタルピラティススタジオAivic恵比寿": {
+    "primary_station": "恵比寿駅",
+    "distance_to_primary_station_m": 266,
+    "candidate_stations": "恵比寿駅|代官山駅|広尾駅|中目黒駅|目黒駅|白金台駅|渋谷駅|白金高輪駅",
+    "station_count": 8
+  },
+  "レンタルピラティススタジオAivic西新宿": {
+    "primary_station": "西武新宿駅",
+    "distance_to_primary_station_m": 331,
+    "candidate_stations": "西武新宿駅|大久保駅|新大久保駅|新宿西口駅|西新宿駅|東新宿駅|都庁前駅|新宿駅|新宿三丁目駅|中野坂上駅",
+    "station_count": 10
+  },
+  "Studio-Bio": {
+    "primary_station": "北参道駅",
+    "distance_to_primary_station_m": 48,
+    "candidate_stations": "北参道駅|千駄ケ谷駅|代々木駅|国立競技場駅|原宿駅|明治神宮前〈原宿〉駅|参宮橋駅|新宿御苑前駅|新宿駅|信濃町駅",
+    "station_count": 10
+  },
+  "Dubwayレンタルスタジオ大久保": {
+    "primary_station": "新大久保駅",
+    "distance_to_primary_station_m": 660,
+    "candidate_stations": "新大久保駅|大久保駅|高田馬場駅|西早稲田駅|下落合駅|落合駅|西武新宿駅|東中野駅|東新宿駅|中井駅",
+    "station_count": 10
+  },
+  "レンタルスタジオAivic元町中華街": {
+    "primary_station": "日本大通り駅",
+    "distance_to_primary_station_m": 412,
+    "candidate_stations": "日本大通り駅|元町・中華街 (山下公園)駅|石川町(元町・中華街)駅|関内駅|馬車道駅|伊勢佐木長者町駅|桜木町駅|日ノ出町駅|みなとみらい駅",
+    "station_count": 9
+  },
+  "レンタルスタジオswamp西新宿": {
+    "primary_station": "西新宿五丁目駅（清水橋）",
+    "distance_to_primary_station_m": 264,
+    "candidate_stations": "西新宿五丁目駅（清水橋）|中野坂上駅|都庁前駅|西新宿駅|中野新橋駅|初台駅|新宿西口駅|新中野駅|西武新宿駅|新宿駅",
+    "station_count": 10
+  },
+  "ラシーヌスタジオ": {
+    "primary_station": "四谷三丁目駅",
+    "distance_to_primary_station_m": 229,
+    "candidate_stations": "四谷三丁目駅|曙橋駅|新宿御苑前駅|四ツ谷駅|若松河田駅|信濃町駅|牛込柳町駅|国立競技場駅|千駄ケ谷駅|新宿三丁目駅",
+    "station_count": 10
+  },
+  "Ohana Room Studio新宿": {
+    "primary_station": "江戸川橋駅",
+    "distance_to_primary_station_m": 281,
+    "candidate_stations": "江戸川橋駅|神楽坂駅|早稲田駅|牛込神楽坂駅|牛込柳町駅|茗荷谷駅|護国寺駅|飯田橋駅|若松河田駅|面影橋駅",
+    "station_count": 10
+  },
+  "㈱フラオリタヒチ": {
+    "primary_station": "大森海岸駅",
+    "distance_to_primary_station_m": 108,
+    "candidate_stations": "大森海岸駅|大森駅|平和島駅|立会川駅|流通センター駅|大森町駅|西大井駅|鮫洲駅",
+    "station_count": 8
+  },
+  "【福岡校】YKAダンススタジオ": {
+    "primary_station": "呉服町駅",
+    "distance_to_primary_station_m": 294,
+    "candidate_stations": "呉服町駅|中洲川端駅|千代県庁口駅|櫛田神社前駅|祇園駅|天神駅|天神南駅|西鉄福岡（天神）駅|博多駅|渡辺通駅",
+    "station_count": 10
+  },
+  "ENCE Rental Studio 四谷三丁目【新宿エリアのレンタルスタジオ】": {
+    "primary_station": "四谷三丁目駅",
+    "distance_to_primary_station_m": 109,
+    "candidate_stations": "四谷三丁目駅|曙橋駅|四ツ谷駅|信濃町駅|新宿御苑前駅|国立競技場駅|千駄ケ谷駅|市ケ谷駅|若松河田駅|麹町駅",
+    "station_count": 10
+  },
+  "A-KIDS DANCE STUDIO": {
+    "primary_station": "日野駅",
+    "distance_to_primary_station_m": 178,
+    "candidate_stations": "日野駅",
+    "station_count": 1
+  },
+  "A.K.バレエスタジオ": {
+    "primary_station": "狛江駅",
+    "distance_to_primary_station_m": 127,
+    "candidate_stations": "狛江駅|和泉多摩川駅|喜多見駅|登戸駅",
+    "station_count": 4
+  },
+  "a.Music Studio": {
+    "primary_station": "大塚駅",
+    "distance_to_primary_station_m": 343,
+    "candidate_stations": "大塚駅|新大塚駅|向原駅|巣鴨新田駅|巣鴨駅|東池袋四丁目駅|庚申塚駅|東池袋駅|護国寺駅|千石駅",
+    "station_count": 10
+  },
+  "A.R.P studio": {
+    "primary_station": "中野坂上駅",
+    "distance_to_primary_station_m": 574,
+    "candidate_stations": "中野坂上駅|東中野駅|新中野駅|中野新橋駅|落合駅|中野駅|西新宿五丁目駅（清水橋）|西新宿駅|中野富士見町駅|大久保駅",
+    "station_count": 10
+  },
+  "studio SLASH": {
+    "primary_station": "代々木上原駅",
+    "distance_to_primary_station_m": 264,
+    "candidate_stations": "代々木上原駅|代々木八幡駅|代々木公園駅|東北沢駅|駒場東大前駅|幡ヶ谷駅|池ノ上駅|初台駅|笹塚駅|参宮橋駅",
+    "station_count": 10
+  },
+  "ABC明大前スタ": {
+    "primary_station": "明大前駅",
+    "distance_to_primary_station_m": 370,
+    "candidate_stations": "明大前駅|東松原駅|新代田駅|代田橋駅|下高井戸駅|梅ヶ丘駅|松原駅|世田谷代田駅|下北沢駅|豪徳寺駅",
+    "station_count": 10
+  },
+  "AK BALLET SCHOOL浦安": {
+    "primary_station": "新浦安駅",
+    "distance_to_primary_station_m": 975,
+    "candidate_stations": "新浦安駅|浦安駅",
+    "station_count": 2
+  },
+  "alt studio (オルトスタジオ)": {
+    "primary_station": "神保町駅",
+    "distance_to_primary_station_m": 327,
+    "candidate_stations": "神保町駅|水道橋駅|御茶ノ水駅|新御茶ノ水駅|九段下駅|小川町駅|竹橋駅|本郷三丁目駅|春日駅|後楽園駅",
+    "station_count": 10
+  },
+  "ART GROOVE": {
+    "primary_station": "駒込駅",
+    "distance_to_primary_station_m": 306,
+    "candidate_stations": "駒込駅|田端駅|上中里駅|尾久駅|巣鴨駅|西ケ原駅|千石駅|荒川車庫前駅|梶原駅|本駒込駅",
+    "station_count": 10
+  },
+  "Asia Ballet Agency": {
+    "primary_station": "中野新橋駅",
+    "distance_to_primary_station_m": 531,
+    "candidate_stations": "中野新橋駅|西新宿五丁目駅（清水橋）|中野富士見町駅|中野坂上駅|初台駅|幡ヶ谷駅|新中野駅|都庁前駅|西新宿駅|参宮橋駅",
+    "station_count": 10
+  },
+  "AXISダンススクール": {
+    "primary_station": "雑餉隈駅",
+    "distance_to_primary_station_m": 157,
+    "candidate_stations": "雑餉隈駅|桜並木駅|南福岡駅|春日駅|春日原駅|笹原駅|井尻駅",
+    "station_count": 7
+  },
+  "Aya Ballet School": {
+    "primary_station": "洗足駅",
+    "distance_to_primary_station_m": 78,
+    "candidate_stations": "洗足駅|北千束駅|西小山駅|大岡山駅|旗の台駅|長原駅|洗足池駅|武蔵小山駅|緑が丘駅|荏原町駅",
+    "station_count": 10
+  },
+  "b-line dance studio": {
+    "primary_station": "新中野駅",
+    "distance_to_primary_station_m": 511,
+    "candidate_stations": "新中野駅|中野新橋駅|中野坂上駅|中野富士見町駅|中野駅|西新宿五丁目駅（清水橋）|東中野駅|東高円寺駅|西新宿駅|落合駅",
+    "station_count": 10
+  },
+  "Ballet & Dance DUE": {
+    "primary_station": "亀戸水神駅",
+    "distance_to_primary_station_m": 405,
+    "candidate_stations": "亀戸水神駅|亀戸駅|大島駅|西大島駅|東あずま駅|平井駅|東大島駅|小村井駅|錦糸町駅|住吉駅",
+    "station_count": 10
+  },
+  "Be Rise Dance Studio": {
+    "primary_station": "志村坂上駅",
+    "distance_to_primary_station_m": 349,
+    "candidate_stations": "志村坂上駅|志村三丁目駅|本蓮沼駅|蓮根駅|浮間舟渡駅|北赤羽駅|ときわ台駅|上板橋駅",
+    "station_count": 8
+  },
+  "BillionDance": {
+    "primary_station": "近鉄日本橋駅",
+    "distance_to_primary_station_m": 360,
+    "candidate_stations": "近鉄日本橋駅|日本橋駅|長堀橋駅|大阪難波駅|心斎橋駅|なんば駅|四ツ橋駅|谷町九丁目駅|ＪＲ難波駅|谷町六丁目駅",
+    "station_count": 10
+  },
+  "石原ダンスクラブ コモレ四谷店": {
+    "primary_station": "四ツ谷駅",
+    "distance_to_primary_station_m": 197,
+    "candidate_stations": "四ツ谷駅|市ケ谷駅|麹町駅|曙橋駅|四谷三丁目駅|半蔵門駅|信濃町駅|牛込柳町駅|赤坂見附駅|永田町駅",
+    "station_count": 10
+  },
+  "BLM Dance School": {
+    "primary_station": "西立川駅",
+    "distance_to_primary_station_m": 255,
+    "candidate_stations": "西立川駅|東中神駅|中神駅",
+    "station_count": 3
+  },
+  "BLOOMIN'新丸子店": {
+    "primary_station": "新丸子駅",
+    "distance_to_primary_station_m": 224,
+    "candidate_stations": "新丸子駅|武蔵小杉駅|沼部駅|向河原駅|多摩川駅|鵜の木駅|御嶽山駅|田園調布駅|久が原駅|雪が谷大塚駅",
+    "station_count": 10
+  },
+  "Brilliant Me Dance Studio 鹿浜校": {
+    "primary_station": "西新井大師西駅",
+    "distance_to_primary_station_m": 571,
+    "candidate_stations": "西新井大師西駅|谷在家駅|江北駅|舎人公園駅|大師前駅|高野駅",
+    "station_count": 6
+  },
+  "BT Dance Studio": {
+    "primary_station": "六名駅",
+    "distance_to_primary_station_m": 893,
+    "candidate_stations": "六名駅|東岡崎駅|岡崎公園前駅|中岡崎駅|岡崎駅|男川駅",
+    "station_count": 6
+  },
+  "CAMURO DANCE STUDIO": {
+    "primary_station": "谷町四丁目駅",
+    "distance_to_primary_station_m": 246,
+    "candidate_stations": "谷町四丁目駅|天満橋駅|堺筋本町駅|谷町六丁目駅|松屋町駅|北浜駅|長堀橋駅|大阪城北詰駅|大阪ビジネスパーク駅|大阪天満宮駅",
+    "station_count": 10
+  },
+  "Casa Mia Studio カザミアスタジオ ダンス": {
+    "primary_station": "代々木上原駅",
+    "distance_to_primary_station_m": 237,
+    "candidate_stations": "代々木上原駅|代々木八幡駅|代々木公園駅|東北沢駅|幡ヶ谷駅|駒場東大前駅|池ノ上駅|初台駅|笹塚駅|参宮橋駅",
+    "station_count": 10
+  },
+  "CHILL STUDIO地域最安値第1位ダンススクール&レンタルスタジオ": {
+    "primary_station": "福生駅",
+    "distance_to_primary_station_m": 500,
+    "candidate_stations": "福生駅|牛浜駅|東福生駅|熊川駅",
+    "station_count": 4
+  },
+  "ダンスルームAA": {
+    "primary_station": "代々木八幡駅",
+    "distance_to_primary_station_m": 576,
+    "candidate_stations": "代々木八幡駅|代々木公園駅|駒場東大前駅|代々木上原駅|神泉駅|東北沢駅|池ノ上駅|渋谷駅|原宿駅|池尻大橋駅",
+    "station_count": 10
+  },
+  "Clover 26": {
+    "primary_station": "小田急多摩センター駅",
+    "distance_to_primary_station_m": 566,
+    "candidate_stations": "小田急多摩センター駅|京王多摩センター駅|唐木田駅",
+    "station_count": 3
+  },
+  "CurioSpace多摩センター": {
+    "primary_station": "京王多摩センター駅",
+    "distance_to_primary_station_m": 407,
+    "candidate_stations": "京王多摩センター駅|小田急多摩センター駅|唐木田駅|京王堀之内駅",
+    "station_count": 4
+  },
+  "in the house / Hatagaya \"Shack\"": {
+    "primary_station": "幡ヶ谷駅",
+    "distance_to_primary_station_m": 85,
+    "candidate_stations": "幡ヶ谷駅|初台駅|笹塚駅|代々木上原駅|代々木八幡駅|東北沢駅|西新宿五丁目駅（清水橋）|参宮橋駅|代々木公園駅|中野新橋駅",
+    "station_count": 10
+  },
+  "D'CRE8 Dance Shtajio (ディークリエイトダンスシタジオ)": {
+    "primary_station": "西新宿五丁目駅（清水橋）",
+    "distance_to_primary_station_m": 325,
+    "candidate_stations": "西新宿五丁目駅（清水橋）|中野坂上駅|中野新橋駅|都庁前駅|西新宿駅|初台駅|中野富士見町駅|新中野駅|幡ヶ谷駅|新宿西口駅",
+    "station_count": 10
+  },
+  "青海R地区": {
+    "primary_station": "青海駅",
+    "distance_to_primary_station_m": 376,
+    "candidate_stations": "青海駅|東京国際クルーズターミナル駅|東京テレポート駅|台場駅|テレコムセンター駅|お台場海浜公園駅|東京ビッグサイト駅|国際展示場駅|有明駅",
+    "station_count": 9
+  },
+  "Dance School & Studio Upbeat": {
+    "primary_station": "宝殿駅",
+    "distance_to_primary_station_m": 271,
+    "candidate_stations": "宝殿駅",
+    "station_count": 1
+  },
+  "DANCE STUDIO A??": {
+    "primary_station": "甚目寺駅",
+    "distance_to_primary_station_m": 736,
+    "candidate_stations": "甚目寺駅|須ヶ口駅|丸ノ内駅（名鉄）|新川橋駅",
+    "station_count": 4
+  },
+  "DANCE STUDIO BAUM": {
+    "primary_station": "清瀬駅",
+    "distance_to_primary_station_m": 454,
+    "candidate_stations": "清瀬駅|東久留米駅",
+    "station_count": 2
+  },
+  "Dance Studio Broomstick": {
+    "primary_station": "扇大橋駅",
+    "distance_to_primary_station_m": 59,
+    "candidate_stations": "扇大橋駅|高野駅|足立小台駅|江北駅|宮ノ前駅|小台駅|熊野前駅|荒川遊園地前駅|東尾久三丁目駅|大師前駅",
+    "station_count": 10
+  },
+  "DANCE STUDIO Fossette -フォセット -": {
+    "primary_station": "向ヶ丘遊園駅",
+    "distance_to_primary_station_m": 667,
+    "candidate_stations": "向ヶ丘遊園駅|登戸駅|生田駅|中野島駅|和泉多摩川駅",
+    "station_count": 5
+  },
+  "スタジオジパング 梅ヶ丘スタジオPRO": {
+    "primary_station": "梅ヶ丘駅",
+    "distance_to_primary_station_m": 94,
+    "candidate_stations": "梅ヶ丘駅|豪徳寺駅|山下駅|東松原駅|世田谷代田駅|新代田駅|松原駅|宮の坂駅|若林駅|明大前駅",
+    "station_count": 10
+  },
+  "dance studio GROOVY ダンス＆ヨガ": {
+    "primary_station": "地下鉄成増駅",
+    "distance_to_primary_station_m": 130,
+    "candidate_stations": "地下鉄成増駅|成増駅|地下鉄赤塚駅|下赤塚駅",
+    "station_count": 4
+  },
+  "駒澤大学店 レンタルダンススタジオ ＲＯＯＴＳ": {
+    "primary_station": "駒沢大学駅",
+    "distance_to_primary_station_m": 522,
+    "candidate_stations": "駒沢大学駅|桜新町駅|松陰神社前駅|世田谷駅|上町駅|若林駅|西太子堂駅|三軒茶屋駅",
+    "station_count": 8
+  },
+  "DANCE STUDIO KOTOHA": {
+    "primary_station": "中島駅",
+    "distance_to_primary_station_m": 1146,
+    "candidate_stations": "中島駅|港北駅|六番町駅|東海通駅|南荒子駅",
+    "station_count": 5
+  },
+  "レンタルスタジオ・ラカーサミア（カガダンサーズサポート）": {
+    "primary_station": "大町西公園駅",
+    "distance_to_primary_station_m": 132,
+    "candidate_stations": "大町西公園駅|国際センター駅|青葉通一番町駅|勾当台公園駅|広瀬通駅|川内駅|あおば通駅|北四番丁駅|仙台駅|五橋駅",
+    "station_count": 10
+  },
+  "DANCE STUDIO NEO": {
+    "primary_station": "東岡崎駅",
+    "distance_to_primary_station_m": 1969,
+    "candidate_stations": "東岡崎駅",
+    "station_count": 1
+  },
+  "Dance zone RESPECT": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "DANCE&RENTAL STUDIO ONEWAY": {
+    "primary_station": "久屋大通駅",
+    "distance_to_primary_station_m": 403,
+    "candidate_stations": "久屋大通駅|名古屋城駅|高岳駅|栄町駅|東大手駅|栄駅|丸の内駅|清水駅|新栄町駅|伏見駅",
+    "station_count": 10
+  },
+  "蒲田・矢口渡レンタルスタジオ momobana": {
+    "primary_station": "矢口渡駅",
+    "distance_to_primary_station_m": 308,
+    "candidate_stations": "矢口渡駅|武蔵新田駅|蓮沼駅|池上駅|千鳥町駅|下丸子駅|蒲田駅",
+    "station_count": 7
+  },
+  "レンタルスタジオ N.studio": {
+    "primary_station": "鵜の木駅",
+    "distance_to_primary_station_m": 53,
+    "candidate_stations": "鵜の木駅|下丸子駅|久が原駅|千鳥町駅|沼部駅|御嶽山駅|向河原駅|武蔵新田駅|新丸子駅|平間駅",
+    "station_count": 10
+  },
+  "DCNスタジオ": {
+    "primary_station": "月島駅",
+    "distance_to_primary_station_m": 343,
+    "candidate_stations": "月島駅|築地駅|新富町駅|勝どき駅|越中島駅|八丁堀駅|築地市場駅|宝町駅|東銀座駅|門前仲町駅",
+    "station_count": 10
+  },
+  "子ども向けダンス教室LUNA DANCE 長原駅前校": {
+    "primary_station": "長原駅",
+    "distance_to_primary_station_m": 19,
+    "candidate_stations": "長原駅|旗の台駅|洗足池駅|北千束駅|荏原町駅|洗足駅|大岡山駅|石川台駅|中延駅|馬込駅",
+    "station_count": 10
+  },
+  "EMI HULA STUDIO": {
+    "primary_station": "一之江駅",
+    "distance_to_primary_station_m": 989,
+    "candidate_stations": "一之江駅|船堀駅|瑞江駅",
+    "station_count": 3
+  },
+  "ENERGY DANCE STUDIO": {
+    "primary_station": "みずほ台駅",
+    "distance_to_primary_station_m": 303,
+    "candidate_stations": "みずほ台駅|鶴瀬駅|柳瀬川駅",
+    "station_count": 3
+  },
+  "ヨガ&ピラティス｜くろねこスタジオ大森｜レンタルスタジオ": {
+    "primary_station": "大森駅",
+    "distance_to_primary_station_m": 459,
+    "candidate_stations": "大森駅|大森海岸駅|平和島駅|大森町駅|流通センター駅|立会川駅|梅屋敷駅",
+    "station_count": 7
+  },
+  "Estudio ILIA FLAMENCA": {
+    "primary_station": "神保町駅",
+    "distance_to_primary_station_m": 281,
+    "candidate_stations": "神保町駅|新御茶ノ水駅|竹橋駅|小川町駅|御茶ノ水駅|九段下駅|神田駅|水道橋駅|大手町駅|岩本町駅",
+    "station_count": 10
+  },
+  "ETCダンススクール 金町校": {
+    "primary_station": "金町駅",
+    "distance_to_primary_station_m": 155,
+    "candidate_stations": "金町駅|京成金町駅|柴又駅",
+    "station_count": 3
+  },
+  "ETERNAL DANCE STUDIO": {
+    "primary_station": "福生駅",
+    "distance_to_primary_station_m": 105,
+    "candidate_stations": "福生駅|東福生駅|牛浜駅|熊川駅",
+    "station_count": 4
+  },
+  "EXスタジオ麹町": {
+    "primary_station": "半蔵門駅",
+    "distance_to_primary_station_m": 105,
+    "candidate_stations": "半蔵門駅|麹町駅|永田町駅|市ケ谷駅|赤坂見附駅|四ツ谷駅|国会議事堂前駅|溜池山王駅|赤坂駅|九段下駅",
+    "station_count": 10
+  },
+  "F1 STUDIO": {
+    "primary_station": "新木場駅",
+    "distance_to_primary_station_m": 259,
+    "candidate_stations": "新木場駅|辰巳駅|潮見駅|東雲駅",
+    "station_count": 4
+  },
+  "Fairy Ballet Studio": {
+    "primary_station": "東村山駅",
+    "distance_to_primary_station_m": 221,
+    "candidate_stations": "東村山駅|久米川駅|西武園駅|八坂駅",
+    "station_count": 4
+  },
+  "Fine Studio": {
+    "primary_station": "川口駅",
+    "distance_to_primary_station_m": 295,
+    "candidate_stations": "川口駅|川口元郷駅|西川口駅",
+    "station_count": 3
+  },
+  "FIVE O DANCE STUDIO 狛江（ファイブオーダンススタジオ）": {
+    "primary_station": "狛江駅",
+    "distance_to_primary_station_m": 76,
+    "candidate_stations": "狛江駅|和泉多摩川駅|喜多見駅|登戸駅|宿河原駅",
+    "station_count": 5
+  },
+  "FIVE O DANCE STUDIO 二子玉川": {
+    "primary_station": "二子玉川駅",
+    "distance_to_primary_station_m": 1762,
+    "candidate_stations": "二子玉川駅|二子新地駅|久地駅",
+    "station_count": 3
+  },
+  "FLAG POINT": {
+    "primary_station": "要町駅",
+    "distance_to_primary_station_m": 283,
+    "candidate_stations": "要町駅|千川駅|椎名町駅|東長崎駅|池袋駅|落合南長崎駅|大山駅|目白駅|小竹向原駅",
+    "station_count": 9
+  },
+  "バレエ・ダンススタジオ Lino": {
+    "primary_station": "久我山駅",
+    "distance_to_primary_station_m": 78,
+    "candidate_stations": "久我山駅|富士見ヶ丘駅|三鷹台駅|高井戸駅|西荻窪駅|井の頭公園駅",
+    "station_count": 6
+  },
+  "レンタルスタジオ西荻リノ": {
+    "primary_station": "西荻窪駅",
+    "distance_to_primary_station_m": 156,
+    "candidate_stations": "西荻窪駅|荻窪駅|三鷹台駅|井の頭公園駅|久我山駅|吉祥寺駅",
+    "station_count": 6
+  },
+  "スタジオLINOVA（リノ・バ）": {
+    "primary_station": "西荻窪駅",
+    "distance_to_primary_station_m": 552,
+    "candidate_stations": "西荻窪駅|三鷹台駅|久我山駅|井の頭公園駅|吉祥寺駅|富士見ヶ丘駅",
+    "station_count": 6
+  },
+  "ＧＯＣＯＯスタジオ": {
+    "primary_station": "浮間舟渡駅",
+    "distance_to_primary_station_m": 569,
+    "candidate_stations": "浮間舟渡駅|蓮根駅|戸田公園駅|西台駅|北赤羽駅",
+    "station_count": 5
+  },
+  "STYLEY チアダンス・新体操・アクロバットスクール 板橋本蓮沼校": {
+    "primary_station": "本蓮沼駅",
+    "distance_to_primary_station_m": 84,
+    "candidate_stations": "本蓮沼駅|板橋本町駅|志村坂上駅|中板橋駅|ときわ台駅|志村三丁目駅|板橋区役所前駅|十条駅|赤羽駅",
+    "station_count": 9
+  },
+  "レンタルスタジオOLI": {
+    "primary_station": "南阿佐ケ谷駅",
+    "distance_to_primary_station_m": 144,
+    "candidate_stations": "南阿佐ケ谷駅|阿佐ヶ谷駅|新高円寺駅|高円寺駅|荻窪駅|東高円寺駅",
+    "station_count": 6
+  },
+  "スタジオジパング 久我山スタジオSTANDARD": {
+    "primary_station": "久我山駅",
+    "distance_to_primary_station_m": 83,
+    "candidate_stations": "久我山駅|富士見ヶ丘駅|三鷹台駅|高井戸駅|西荻窪駅|井の頭公園駅",
+    "station_count": 6
+  },
+  "Fali studio ファリ レンタルスペース": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "Gravisダンススクール 株式会社Gravis": {
+    "primary_station": "鶴川駅",
+    "distance_to_primary_station_m": 133,
+    "candidate_stations": "鶴川駅|柿生駅",
+    "station_count": 2
+  },
+  "grow dance studio": {
+    "primary_station": "南彦根駅",
+    "distance_to_primary_station_m": 300,
+    "candidate_stations": "南彦根駅|彦根口駅|高宮駅",
+    "station_count": 3
+  },
+  "HARA Studio": {
+    "primary_station": "早稲田駅",
+    "distance_to_primary_station_m": 80,
+    "candidate_stations": "早稲田駅|牛込柳町駅|若松河田駅|面影橋駅|江戸川橋駅|神楽坂駅|西早稲田駅|牛込神楽坂駅|学習院下駅|曙橋駅",
+    "station_count": 10
+  },
+  "レンタルスタジオ、ダンススタジオ アレイティ": {
+    "primary_station": "行徳駅",
+    "distance_to_primary_station_m": 453,
+    "candidate_stations": "行徳駅|南行徳駅|市川塩浜駅|妙典駅",
+    "station_count": 4
+  },
+  "HIRAYAMA studio立石": {
+    "primary_station": "京成立石駅",
+    "distance_to_primary_station_m": 96,
+    "candidate_stations": "京成立石駅|青砥駅|お花茶屋駅|四ツ木駅",
+    "station_count": 4
+  },
+  "HOSHINOダンシングアカデミー": {
+    "primary_station": "鶴瀬駅",
+    "distance_to_primary_station_m": 354,
+    "candidate_stations": "鶴瀬駅|みずほ台駅",
+    "station_count": 2
+  },
+  "HuE スタジオ": {
+    "primary_station": "伊保駅",
+    "distance_to_primary_station_m": 239,
+    "candidate_stations": "伊保駅|荒井駅|山陽曽根駅",
+    "station_count": 3
+  },
+  "Hula Studio Huali": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "HYPERMIX門前仲町": {
+    "primary_station": "門前仲町駅",
+    "distance_to_primary_station_m": 160,
+    "candidate_stations": "門前仲町駅|越中島駅|清澄白河駅|木場駅|水天宮前駅|月島駅|茅場町駅|森下駅|八丁堀駅|浜町駅",
+    "station_count": 10
+  },
+  "ダンススクエア 葛西スタジオ": {
+    "primary_station": "葛西駅",
+    "distance_to_primary_station_m": 134,
+    "candidate_stations": "葛西駅|西葛西駅|浦安駅",
+    "station_count": 3
+  },
+  "Infinity Gym チアダンス・チアリーディング": {
+    "primary_station": "千歳船橋駅",
+    "distance_to_primary_station_m": 1321,
+    "candidate_stations": "千歳船橋駅|祖師ヶ谷大蔵駅|用賀駅",
+    "station_count": 3
+  },
+  "IS DANCE STUDIO": {
+    "primary_station": "京急川崎駅",
+    "distance_to_primary_station_m": 463,
+    "candidate_stations": "京急川崎駅|川崎駅|港町駅|八丁畷駅|川崎新町駅|六郷土手駅|小田栄駅|尻手駅|鈴木町駅|鶴見市場駅",
+    "station_count": 10
+  },
+  "中村隆彦ダンススタジオ浅草千束": {
+    "primary_station": "三ノ輪駅",
+    "distance_to_primary_station_m": 862,
+    "candidate_stations": "三ノ輪駅|南千住駅|入谷駅|荒川一中前駅|浅草駅|荒川区役所前駅|田原町駅|鶯谷駅|本所吾妻橋駅|曳舟駅",
+    "station_count": 10
+  },
+  "J.K.キューブ101スタジオエチュード": {
+    "primary_station": "柴崎駅",
+    "distance_to_primary_station_m": 190,
+    "candidate_stations": "柴崎駅|つつじヶ丘駅|国領駅|布田駅|仙川駅",
+    "station_count": 5
+  },
+  "J's": {
+    "primary_station": "用賀駅",
+    "distance_to_primary_station_m": 485,
+    "candidate_stations": "用賀駅|桜新町駅|上町駅|世田谷駅",
+    "station_count": 4
+  },
+  "J’Z STUDIO 千歳烏山店": {
+    "primary_station": "千歳烏山駅",
+    "distance_to_primary_station_m": 121,
+    "candidate_stations": "千歳烏山駅|芦花公園駅|八幡山駅|仙川駅|富士見ヶ丘駅",
+    "station_count": 5
+  },
+  "JOYFIT24 石川台": {
+    "primary_station": "石川台駅",
+    "distance_to_primary_station_m": 133,
+    "candidate_stations": "石川台駅|洗足池駅|雪が谷大塚駅|緑が丘駅|大岡山駅|北千束駅|奥沢駅|長原駅|御嶽山駅|田園調布駅",
+    "station_count": 10
+  },
+  "ＪＰスタジオ": {
+    "primary_station": "野方駅",
+    "distance_to_primary_station_m": 193,
+    "candidate_stations": "野方駅|都立家政駅|鷺ノ宮駅|沼袋駅|高円寺駅|新井薬師前駅",
+    "station_count": 6
+  },
+  "K DANCE STUDIO 1024": {
+    "primary_station": "聖蹟桜ヶ丘駅",
+    "distance_to_primary_station_m": 614,
+    "candidate_stations": "聖蹟桜ヶ丘駅|百草園駅|中河原駅",
+    "station_count": 3
+  },
+  "K-Dance Style【ケイ-ダンス スタイル】": {
+    "primary_station": "上板橋駅",
+    "distance_to_primary_station_m": 284,
+    "candidate_stations": "上板橋駅|東武練馬駅|ときわ台駅|氷川台駅|平和台駅",
+    "station_count": 5
+  },
+  "K2studio": {
+    "primary_station": "仙川駅",
+    "distance_to_primary_station_m": 145,
+    "candidate_stations": "仙川駅|つつじヶ丘駅|千歳烏山駅",
+    "station_count": 3
+  },
+  "KAJIWARA BALLET WORKS": {
+    "primary_station": "荒川遊園地前駅",
+    "distance_to_primary_station_m": 161,
+    "candidate_stations": "荒川遊園地前駅|小台駅|尾久駅|荒川車庫前駅|宮ノ前駅|梶原駅|熊野前駅|上中里駅|赤土小学校前駅|足立小台駅",
+    "station_count": 10
+  },
+  "KM Dance Arts": {
+    "primary_station": "市ケ谷駅",
+    "distance_to_primary_station_m": 111,
+    "candidate_stations": "市ケ谷駅|麹町駅|四ツ谷駅|半蔵門駅|牛込神楽坂駅|曙橋駅|永田町駅|四谷三丁目駅|牛込柳町駅|赤坂見附駅",
+    "station_count": 10
+  },
+  "江戸川区キッズアクション": {
+    "primary_station": "江戸川駅",
+    "distance_to_primary_station_m": 389,
+    "candidate_stations": "江戸川駅|国府台駅|小岩駅|京成小岩駅|市川駅|市川真間駅",
+    "station_count": 6
+  },
+  "kokokara": {
+    "primary_station": "半蔵門駅",
+    "distance_to_primary_station_m": 181,
+    "candidate_stations": "半蔵門駅|麹町駅|市ケ谷駅|永田町駅|四ツ谷駅|赤坂見附駅|九段下駅|国会議事堂前駅|竹橋駅|牛込神楽坂駅",
+    "station_count": 10
+  },
+  "ダンススクエア 浦安スタジオ": {
+    "primary_station": "浦安駅",
+    "distance_to_primary_station_m": 195,
+    "candidate_stations": "浦安駅|南行徳駅",
+    "station_count": 2
+  },
+  "ＫＳＣダンススタジオ": {
+    "primary_station": "元住吉駅",
+    "distance_to_primary_station_m": 842,
+    "candidate_stations": "元住吉駅|日吉駅|平間駅|新川崎駅|鹿島田駅|向河原駅",
+    "station_count": 6
+  },
+  "ＫＴスタジオ": {
+    "primary_station": "三ノ輪駅",
+    "distance_to_primary_station_m": 551,
+    "candidate_stations": "三ノ輪駅|入谷駅|荒川一中前駅|南千住駅|荒川区役所前駅|鶯谷駅|田原町駅|荒川二丁目駅|浅草駅|三河島駅",
+    "station_count": 10
+  },
+  "Lanikai Dance Studio": {
+    "primary_station": "葛西駅",
+    "distance_to_primary_station_m": 234,
+    "candidate_stations": "葛西駅|西葛西駅",
+    "station_count": 2
+  },
+  "Las Danzas in Tokyo": {
+    "primary_station": "曙橋駅",
+    "distance_to_primary_station_m": 36,
+    "candidate_stations": "曙橋駅|四谷三丁目駅|牛込柳町駅|若松河田駅|四ツ谷駅|市ケ谷駅|新宿御苑前駅|信濃町駅|牛込神楽坂駅|早稲田駅",
+    "station_count": 10
+  },
+  "ソニズダンススタジオ茗荷谷店": {
+    "primary_station": "茗荷谷駅",
+    "distance_to_primary_station_m": 42,
+    "candidate_stations": "茗荷谷駅|護国寺駅|江戸川橋駅|新大塚駅|千石駅|白山駅|神楽坂駅|後楽園駅|本駒込駅|向原駅",
+    "station_count": 10
+  },
+  "Letmedanceダンススタジオ 橋本南口本校": {
+    "primary_station": "橋本駅",
+    "distance_to_primary_station_m": 437,
+    "candidate_stations": "橋本駅|相原駅",
+    "station_count": 2
+  },
+  "Letmedanceダンススタジオ 橋本北口校": {
+    "primary_station": "橋本駅",
+    "distance_to_primary_station_m": 324,
+    "candidate_stations": "橋本駅|南橋本駅|多摩境駅",
+    "station_count": 3
+  },
+  "LIGHT WORKS STUDIO": {
+    "primary_station": "祐天寺駅",
+    "distance_to_primary_station_m": 132,
+    "candidate_stations": "祐天寺駅|中目黒駅|学芸大学駅|代官山駅|池尻大橋駅|恵比寿駅|三軒茶屋駅",
+    "station_count": 7
+  },
+  "LOICX DANCE STUDIO": {
+    "primary_station": "久屋大通駅",
+    "distance_to_primary_station_m": 173,
+    "candidate_stations": "久屋大通駅|栄町駅|栄駅|名古屋城駅|丸の内駅|高岳駅|伏見駅|東大手駅|矢場町駅|新栄町駅",
+    "station_count": 10
+  },
+  "ソニズレンタルスタジオ方南町店": {
+    "primary_station": "方南町駅",
+    "distance_to_primary_station_m": 103,
+    "candidate_stations": "方南町駅|中野富士見町駅|代田橋駅|笹塚駅|永福町駅|東高円寺駅|明大前駅|新高円寺駅|中野新橋駅|幡ヶ谷駅",
+    "station_count": 10
+  },
+  "スペーススタジオ - Fresh!Studio": {
+    "primary_station": "江戸川橋駅",
+    "distance_to_primary_station_m": 492,
+    "candidate_stations": "江戸川橋駅|早稲田駅|神楽坂駅|護国寺駅|牛込柳町駅|牛込神楽坂駅|茗荷谷駅|面影橋駅|若松河田駅|学習院下駅",
+    "station_count": 10
+  },
+  "Dance studio LOOP": {
+    "primary_station": "おもちゃのまち駅",
+    "distance_to_primary_station_m": 98,
+    "candidate_stations": "おもちゃのまち駅|国谷駅",
+    "station_count": 2
+  },
+  "BUZZ YOKOHAMA": {
+    "primary_station": "神奈川駅",
+    "distance_to_primary_station_m": 270,
+    "candidate_stations": "神奈川駅|横浜駅|反町駅|新高島駅|三ッ沢下町駅|東神奈川駅|京急東神奈川駅|高島町駅|平沼橋駅|戸部駅",
+    "station_count": 10
+  },
+  "BUZZ レンタルスタジオ浦和店": {
+    "primary_station": "浦和駅",
+    "distance_to_primary_station_m": 277,
+    "candidate_stations": "浦和駅|武蔵浦和駅|中浦和駅|北浦和駅|南浦和駅",
+    "station_count": 5
+  },
+  "Ｍ＆Ｓダンススタジオ 西葛西スタジオ": {
+    "primary_station": "西葛西駅",
+    "distance_to_primary_station_m": 329,
+    "candidate_stations": "西葛西駅|葛西駅",
+    "station_count": 2
+  },
+  "magari 中野坂上スタジオ": {
+    "primary_station": "中野坂上駅",
+    "distance_to_primary_station_m": 406,
+    "candidate_stations": "中野坂上駅|西新宿駅|西新宿五丁目駅（清水橋）|都庁前駅|大久保駅|東中野駅|新宿西口駅|中野新橋駅|西武新宿駅|新大久保駅",
+    "station_count": 10
+  },
+  "Manohiva Japan": {
+    "primary_station": "大森海岸駅",
+    "distance_to_primary_station_m": 108,
+    "candidate_stations": "大森海岸駅|大森駅|平和島駅|立会川駅|流通センター駅|大森町駅|西大井駅|鮫洲駅",
+    "station_count": 8
+  },
+  "MAR'ｓ DANCE SCHOOL": {
+    "primary_station": "竹ノ塚駅",
+    "distance_to_primary_station_m": 293,
+    "candidate_stations": "竹ノ塚駅|舎人公園駅|谷在家駅|大師前駅|舎人駅",
+    "station_count": 5
+  },
+  "Studio GENIE": {
+    "primary_station": "京成立石駅",
+    "distance_to_primary_station_m": 469,
+    "candidate_stations": "京成立石駅|青砥駅|お花茶屋駅|四ツ木駅|京成高砂駅",
+    "station_count": 5
+  },
+  "Mazuka Dance Company": {
+    "primary_station": "永福町駅",
+    "distance_to_primary_station_m": 225,
+    "candidate_stations": "永福町駅|西永福駅|下高井戸駅|明大前駅|桜上水駅|代田橋駅|松原駅|浜田山駅|方南町駅|東松原駅",
+    "station_count": 10
+  },
+  "MCSpace": {
+    "primary_station": "西荻窪駅",
+    "distance_to_primary_station_m": 275,
+    "candidate_stations": "西荻窪駅|三鷹台駅|久我山駅|井の頭公園駅|荻窪駅|吉祥寺駅|富士見ヶ丘駅",
+    "station_count": 7
+  },
+  "mikaバレエスタジオ": {
+    "primary_station": "桜台駅",
+    "distance_to_primary_station_m": 176,
+    "candidate_stations": "桜台駅|練馬駅|新桜台駅|新江古田駅|江古田駅|豊島園駅|氷川台駅|小竹向原駅",
+    "station_count": 8
+  },
+  "ＭＩＫＩバレエスタジオ": {
+    "primary_station": "大泉学園駅",
+    "distance_to_primary_station_m": 602,
+    "candidate_stations": "大泉学園駅|保谷駅",
+    "station_count": 2
+  },
+  "MIZUE Ballet School": {
+    "primary_station": "光が丘駅",
+    "distance_to_primary_station_m": 1144,
+    "candidate_stations": "光が丘駅|地下鉄成増駅|成増駅",
+    "station_count": 3
+  },
+  "MKH dance fit studio": {
+    "primary_station": "浦安駅",
+    "distance_to_primary_station_m": 155,
+    "candidate_stations": "浦安駅|南行徳駅|葛西駅",
+    "station_count": 3
+  },
+  "Music Lounge J SHIMOIGUSA": {
+    "primary_station": "下井草駅",
+    "distance_to_primary_station_m": 340,
+    "candidate_stations": "下井草駅|井荻駅|鷺ノ宮駅|富士見台駅|都立家政駅|荻窪駅",
+    "station_count": 6
+  },
+  "MUSIC NEST音楽スタジオ": {
+    "primary_station": "桜台駅",
+    "distance_to_primary_station_m": 345,
+    "candidate_stations": "桜台駅|練馬駅|新桜台駅|豊島園駅|氷川台駅|江古田駅|新江古田駅|小竹向原駅|平和台駅|中村橋駅",
+    "station_count": 10
+  },
+  "Muuta Dance Studio": {
+    "primary_station": "横山駅",
+    "distance_to_primary_station_m": 445,
+    "candidate_stations": "横山駅|三田本町駅|フラワータウン駅|神鉄道場駅|三田駅",
+    "station_count": 5
+  },
+  "NANSO STUDIO": {
+    "primary_station": "国吉駅",
+    "distance_to_primary_station_m": 1428,
+    "candidate_stations": "国吉駅|上総中川駅",
+    "station_count": 2
+  },
+  "NATURAglam 経堂スタジオ": {
+    "primary_station": "経堂駅",
+    "distance_to_primary_station_m": 268,
+    "candidate_stations": "経堂駅|宮の坂駅|山下駅|上町駅|千歳船橋駅|豪徳寺駅|松原駅|世田谷駅|梅ヶ丘駅|松陰神社前駅",
+    "station_count": 10
+  },
+  "NATURAglam 高円寺スタジオ": {
+    "primary_station": "高円寺駅",
+    "distance_to_primary_station_m": 100,
+    "candidate_stations": "高円寺駅|新高円寺駅|東高円寺駅|阿佐ヶ谷駅|中野駅|南阿佐ケ谷駅|野方駅|新中野駅",
+    "station_count": 8
+  },
+  "neu 168 Dance Studio": {
+    "primary_station": "上北沢駅",
+    "distance_to_primary_station_m": 94,
+    "candidate_stations": "上北沢駅|八幡山駅|桜上水駅|芦花公園駅|浜田山駅|西永福駅|下高井戸駅|高井戸駅|松原駅|永福町駅",
+    "station_count": 10
+  },
+  "New York yuka's Dance Center": {
+    "primary_station": "久が原駅",
+    "distance_to_primary_station_m": 108,
+    "candidate_stations": "久が原駅|鵜の木駅|御嶽山駅|千鳥町駅|下丸子駅|沼部駅|武蔵新田駅|雪が谷大塚駅|池上駅|向河原駅",
+    "station_count": 10
+  },
+  "NML dance studio": {
+    "primary_station": "東村山駅",
+    "distance_to_primary_station_m": 281,
+    "candidate_stations": "東村山駅|久米川駅|八坂駅|西武園駅",
+    "station_count": 4
+  },
+  "NML dance studioふじみ野校": {
+    "primary_station": "ふじみ野駅",
+    "distance_to_primary_station_m": 144,
+    "candidate_stations": "ふじみ野駅|上福岡駅",
+    "station_count": 2
+  },
+  "NOAダンス教室 都立大校": {
+    "primary_station": "都立大学駅",
+    "distance_to_primary_station_m": 156,
+    "candidate_stations": "都立大学駅|自由が丘駅|緑が丘駅|大岡山駅|奥沢駅|学芸大学駅|九品仏駅|洗足駅",
+    "station_count": 8
+  },
+  "NOAバレエスクール 都立大校": {
+    "primary_station": "都立大学駅",
+    "distance_to_primary_station_m": 156,
+    "candidate_stations": "都立大学駅|自由が丘駅|緑が丘駅|大岡山駅|奥沢駅|学芸大学駅|九品仏駅|洗足駅",
+    "station_count": 8
+  },
+  "NSH MAJOR RENTAL STUDIO": {
+    "primary_station": "中目黒駅",
+    "distance_to_primary_station_m": 205,
+    "candidate_stations": "中目黒駅|代官山駅|祐天寺駅|恵比寿駅|池尻大橋駅|神泉駅|渋谷駅|学芸大学駅|目黒駅",
+    "station_count": 9
+  },
+  "ＯＤＦ 大治レンタルダンスフロア": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "okayレンタルスタジオ(ダンス、楽器練習スタジオ)": {
+    "primary_station": "空港通り駅",
+    "distance_to_primary_station_m": 1231,
+    "candidate_stations": "空港通り駅|仏生山駅",
+    "station_count": 2
+  },
+  "OKUTAMA＋": {
+    "primary_station": "川井駅",
+    "distance_to_primary_station_m": 544,
+    "candidate_stations": "川井駅|古里駅",
+    "station_count": 2
+  },
+  "スタジオ白猫屋 経堂R店": {
+    "primary_station": "経堂駅",
+    "distance_to_primary_station_m": 203,
+    "candidate_stations": "経堂駅|宮の坂駅|山下駅|豪徳寺駅|上町駅|千歳船橋駅|松原駅|世田谷駅|梅ヶ丘駅|松陰神社前駅",
+    "station_count": 10
+  },
+  "リリィ スタジオ&カフェ レンタルカフェ": {
+    "primary_station": "経堂駅",
+    "distance_to_primary_station_m": 261,
+    "candidate_stations": "経堂駅|松原駅|山下駅|宮の坂駅|豪徳寺駅|千歳船橋駅|上町駅|下高井戸駅|桜上水駅|梅ヶ丘駅",
+    "station_count": 10
+  },
+  "RE:STUDIO body&life": {
+    "primary_station": "柿生駅",
+    "distance_to_primary_station_m": 61,
+    "candidate_stations": "柿生駅|五月台駅|新百合ヶ丘駅|鶴川駅",
+    "station_count": 4
+  },
+  "REDEIC DANCE STUDIO": {
+    "primary_station": "下丸子駅",
+    "distance_to_primary_station_m": 334,
+    "candidate_stations": "下丸子駅|武蔵新田駅|千鳥町駅|鵜の木駅|久が原駅|平間駅|向河原駅|矢口渡駅|池上駅|御嶽山駅",
+    "station_count": 10
+  },
+  "レンタルスタジオ スタジオザルツ": {
+    "primary_station": "千歳烏山駅",
+    "distance_to_primary_station_m": 216,
+    "candidate_stations": "千歳烏山駅|芦花公園駅|仙川駅|八幡山駅",
+    "station_count": 4
+  },
+  "Refinement リファインメント PBT専門スタジオ": {
+    "primary_station": "中河原駅",
+    "distance_to_primary_station_m": 656,
+    "candidate_stations": "中河原駅|西府駅|分倍河原駅|聖蹟桜ヶ丘駅",
+    "station_count": 4
+  },
+  "RHYTHM STEP (幼児ダンス、キッズヒップホップダンス、レンタル)": {
+    "primary_station": "八千代緑が丘駅",
+    "distance_to_primary_station_m": 253,
+    "candidate_stations": "八千代緑が丘駅|船橋日大前駅",
+    "station_count": 2
+  },
+  "Rinky Dink Studio お茶の水 神保町店": {
+    "primary_station": "神保町駅",
+    "distance_to_primary_station_m": 231,
+    "candidate_stations": "神保町駅|新御茶ノ水駅|御茶ノ水駅|小川町駅|竹橋駅|九段下駅|水道橋駅|神田駅|大手町駅|岩本町駅",
+    "station_count": 10
+  },
+  "Rinky Dink Studio 梅ヶ丘": {
+    "primary_station": "梅ヶ丘駅",
+    "distance_to_primary_station_m": 36,
+    "candidate_stations": "梅ヶ丘駅|豪徳寺駅|山下駅|世田谷代田駅|東松原駅|新代田駅|松原駅|宮の坂駅|若林駅|松陰神社前駅",
+    "station_count": 10
+  },
+  "ヨガスタジオ Peace of Mind": {
+    "primary_station": "江戸川橋駅",
+    "distance_to_primary_station_m": 576,
+    "candidate_stations": "江戸川橋駅|早稲田駅|神楽坂駅|牛込柳町駅|牛込神楽坂駅|若松河田駅|護国寺駅|面影橋駅|茗荷谷駅|飯田橋駅",
+    "station_count": 10
+  },
+  "Ryo Dance Studio": {
+    "primary_station": "昭島駅",
+    "distance_to_primary_station_m": 137,
+    "candidate_stations": "昭島駅|中神駅|西武立川駅|拝島駅",
+    "station_count": 4
+  },
+  "S.O.L.A.studio&bodyworks": {
+    "primary_station": "菊川駅",
+    "distance_to_primary_station_m": 691,
+    "candidate_stations": "菊川駅",
+    "station_count": 1
+  },
+  "ＳＧ ＳＴＵＤＩＯ": {
+    "primary_station": "中野富士見町駅",
+    "distance_to_primary_station_m": 77,
+    "candidate_stations": "中野富士見町駅|中野新橋駅|新中野駅|方南町駅|東高円寺駅|中野坂上駅|西新宿五丁目駅（清水橋）|中野駅|幡ヶ谷駅|新高円寺駅",
+    "station_count": 10
+  },
+  "SHAKE DANCE STUDIO 橋本校": {
+    "primary_station": "橋本駅",
+    "distance_to_primary_station_m": 501,
+    "candidate_stations": "橋本駅|南橋本駅|多摩境駅",
+    "station_count": 3
+  },
+  "BUZZ レンタルスタジオ 西国分寺店": {
+    "primary_station": "西国分寺駅",
+    "distance_to_primary_station_m": 117,
+    "candidate_stations": "西国分寺駅|恋ヶ窪駅|国分寺駅|国立駅",
+    "station_count": 4
+  },
+  "レンタルスタジオ 国立リノ": {
+    "primary_station": "国立駅",
+    "distance_to_primary_station_m": 267,
+    "candidate_stations": "国立駅|西国分寺駅|谷保駅",
+    "station_count": 3
+  },
+  "エコール・ド・バレエ・エタンセル": {
+    "primary_station": "国立駅",
+    "distance_to_primary_station_m": 267,
+    "candidate_stations": "国立駅|西国分寺駅|谷保駅",
+    "station_count": 3
+  },
+  "STUDIO CHACHA": {
+    "primary_station": "小川駅",
+    "distance_to_primary_station_m": 133,
+    "candidate_stations": "小川駅|新小平駅|八坂駅|萩山駅|青梅街道駅|鷹の台駅|久米川駅",
+    "station_count": 7
+  },
+  "SIM STUDIO 西新井": {
+    "primary_station": "西新井大師西駅",
+    "distance_to_primary_station_m": 504,
+    "candidate_stations": "西新井大師西駅|谷在家駅|江北駅|大師前駅|舎人公園駅|高野駅",
+    "station_count": 6
+  },
+  "SIM STUDIOお台場": {
+    "primary_station": "東雲駅",
+    "distance_to_primary_station_m": 493,
+    "candidate_stations": "東雲駅|有明駅|国際展示場駅|有明テニスの森駅|東京ビッグサイト駅|辰巳駅|新豊洲駅|市場前駅|豊洲駅",
+    "station_count": 9
+  },
+  "カルチャースタジオ花": {
+    "primary_station": "花小金井駅",
+    "distance_to_primary_station_m": 361,
+    "candidate_stations": "花小金井駅",
+    "station_count": 1
+  },
+  "SKYレンタルダンススタジオ": {
+    "primary_station": "中崎町駅",
+    "distance_to_primary_station_m": 210,
+    "candidate_stations": "中崎町駅|大阪梅田駅|扇町駅|東梅田駅|梅田駅|天満駅|大阪駅|天神橋筋六丁目駅|中津駅|南森町駅",
+    "station_count": 10
+  },
+  "SPACE BUNNY": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "SPROUT DANCE STUDIO 梅田店": {
+    "primary_station": "扇町駅",
+    "distance_to_primary_station_m": 428,
+    "candidate_stations": "扇町駅|中崎町駅|天満駅|東梅田駅|南森町駅|大阪梅田駅|梅田駅|大阪駅|天神橋筋六丁目駅|北新地駅",
+    "station_count": 10
+  },
+  "Starnite Dance Studio": {
+    "primary_station": "葭川公園駅",
+    "distance_to_primary_station_m": 160,
+    "candidate_stations": "葭川公園駅|千葉中央駅|栄町駅|県庁前駅|京成千葉駅|本千葉駅|東千葉駅|千葉駅|千葉公園駅|市役所前駅",
+    "station_count": 10
+  },
+  "STRADA STUDIO": {
+    "primary_station": "光が丘駅",
+    "distance_to_primary_station_m": 873,
+    "candidate_stations": "光が丘駅|地下鉄成増駅",
+    "station_count": 2
+  },
+  "studio ∞ Fi (スタジオ フィー)": {
+    "primary_station": "久地駅",
+    "distance_to_primary_station_m": 374,
+    "candidate_stations": "久地駅|宿河原駅|津田山駅",
+    "station_count": 3
+  },
+  "25 DANCE SPOT(ニコスポ)": {
+    "primary_station": "高津駅",
+    "distance_to_primary_station_m": 178,
+    "candidate_stations": "高津駅|二子新地駅|溝の口駅|武蔵溝ノ口駅|二子玉川駅|梶が谷駅|津田山駅|武蔵新城駅",
+    "station_count": 8
+  },
+  "Studio BLANZ": {
+    "primary_station": "板橋駅",
+    "distance_to_primary_station_m": 236,
+    "candidate_stations": "板橋駅|下板橋駅|北池袋駅|新板橋駅|板橋区役所前駅|西巣鴨駅|新庚申塚駅|庚申塚駅|巣鴨新田駅|西ヶ原四丁目駅",
+    "station_count": 10
+  },
+  "STUDIO BUZZ 相模原校": {
+    "primary_station": "相模原駅",
+    "distance_to_primary_station_m": 1156,
+    "candidate_stations": "相模原駅|南橋本駅|上溝駅|矢部駅",
+    "station_count": 4
+  },
+  "桜新町studio": {
+    "primary_station": "桜新町駅",
+    "distance_to_primary_station_m": 469,
+    "candidate_stations": "桜新町駅|用賀駅|駒沢大学駅|上野毛駅|上町駅|世田谷駅",
+    "station_count": 6
+  },
+  "レンタルスタジオKACHA": {
+    "primary_station": "用賀駅",
+    "distance_to_primary_station_m": 130,
+    "candidate_stations": "用賀駅|桜新町駅|上野毛駅|二子玉川駅",
+    "station_count": 4
+  },
+  "duobus studio｜デュオバススタジオ": {
+    "primary_station": "立川駅",
+    "distance_to_primary_station_m": 1242,
+    "candidate_stations": "立川駅|西国立駅",
+    "station_count": 2
+  },
+  "Studio Crucial スタジオ クルーシャル": {
+    "primary_station": "東伏見駅",
+    "distance_to_primary_station_m": 100,
+    "candidate_stations": "東伏見駅|武蔵関駅|西武柳沢駅",
+    "station_count": 3
+  },
+  "STUDIO DANCE ALIVE 河原町本校": {
+    "primary_station": "清水五条駅",
+    "distance_to_primary_station_m": 184,
+    "candidate_stations": "清水五条駅|京阪電車祇園四条駅|五条駅|京都河原町駅|七条駅|祇園四条駅|京阪電車 七条駅|四条駅|烏丸駅|駅ナカスイーツ 西店",
+    "station_count": 10
+  },
+  "STUDIO ENOCH": {
+    "primary_station": "是政駅",
+    "distance_to_primary_station_m": 40,
+    "candidate_stations": "是政駅|南多摩駅|競艇場前駅|府中競馬正門前駅|東府中駅|府中本町駅|多磨霊園駅|稲城長沼駅|府中駅",
+    "station_count": 9
+  },
+  "Studio ENTRADA森下ANNEX": {
+    "primary_station": "菊川駅",
+    "distance_to_primary_station_m": 332,
+    "candidate_stations": "菊川駅|森下駅|清澄白河駅|両国駅|住吉駅|浜町駅|錦糸町駅|東日本橋駅|水天宮前駅|馬喰横山駅",
+    "station_count": 10
+  },
+  "Studio Face東十条店 ダンスも会議もできるレンタルスタジオ": {
+    "primary_station": "東十条駅",
+    "distance_to_primary_station_m": 370,
+    "candidate_stations": "東十条駅|王子神谷駅|十条駅|志茂駅|赤羽駅|王子駅前駅|王子駅|飛鳥山駅",
+    "station_count": 8
+  },
+  "Studio Faith（スタジオフェイス）浦安校": {
+    "primary_station": "浦安駅",
+    "distance_to_primary_station_m": 203,
+    "candidate_stations": "浦安駅|南行徳駅|葛西駅",
+    "station_count": 3
+  },
+  "STUDIO FOXTAIL": {
+    "primary_station": "大森海岸駅",
+    "distance_to_primary_station_m": 156,
+    "candidate_stations": "大森海岸駅|大森駅|立会川駅|平和島駅|流通センター駅|鮫洲駅|大森町駅|西大井駅",
+    "station_count": 8
+  },
+  "studio fusion レンタルスタジオ": {
+    "primary_station": "練馬駅",
+    "distance_to_primary_station_m": 186,
+    "candidate_stations": "練馬駅|桜台駅|豊島園駅|新桜台駅|新江古田駅|氷川台駅|江古田駅|中村橋駅",
+    "station_count": 8
+  },
+  "STUDIO GEM GARAGE": {
+    "primary_station": "中野富士見町駅",
+    "distance_to_primary_station_m": 537,
+    "candidate_stations": "中野富士見町駅|中野新橋駅|方南町駅|幡ヶ谷駅|新中野駅|笹塚駅|西新宿五丁目駅（清水橋）|東高円寺駅|初台駅|中野坂上駅",
+    "station_count": 10
+  },
+  "Studio GENIE(葛飾区お花茶屋ダンススクール)": {
+    "primary_station": "お花茶屋駅",
+    "distance_to_primary_station_m": 513,
+    "candidate_stations": "お花茶屋駅|青砥駅|堀切菖蒲園駅|京成立石駅|亀有駅|綾瀬駅",
+    "station_count": 6
+  },
+  "Studio growpoint": {
+    "primary_station": "椎名町駅",
+    "distance_to_primary_station_m": 369,
+    "candidate_stations": "椎名町駅|落合南長崎駅|下落合駅|中井駅|東長崎駅|要町駅|目白駅|落合駅|高田馬場駅|千川駅",
+    "station_count": 10
+  },
+  "アトリエ エマーブル": {
+    "primary_station": "用賀駅",
+    "distance_to_primary_station_m": 374,
+    "candidate_stations": "用賀駅|桜新町駅|上町駅",
+    "station_count": 3
+  },
+  "スタジオグロウ市ヶ谷店": {
+    "primary_station": "市ケ谷駅",
+    "distance_to_primary_station_m": 335,
+    "candidate_stations": "市ケ谷駅|牛込神楽坂駅|四ツ谷駅|牛込柳町駅|曙橋駅|麹町駅|神楽坂駅|半蔵門駅|飯田橋駅|四谷三丁目駅",
+    "station_count": 10
+  },
+  "レンタルスタジオ モエギ市ヶ谷 ヨガダンスストレッチサロン Moegi市ヶ谷": {
+    "primary_station": "市ケ谷駅",
+    "distance_to_primary_station_m": 363,
+    "candidate_stations": "市ケ谷駅|半蔵門駅|麹町駅|牛込神楽坂駅|四ツ谷駅|九段下駅|飯田橋駅|神楽坂駅|牛込柳町駅|曙橋駅",
+    "station_count": 10
+  },
+  "STUDIO KIRINJI": {
+    "primary_station": "安城駅",
+    "distance_to_primary_station_m": 181,
+    "candidate_stations": "安城駅|北安城駅|南安城駅",
+    "station_count": 3
+  },
+  "sr pilates studio 四谷": {
+    "primary_station": "四ツ谷駅",
+    "distance_to_primary_station_m": 242,
+    "candidate_stations": "四ツ谷駅|四谷三丁目駅|曙橋駅|麹町駅|市ケ谷駅|信濃町駅|半蔵門駅|赤坂見附駅|国立競技場駅|永田町駅",
+    "station_count": 10
+  },
+  "Studio sun and moon": {
+    "primary_station": "四谷三丁目駅",
+    "distance_to_primary_station_m": 302,
+    "candidate_stations": "四谷三丁目駅|新宿御苑前駅|曙橋駅|信濃町駅|千駄ケ谷駅|国立競技場駅|新宿三丁目駅|四ツ谷駅|若松河田駅|東新宿駅",
+    "station_count": 10
+  },
+  "STUDIO KYU": {
+    "primary_station": "竹下駅",
+    "distance_to_primary_station_m": 171,
+    "candidate_stations": "竹下駅|大橋駅|高宮駅|井尻駅",
+    "station_count": 4
+  },
+  "Studio Leaf": {
+    "primary_station": "糀谷駅",
+    "distance_to_primary_station_m": 406,
+    "candidate_stations": "糀谷駅|京急蒲田駅|雑色駅|大鳥居駅|蒲田駅|梅屋敷駅|川崎大師駅|穴守稲荷駅|東門前駅|鈴木町駅",
+    "station_count": 10
+  },
+  "Studio Liberty": {
+    "primary_station": "上野毛駅",
+    "distance_to_primary_station_m": 875,
+    "candidate_stations": "上野毛駅|等々力駅|用賀駅|桜新町駅|尾山台駅|二子玉川駅",
+    "station_count": 6
+  },
+  "琉球スタジオCanDokoro": {
+    "primary_station": "四谷三丁目駅",
+    "distance_to_primary_station_m": 295,
+    "candidate_stations": "四谷三丁目駅|曙橋駅|四ツ谷駅|信濃町駅|新宿御苑前駅|牛込柳町駅|市ケ谷駅|若松河田駅|国立競技場駅|麹町駅",
+    "station_count": 10
+  },
+  "Studio LIBRE（スタジオ リーブル）": {
+    "primary_station": "五月台駅",
+    "distance_to_primary_station_m": 126,
+    "candidate_stations": "五月台駅|栗平駅|柿生駅|新百合ヶ丘駅",
+    "station_count": 4
+  },
+  "Studio LL MUSIC（スタジオエルエルミュージック）": {
+    "primary_station": "用賀駅",
+    "distance_to_primary_station_m": 271,
+    "candidate_stations": "用賀駅|桜新町駅|上野毛駅|上町駅",
+    "station_count": 4
+  },
+  "studio LOOP": {
+    "primary_station": "千歳船橋駅",
+    "distance_to_primary_station_m": 817,
+    "candidate_stations": "千歳船橋駅|祖師ヶ谷大蔵駅|成城学園前駅|経堂駅",
+    "station_count": 4
+  },
+  "STUDIO ONEWAY TOKYO": {
+    "primary_station": "中野富士見町駅",
+    "distance_to_primary_station_m": 208,
+    "candidate_stations": "中野富士見町駅|中野新橋駅|新中野駅|方南町駅|東高円寺駅|西新宿五丁目駅（清水橋）|中野坂上駅|幡ヶ谷駅|笹塚駅|初台駅",
+    "station_count": 10
+  },
+  "STUDIO POLISH（スタジオポリッシュ）": {
+    "primary_station": "西小山駅",
+    "distance_to_primary_station_m": 121,
+    "candidate_stations": "西小山駅|洗足駅|武蔵小山駅|北千束駅|旗の台駅|荏原中延駅|戸越銀座駅|長原駅|荏原町駅|大岡山駅",
+    "station_count": 10
+  },
+  "STUDIO PRIME 若葉校": {
+    "primary_station": "若葉駅",
+    "distance_to_primary_station_m": 542,
+    "candidate_stations": "若葉駅|坂戸駅",
+    "station_count": 2
+  },
+  "多摩スタジオ": {
+    "primary_station": "和泉多摩川駅",
+    "distance_to_primary_station_m": 64,
+    "candidate_stations": "和泉多摩川駅|狛江駅|登戸駅|宿河原駅|向ヶ丘遊園駅|喜多見駅",
+    "station_count": 6
+  },
+  "STUDIO SPACE N 二子新地校": {
+    "primary_station": "高津駅",
+    "distance_to_primary_station_m": 323,
+    "candidate_stations": "高津駅|二子新地駅|二子玉川駅|溝の口駅|武蔵溝ノ口駅|津田山駅|梶が谷駅|上野毛駅",
+    "station_count": 8
+  },
+  "アテール明大前第１スタジオ（レンタルスタジオTerritory M ）": {
+    "primary_station": "明大前駅",
+    "distance_to_primary_station_m": 170,
+    "candidate_stations": "明大前駅|下高井戸駅|代田橋駅|東松原駅|永福町駅|松原駅|新代田駅|梅ヶ丘駅|桜上水駅|西永福駅",
+    "station_count": 10
+  },
+  "studio WILDKIDS 亀戸駅前校 SOLstudio": {
+    "primary_station": "亀戸駅",
+    "distance_to_primary_station_m": 370,
+    "candidate_stations": "亀戸駅|亀戸水神駅|大島駅|西大島駅|東あずま駅|小村井駅|錦糸町駅|平井駅|住吉駅|東大島駅",
+    "station_count": 10
+  },
+  "studio WILDKIDS 亀戸水神駅前校 CIERO studio": {
+    "primary_station": "亀戸水神駅",
+    "distance_to_primary_station_m": 48,
+    "candidate_stations": "亀戸水神駅|亀戸駅|東あずま駅|平井駅|小村井駅|大島駅|西大島駅|東大島駅|錦糸町駅",
+    "station_count": 9
+  },
+  "studio worcle shinjuku-gyoen": {
+    "primary_station": "新宿御苑前駅",
+    "distance_to_primary_station_m": 390,
+    "candidate_stations": "新宿御苑前駅|四谷三丁目駅|曙橋駅|新宿三丁目駅|千駄ケ谷駅|国立競技場駅|若松河田駅|東新宿駅|信濃町駅|新宿駅",
+    "station_count": 10
+  },
+  "ダンススタジオR 小杉レンタルスタジオ": {
+    "primary_station": "新丸子駅",
+    "distance_to_primary_station_m": 651,
+    "candidate_stations": "新丸子駅|多摩川駅|武蔵小杉駅|沼部駅|田園調布駅|武蔵中原駅|向河原駅",
+    "station_count": 7
+  },
+  "STUDIO+DINING TREE": {
+    "primary_station": "一之江駅",
+    "distance_to_primary_station_m": 393,
+    "candidate_stations": "一之江駅|船堀駅|瑞江駅",
+    "station_count": 3
+  },
+  "STUDIO101": {
+    "primary_station": "淵野辺駅",
+    "distance_to_primary_station_m": 366,
+    "candidate_stations": "淵野辺駅|矢部駅",
+    "station_count": 2
+  },
+  "StudioENTRADA森下": {
+    "primary_station": "森下駅",
+    "distance_to_primary_station_m": 372,
+    "candidate_stations": "森下駅|菊川駅|清澄白河駅|住吉駅|浜町駅|両国駅|錦糸町駅|水天宮前駅|東日本橋駅|門前仲町駅",
+    "station_count": 10
+  },
+  "StudioNEXUS石神井校": {
+    "primary_station": "石神井公園駅",
+    "distance_to_primary_station_m": 898,
+    "candidate_stations": "石神井公園駅|大泉学園駅|上石神井駅|練馬高野台駅|上井草駅",
+    "station_count": 5
+  },
+  "StudioNEXUS武蔵関校": {
+    "primary_station": "武蔵関駅",
+    "distance_to_primary_station_m": 181,
+    "candidate_stations": "武蔵関駅|東伏見駅|上石神井駅",
+    "station_count": 3
+  },
+  "STUDIOピア Pia31 ベイサイド": {
+    "primary_station": "新木場駅",
+    "distance_to_primary_station_m": 849,
+    "candidate_stations": "新木場駅|辰巳駅|東雲駅",
+    "station_count": 3
+  },
+  "STUDIOフェーム": {
+    "primary_station": "新小岩駅",
+    "distance_to_primary_station_m": 154,
+    "candidate_stations": "新小岩駅|平井駅",
+    "station_count": 2
+  },
+  "Sweet Fairy バレエスタジオ": {
+    "primary_station": "上北沢駅",
+    "distance_to_primary_station_m": 508,
+    "candidate_stations": "上北沢駅|桜上水駅|八幡山駅|芦花公園駅|下高井戸駅|松原駅|経堂駅|千歳船橋駅|西永福駅|浜田山駅",
+    "station_count": 10
+  },
+  "swing swing": {
+    "primary_station": "下板橋駅",
+    "distance_to_primary_station_m": 252,
+    "candidate_stations": "下板橋駅|新板橋駅|板橋駅|板橋区役所前駅|北池袋駅|大山駅|西巣鴨駅|十条駅|新庚申塚駅|庚申塚駅",
+    "station_count": 10
+  },
+  "SWITCH STAND ODAIBA": {
+    "primary_station": "テレコムセンター駅",
+    "distance_to_primary_station_m": 396,
+    "candidate_stations": "テレコムセンター駅|東京国際クルーズターミナル駅|青海駅|台場駅|東京テレポート駅|お台場海浜公園駅",
+    "station_count": 6
+  },
+  "Tap&Soul": {
+    "primary_station": "明大前駅",
+    "distance_to_primary_station_m": 226,
+    "candidate_stations": "明大前駅|下高井戸駅|東松原駅|松原駅|代田橋駅|新代田駅|永福町駅|梅ヶ丘駅|山下駅|豪徳寺駅",
+    "station_count": 10
+  },
+  "TERAKOYA studio": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "TKO DANCE STUDIO(TKOダンススタジオ)": {
+    "primary_station": "谷塚駅",
+    "distance_to_primary_station_m": 92,
+    "candidate_stations": "谷塚駅|草加駅",
+    "station_count": 2
+  },
+  "TOHNO DANCE STUDIO": {
+    "primary_station": "ひばりヶ丘駅",
+    "distance_to_primary_station_m": 106,
+    "candidate_stations": "ひばりヶ丘駅|東久留米駅|保谷駅",
+    "station_count": 3
+  },
+  "TRINITY DANCE CENTER桜上水校": {
+    "primary_station": "桜上水駅",
+    "distance_to_primary_station_m": 300,
+    "candidate_stations": "桜上水駅|下高井戸駅|上北沢駅|松原駅|永福町駅|西永福駅|明大前駅|浜田山駅|八幡山駅|山下駅",
+    "station_count": 10
+  },
+  "Tダンスプロダクション": {
+    "primary_station": "船堀駅",
+    "distance_to_primary_station_m": 323,
+    "candidate_stations": "船堀駅|東大島駅|一之江駅",
+    "station_count": 3
+  },
+  "UBクリエイティブベース": {
+    "primary_station": "一ツ木駅",
+    "distance_to_primary_station_m": 506,
+    "candidate_stations": "一ツ木駅|富士松駅",
+    "station_count": 2
+  },
+  "Y'sホール三鷹": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "ＹＡＲＩＴＡＹＵ‐ＢＡＬＬＥＴ・ＳＴＵＤＩＯ": {
+    "primary_station": "若葉台駅",
+    "distance_to_primary_station_m": 181,
+    "candidate_stations": "若葉台駅|はるひ野駅|黒川駅|栗平駅",
+    "station_count": 4
+  },
+  "YBS Yukino Ballet Studio": {
+    "primary_station": "代田橋駅",
+    "distance_to_primary_station_m": 205,
+    "candidate_stations": "代田橋駅|笹塚駅|明大前駅|新代田駅|東松原駅|方南町駅|下北沢駅|東北沢駅|世田谷代田駅|幡ヶ谷駅",
+    "station_count": 10
+  },
+  "YKAダンススタジオ(横浜のK-POPダンススクール)": {
+    "primary_station": "日本大通り駅",
+    "distance_to_primary_station_m": 386,
+    "candidate_stations": "日本大通り駅|元町・中華街 (山下公園)駅|石川町(元町・中華街)駅|関内駅|馬車道駅|伊勢佐木長者町駅|桜木町駅|日ノ出町駅|みなとみらい駅|山手駅",
+    "station_count": 10
+  },
+  "YR CLUB HOUSE 国領店": {
+    "primary_station": "国領駅",
+    "distance_to_primary_station_m": 89,
+    "candidate_stations": "国領駅|布田駅|柴崎駅|調布駅|つつじヶ丘駅",
+    "station_count": 5
+  },
+  "Zsa Zsa Zsu Dance Studio ザザズ": {
+    "primary_station": "江戸川橋駅",
+    "distance_to_primary_station_m": 249,
+    "candidate_stations": "江戸川橋駅|神楽坂駅|早稲田駅|茗荷谷駅|牛込神楽坂駅|護国寺駅|牛込柳町駅|面影橋駅|飯田橋駅|若松河田駅",
+    "station_count": 10
+  },
+  "Zsa Zsa Zsu Studio": {
+    "primary_station": "江戸川橋駅",
+    "distance_to_primary_station_m": 184,
+    "candidate_stations": "江戸川橋駅|神楽坂駅|牛込神楽坂駅|早稲田駅|茗荷谷駅|牛込柳町駅|護国寺駅|飯田橋駅|若松河田駅|面影橋駅",
+    "station_count": 10
+  },
+  "アートクリエイションスタジオ": {
+    "primary_station": "読売ランド前駅",
+    "distance_to_primary_station_m": 1078,
+    "candidate_stations": "読売ランド前駅|生田駅|百合ヶ丘駅",
+    "station_count": 3
+  },
+  "アートスタジオバレエ": {
+    "primary_station": "京王よみうりランド駅",
+    "distance_to_primary_station_m": 329,
+    "candidate_stations": "京王よみうりランド駅|矢野口駅|京王稲田堤駅|稲城駅|稲城長沼駅|稲田堤駅",
+    "station_count": 6
+  },
+  "アイスタジオ": {
+    "primary_station": "和泉多摩川駅",
+    "distance_to_primary_station_m": 181,
+    "candidate_stations": "和泉多摩川駅|狛江駅|登戸駅|宿河原駅|向ヶ丘遊園駅|喜多見駅",
+    "station_count": 6
+  },
+  "アックミーエアリアルスタジオ ACME AERIAL STUDIO 36": {
+    "primary_station": "永福町駅",
+    "distance_to_primary_station_m": 241,
+    "candidate_stations": "永福町駅|西永福駅|明大前駅|下高井戸駅|浜田山駅|方南町駅|桜上水駅|代田橋駅",
+    "station_count": 8
+  },
+  "アトリエ ベラーノ": {
+    "primary_station": "千歳烏山駅",
+    "distance_to_primary_station_m": 195,
+    "candidate_stations": "千歳烏山駅|芦花公園駅|八幡山駅|仙川駅|富士見ヶ丘駅|高井戸駅|上北沢駅",
+    "station_count": 7
+  },
+  "アミューゼダンススポーツクラブ": {
+    "primary_station": "貝津駅",
+    "distance_to_primary_station_m": 142,
+    "candidate_stations": "貝津駅|保見駅|浄水駅|四郷駅|上豊田駅",
+    "station_count": 5
+  },
+  "あやこバレエスタジオ": {
+    "primary_station": "経堂駅",
+    "distance_to_primary_station_m": 569,
+    "candidate_stations": "経堂駅|松原駅|千歳船橋駅|山下駅|豪徳寺駅|宮の坂駅|桜上水駅|下高井戸駅|上北沢駅|上町駅",
+    "station_count": 10
+  },
+  "レンタルスタジオ三ノ輪": {
+    "primary_station": "三ノ輪駅",
+    "distance_to_primary_station_m": 219,
+    "candidate_stations": "三ノ輪駅|荒川一中前駅|荒川区役所前駅|南千住駅|入谷駅|荒川二丁目駅|鶯谷駅|三河島駅|浅草駅|千住大橋駅",
+    "station_count": 10
+  },
+  "アルゼンチンタンゴ・ダンス チケ": {
+    "primary_station": "四谷三丁目駅",
+    "distance_to_primary_station_m": 225,
+    "candidate_stations": "四谷三丁目駅|曙橋駅|四ツ谷駅|信濃町駅|新宿御苑前駅|国立競技場駅|市ケ谷駅|千駄ケ谷駅|麹町駅|牛込柳町駅",
+    "station_count": 10
+  },
+  "アロハホヌアフラスタジオ&レンタルスタジオ経堂": {
+    "primary_station": "経堂駅",
+    "distance_to_primary_station_m": 334,
+    "candidate_stations": "経堂駅|宮の坂駅|上町駅|山下駅|千歳船橋駅|豪徳寺駅|世田谷駅|松原駅|松陰神社前駅|梅ヶ丘駅",
+    "station_count": 10
+  },
+  "LIBRA SQUARE 三ノ輪スタジオ": {
+    "primary_station": "三ノ輪駅",
+    "distance_to_primary_station_m": 307,
+    "candidate_stations": "三ノ輪駅|荒川一中前駅|荒川区役所前駅|南千住駅|荒川二丁目駅|千住大橋駅|荒川七丁目駅|三河島駅|入谷駅|町屋駅",
+    "station_count": 10
+  },
+  "ウスイダンススクール": {
+    "primary_station": "早稲田駅",
+    "distance_to_primary_station_m": 134,
+    "candidate_stations": "早稲田駅|若松河田駅|牛込柳町駅|面影橋駅|西早稲田駅|江戸川橋駅|神楽坂駅|学習院下駅|東新宿駅|曙橋駅",
+    "station_count": 10
+  },
+  "D→TA (ディータ)": {
+    "primary_station": "白山駅",
+    "distance_to_primary_station_m": 150,
+    "candidate_stations": "白山駅|本駒込駅|東大前駅|千石駅|千駄木駅|根津駅|茗荷谷駅|後楽園駅|春日駅|駒込駅",
+    "station_count": 10
+  },
+  "レンタルスタジオ YOGA SPICE 神保町": {
+    "primary_station": "神保町駅",
+    "distance_to_primary_station_m": 312,
+    "candidate_stations": "神保町駅|水道橋駅|九段下駅|御茶ノ水駅|竹橋駅|新御茶ノ水駅|飯田橋駅|小川町駅|本郷三丁目駅|春日駅",
+    "station_count": 10
+  },
+  "ピラティスシェアスタジオ ｜PILATES TIME（ピラティスタイム） 神保町": {
+    "primary_station": "神保町駅",
+    "distance_to_primary_station_m": 129,
+    "candidate_stations": "神保町駅|新御茶ノ水駅|竹橋駅|御茶ノ水駅|小川町駅|九段下駅|水道橋駅|神田駅|大手町駅|飯田橋駅",
+    "station_count": 10
+  },
+  "エイベックス・ダンスマスタートータルフィットネスクラブわらわら ふじみ野": {
+    "primary_station": "ふじみ野駅",
+    "distance_to_primary_station_m": 329,
+    "candidate_stations": "ふじみ野駅|鶴瀬駅",
+    "station_count": 2
+  },
+  "キッズダンススタジオ Sunny Piece": {
+    "primary_station": "本川越駅",
+    "distance_to_primary_station_m": 548,
+    "candidate_stations": "本川越駅|川越市駅|川越駅",
+    "station_count": 3
+  },
+  "エースダンススタジオ": {
+    "primary_station": "大通駅",
+    "distance_to_primary_station_m": 247,
+    "candidate_stations": "大通駅|すすきの駅|豊水すすきの駅|バスセンター前駅|さっぽろ駅|中島公園駅|西１１丁目駅|札幌駅|菊水駅|学園前駅",
+    "station_count": 10
+  },
+  "えこてんハウススタジオ": {
+    "primary_station": "江古田駅",
+    "distance_to_primary_station_m": 61,
+    "candidate_stations": "江古田駅|新江古田駅|新桜台駅|小竹向原駅|桜台駅|東長崎駅|千川駅|氷川台駅|練馬駅|落合南長崎駅",
+    "station_count": 10
+  },
+  "エフィと虹色のヴェール十条スタジオ": {
+    "primary_station": "王子駅前駅",
+    "distance_to_primary_station_m": 360,
+    "candidate_stations": "王子駅前駅|王子駅|飛鳥山駅|栄町駅|滝野川一丁目駅|西ヶ原四丁目駅|王子神谷駅|西ケ原駅|東十条駅|梶原駅",
+    "station_count": 10
+  },
+  "エムズ・ダンスアカデミー 巣鴨第1教室": {
+    "primary_station": "巣鴨駅",
+    "distance_to_primary_station_m": 291,
+    "candidate_stations": "巣鴨駅|千石駅|駒込駅|大塚駅|新大塚駅|巣鴨新田駅|本駒込駅|庚申塚駅|向原駅|新庚申塚駅",
+    "station_count": 10
+  },
+  "エルメスダンスカンパニー豊橋校": {
+    "primary_station": "豊橋駅",
+    "distance_to_primary_station_m": 479,
+    "candidate_stations": "豊橋駅|新豊橋駅|船町駅|柳生橋駅|下地駅",
+    "station_count": 5
+  },
+  "オガワ ダンス スタジオ": {
+    "primary_station": "平沼橋駅",
+    "distance_to_primary_station_m": 350,
+    "candidate_stations": "平沼橋駅|高島町駅|戸部駅|新高島駅|横浜駅|みなとみらい駅|西横浜駅|神奈川駅|桜木町駅|反町駅",
+    "station_count": 10
+  },
+  "オギハラダンススクール": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "オダケイジ・ダンスアカデミー": {
+    "primary_station": "早稲田駅",
+    "distance_to_primary_station_m": 444,
+    "candidate_stations": "早稲田駅|江戸川橋駅|神楽坂駅|牛込柳町駅|若松河田駅|牛込神楽坂駅|面影橋駅|護国寺駅|茗荷谷駅|西早稲田駅",
+    "station_count": 10
+  },
+  "Ayaka Ballet Academy": {
+    "primary_station": "早稲田駅",
+    "distance_to_primary_station_m": 632,
+    "candidate_stations": "早稲田駅|面影橋駅|江戸川橋駅|護国寺駅|学習院下駅|雑司が谷駅|西早稲田駅|神楽坂駅|牛込柳町駅|若松河田駅",
+    "station_count": 10
+  },
+  "かよバレエスタジオ": {
+    "primary_station": "花小金井駅",
+    "distance_to_primary_station_m": 150,
+    "candidate_stations": "花小金井駅",
+    "station_count": 1
+  },
+  "カルサロ レンタルスタジオサロン": {
+    "primary_station": "地下鉄赤塚駅",
+    "distance_to_primary_station_m": 216,
+    "candidate_stations": "地下鉄赤塚駅|下赤塚駅|東武練馬駅|平和台駅|成増駅|地下鉄成増駅|光が丘駅|練馬春日町駅",
+    "station_count": 8
+  },
+  "カルチャースクール ミジー": {
+    "primary_station": "川崎駅",
+    "distance_to_primary_station_m": 567,
+    "candidate_stations": "川崎駅|尻手駅|京急川崎駅|矢向駅|八丁畷駅|六郷土手駅|港町駅|川崎新町駅|鶴見市場駅",
+    "station_count": 9
+  },
+  "ガルバスタジオ幡ヶ谷/GARBA写真館": {
+    "primary_station": "幡ヶ谷駅",
+    "distance_to_primary_station_m": 177,
+    "candidate_stations": "幡ヶ谷駅|笹塚駅|代々木上原駅|初台駅|東北沢駅|代々木八幡駅|中野富士見町駅|西新宿五丁目駅（清水橋）|代田橋駅|中野新橋駅",
+    "station_count": 10
+  },
+  "カワチダンススタジオ": {
+    "primary_station": "新豊田駅",
+    "distance_to_primary_station_m": 141,
+    "candidate_stations": "新豊田駅|豊田市駅|上挙母駅|新上挙母駅|梅坪駅",
+    "station_count": 5
+  },
+  "キッズダンススクール＆レンタルスタジオLOVE BONDS": {
+    "primary_station": "中神駅",
+    "distance_to_primary_station_m": 272,
+    "candidate_stations": "中神駅|東中神駅|昭島駅|西立川駅",
+    "station_count": 4
+  },
+  "レベルアップレンタルスタジオ": {
+    "primary_station": "第一通り駅",
+    "distance_to_primary_station_m": 423,
+    "candidate_stations": "第一通り駅|新浜松駅|遠州病院駅|浜松駅|八幡駅",
+    "station_count": 5
+  },
+  "キッズダンススタジオSerenita西新井店": {
+    "primary_station": "西新井駅",
+    "distance_to_primary_station_m": 228,
+    "candidate_stations": "西新井駅|大師前駅|梅島駅|竹ノ塚駅|西新井大師西駅|江北駅",
+    "station_count": 6
+  },
+  "キッズダンススタジオstudioCROSS（スタジオクロス）高幡不動クラス 日野市 多摩カルチャーセンター": {
+    "primary_station": "高幡不動駅",
+    "distance_to_primary_station_m": 59,
+    "candidate_stations": "高幡不動駅|多摩動物公園駅|百草園駅",
+    "station_count": 3
+  },
+  "キッズダンススタジオstudioCROSS（スタジオクロス）国立駅ゴールドジムクラス": {
+    "primary_station": "国立駅",
+    "distance_to_primary_station_m": 158,
+    "candidate_stations": "国立駅|西国分寺駅|谷保駅|矢川駅",
+    "station_count": 4
+  },
+  "キッズダンススタジオstudioCROSS（スタジオクロス）国立谷保スタジオ": {
+    "primary_station": "谷保駅",
+    "distance_to_primary_station_m": 129,
+    "candidate_stations": "谷保駅|矢川駅|西府駅|国立駅",
+    "station_count": 4
+  },
+  "キッズダンススタジオstudioCROSS（スタジオクロス）聖蹟桜ヶ丘クラス 多摩市 多摩カルチャーセンター": {
+    "primary_station": "聖蹟桜ヶ丘駅",
+    "distance_to_primary_station_m": 186,
+    "candidate_stations": "聖蹟桜ヶ丘駅|中河原駅|百草園駅",
+    "station_count": 3
+  },
+  "Dance Studio Bingo（日野Bingo）": {
+    "primary_station": "豊田駅",
+    "distance_to_primary_station_m": 358,
+    "candidate_stations": "豊田駅|南平駅|平山城址公園駅|北八王子駅",
+    "station_count": 4
+  },
+  "フラメンコスタジオ エル ソニケテ": {
+    "primary_station": "豊田駅",
+    "distance_to_primary_station_m": 353,
+    "candidate_stations": "豊田駅|南平駅|平山城址公園駅|北八王子駅",
+    "station_count": 4
+  },
+  "キューブキッズスポーツ": {
+    "primary_station": "中野島駅",
+    "distance_to_primary_station_m": 535,
+    "candidate_stations": "中野島駅|生田駅|稲田堤駅|向ヶ丘遊園駅|京王稲田堤駅|登戸駅",
+    "station_count": 6
+  },
+  "グラッドリ": {
+    "primary_station": "四ツ谷駅",
+    "distance_to_primary_station_m": 272,
+    "candidate_stations": "四ツ谷駅|四谷三丁目駅|信濃町駅|麹町駅|曙橋駅|市ケ谷駅|赤坂見附駅|半蔵門駅|永田町駅|国立競技場駅",
+    "station_count": 10
+  },
+  "ケアリノフラスタジオ": {
+    "primary_station": "地下鉄赤塚駅",
+    "distance_to_primary_station_m": 339,
+    "candidate_stations": "地下鉄赤塚駅|下赤塚駅|平和台駅|東武練馬駅|成増駅|地下鉄成増駅|光が丘駅|練馬春日町駅",
+    "station_count": 8
+  },
+  "レンタルスタジオDance\"MOVE\"!!": {
+    "primary_station": "野方駅",
+    "distance_to_primary_station_m": 127,
+    "candidate_stations": "野方駅|都立家政駅|沼袋駅|鷺ノ宮駅|高円寺駅|新井薬師前駅|中野駅",
+    "station_count": 7
+  },
+  "ゴールドジム南大沢東京": {
+    "primary_station": "南大沢駅",
+    "distance_to_primary_station_m": 111,
+    "candidate_stations": "南大沢駅|多摩境駅",
+    "station_count": 2
+  },
+  "こどもディスコダンスアカデミー/N Contemporary Dance Arts キッズ・女性専用・役者": {
+    "primary_station": "昭島駅",
+    "distance_to_primary_station_m": 125,
+    "candidate_stations": "昭島駅|中神駅|西武立川駅|拝島駅",
+    "station_count": 4
+  },
+  "studio RhythMoon（スタジオ・リズムーン）": {
+    "primary_station": "井荻駅",
+    "distance_to_primary_station_m": 180,
+    "candidate_stations": "井荻駅|下井草駅|上井草駅|富士見台駅|練馬高野台駅",
+    "station_count": 5
+  },
+  "コンバレエスタジオ Kon Ballet Studio 糀谷店": {
+    "primary_station": "糀谷駅",
+    "distance_to_primary_station_m": 228,
+    "candidate_stations": "糀谷駅|大鳥居駅|京急蒲田駅|雑色駅|穴守稲荷駅|梅屋敷駅|蒲田駅|東門前駅|川崎大師駅",
+    "station_count": 9
+  },
+  "サイスタジオ": {
+    "primary_station": "大山駅",
+    "distance_to_primary_station_m": 146,
+    "candidate_stations": "大山駅|板橋区役所前駅|下板橋駅|中板橋駅|北池袋駅|板橋本町駅|板橋駅|新板橋駅|千川駅|要町駅",
+    "station_count": 10
+  },
+  "サイスタジオ小茂根": {
+    "primary_station": "小竹向原駅",
+    "distance_to_primary_station_m": 127,
+    "candidate_stations": "小竹向原駅|江古田駅|千川駅|新桜台駅|氷川台駅|東長崎駅|新江古田駅|桜台駅|ときわ台駅|中板橋駅",
+    "station_count": 10
+  },
+  "サウンドスタジオM小岩": {
+    "primary_station": "小岩駅",
+    "distance_to_primary_station_m": 227,
+    "candidate_stations": "小岩駅|京成小岩駅|江戸川駅|新柴又駅|国府台駅",
+    "station_count": 5
+  },
+  "ソニズレンタルスタジオ南阿佐ヶ谷店": {
+    "primary_station": "南阿佐ケ谷駅",
+    "distance_to_primary_station_m": 116,
+    "candidate_stations": "南阿佐ケ谷駅|阿佐ヶ谷駅|新高円寺駅|荻窪駅|高円寺駅",
+    "station_count": 5
+  },
+  "サウンドスタジオノア 野方店": {
+    "primary_station": "野方駅",
+    "distance_to_primary_station_m": 106,
+    "candidate_stations": "野方駅|都立家政駅|沼袋駅|鷺ノ宮駅|高円寺駅|新井薬師前駅|中野駅",
+    "station_count": 7
+  },
+  "サウンドスタジオノア都立大店": {
+    "primary_station": "都立大学駅",
+    "distance_to_primary_station_m": 56,
+    "candidate_stations": "都立大学駅|緑が丘駅|自由が丘駅|学芸大学駅|大岡山駅|奥沢駅|洗足駅|九品仏駅|北千束駅",
+    "station_count": 9
+  },
+  "サカモトトモキ・ダンススタジオ": {
+    "primary_station": "神楽坂駅",
+    "distance_to_primary_station_m": 133,
+    "candidate_stations": "神楽坂駅|牛込神楽坂駅|江戸川橋駅|牛込柳町駅|早稲田駅|飯田橋駅|若松河田駅|市ケ谷駅|茗荷谷駅|曙橋駅",
+    "station_count": 10
+  },
+  "ささらバレエアカデミー 平井駅": {
+    "primary_station": "平井駅",
+    "distance_to_primary_station_m": 130,
+    "candidate_stations": "平井駅|東あずま駅|亀戸水神駅|小村井駅|新小岩駅|亀戸駅",
+    "station_count": 6
+  },
+  "TONIC DANCE STUDIO 阿佐ヶ谷": {
+    "primary_station": "南阿佐ケ谷駅",
+    "distance_to_primary_station_m": 248,
+    "candidate_stations": "南阿佐ケ谷駅|阿佐ヶ谷駅|新高円寺駅|高円寺駅|荻窪駅",
+    "station_count": 5
+  },
+  "サムズダンススタジオ": {
+    "primary_station": "用賀駅",
+    "distance_to_primary_station_m": 85,
+    "candidate_stations": "用賀駅|桜新町駅|上野毛駅|二子玉川駅",
+    "station_count": 4
+  },
+  "サワミュージカルスタジオ": {
+    "primary_station": "西新宿五丁目駅（清水橋）",
+    "distance_to_primary_station_m": 299,
+    "candidate_stations": "西新宿五丁目駅（清水橋）|中野新橋駅|中野坂上駅|都庁前駅|西新宿駅|初台駅|中野富士見町駅|新中野駅|幡ヶ谷駅|新宿西口駅",
+    "station_count": 10
+  },
+  "クリエイティブスペース・フュージョン": {
+    "primary_station": "西荻窪駅",
+    "distance_to_primary_station_m": 141,
+    "candidate_stations": "西荻窪駅|荻窪駅|三鷹台駅|久我山駅|井の頭公園駅|吉祥寺駅",
+    "station_count": 6
+  },
+  "レンタルスタジオ 阿佐ヶ谷リノ": {
+    "primary_station": "南阿佐ケ谷駅",
+    "distance_to_primary_station_m": 434,
+    "candidate_stations": "南阿佐ケ谷駅|阿佐ヶ谷駅|荻窪駅|新高円寺駅|高円寺駅",
+    "station_count": 5
+  },
+  "ジーロックス・スタジオ": {
+    "primary_station": "下高井戸駅",
+    "distance_to_primary_station_m": 420,
+    "candidate_stations": "下高井戸駅|桜上水駅|松原駅|永福町駅|明大前駅|西永福駅|上北沢駅|山下駅|東松原駅|豪徳寺駅",
+    "station_count": 10
+  },
+  "BUZZ田無": {
+    "primary_station": "田無駅",
+    "distance_to_primary_station_m": 337,
+    "candidate_stations": "田無駅|西武柳沢駅",
+    "station_count": 2
+  },
+  "ジョイ・バレエ ストゥーディオ 平和台スタジオ": {
+    "primary_station": "氷川台駅",
+    "distance_to_primary_station_m": 655,
+    "candidate_stations": "氷川台駅|平和台駅|東武練馬駅|上板橋駅|新桜台駅|桜台駅|豊島園駅",
+    "station_count": 7
+  },
+  "ジョイ・バレエ ストゥーディオ 本部スタジオ": {
+    "primary_station": "椎名町駅",
+    "distance_to_primary_station_m": 241,
+    "candidate_stations": "椎名町駅|下落合駅|落合南長崎駅|要町駅|目白駅|東長崎駅|中井駅|高田馬場駅|千川駅|池袋駅",
+    "station_count": 10
+  },
+  "シルクスタジオ": {
+    "primary_station": "長沼駅",
+    "distance_to_primary_station_m": 495,
+    "candidate_stations": "長沼駅|北野駅|平山城址公園駅|片倉駅",
+    "station_count": 4
+  },
+  "ジンドー学園": {
+    "primary_station": "東久留米駅",
+    "distance_to_primary_station_m": 138,
+    "candidate_stations": "東久留米駅|ひばりヶ丘駅|清瀬駅",
+    "station_count": 3
+  },
+  "シンフォニー": {
+    "primary_station": "東十条駅",
+    "distance_to_primary_station_m": 281,
+    "candidate_stations": "東十条駅|王子神谷駅|十条駅|王子駅前駅|王子駅|飛鳥山駅|栄町駅|新板橋駅|志茂駅|滝野川一丁目駅",
+    "station_count": 10
+  },
+  "スギタダンススクール": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "スキップスタジオ成城": {
+    "primary_station": "成城学園前駅",
+    "distance_to_primary_station_m": 1019,
+    "candidate_stations": "成城学園前駅|祖師ヶ谷大蔵駅|喜多見駅",
+    "station_count": 3
+  },
+  "スタジオ in フットサルステージ（多摩センター）": {
+    "primary_station": "小田急多摩センター駅",
+    "distance_to_primary_station_m": 380,
+    "candidate_stations": "小田急多摩センター駅|京王多摩センター駅|唐木田駅",
+    "station_count": 3
+  },
+  "スタジオ With The Heart": {
+    "primary_station": "江戸川橋駅",
+    "distance_to_primary_station_m": 197,
+    "candidate_stations": "江戸川橋駅|神楽坂駅|牛込神楽坂駅|茗荷谷駅|飯田橋駅|早稲田駅|牛込柳町駅|護国寺駅|後楽園駅|春日駅",
+    "station_count": 10
+  },
+  "スタジオ アドバンス": {
+    "primary_station": "稲毛駅",
+    "distance_to_primary_station_m": 83,
+    "candidate_stations": "稲毛駅|京成稲毛駅|みどり台駅|稲毛海岸駅|穴川駅|西千葉駅",
+    "station_count": 6
+  },
+  "スタジオ エルヴール": {
+    "primary_station": "西小山駅",
+    "distance_to_primary_station_m": 619,
+    "candidate_stations": "西小山駅|武蔵小山駅|荏原中延駅|戸越銀座駅|戸越駅|旗の台駅|洗足駅|中延駅|荏原町駅|戸越公園駅",
+    "station_count": 10
+  },
+  "スタジオ エレ": {
+    "primary_station": "落合駅",
+    "distance_to_primary_station_m": 319,
+    "candidate_stations": "落合駅|東中野駅|中井駅|新井薬師前駅|下落合駅|落合南長崎駅|中野坂上駅|中野駅|大久保駅|新大久保駅",
+    "station_count": 10
+  },
+  "スタジオ シヴァ音楽教室/中板橋": {
+    "primary_station": "中板橋駅",
+    "distance_to_primary_station_m": 92,
+    "candidate_stations": "中板橋駅|ときわ台駅|大山駅|板橋本町駅|板橋区役所前駅|本蓮沼駅|下板橋駅",
+    "station_count": 7
+  },
+  "レンタルスタジオNSA 1号店": {
+    "primary_station": "北１３条東駅",
+    "distance_to_primary_station_m": 302,
+    "candidate_stations": "北１３条東駅|北１２条駅|北１８条駅|札幌駅|東区役所前駅|さっぽろ駅|北２４条駅|桑園駅|環状通東駅|大通駅",
+    "station_count": 10
+  },
+  "スタジオ ジュエル": {
+    "primary_station": "練馬春日町駅",
+    "distance_to_primary_station_m": 876,
+    "candidate_stations": "練馬春日町駅|中村橋駅|富士見台駅|光が丘駅|豊島園駅|練馬高野台駅",
+    "station_count": 6
+  },
+  "スタジオククナ": {
+    "primary_station": "東十条駅",
+    "distance_to_primary_station_m": 200,
+    "candidate_stations": "東十条駅|十条駅|王子神谷駅|王子駅前駅|王子駅|新板橋駅|飛鳥山駅|赤羽駅|滝野川一丁目駅|志茂駅",
+    "station_count": 10
+  },
+  "CREO王子駅前｜ダンススタジオ｜レンタルスペース": {
+    "primary_station": "王子駅前駅",
+    "distance_to_primary_station_m": 97,
+    "candidate_stations": "王子駅前駅|王子駅|飛鳥山駅|滝野川一丁目駅|西ケ原駅|梶原駅|西ヶ原四丁目駅|上中里駅|西巣鴨駅|王子神谷駅",
+    "station_count": 10
+  },
+  "Studio Face": {
+    "primary_station": "王子駅前駅",
+    "distance_to_primary_station_m": 346,
+    "candidate_stations": "王子駅前駅|王子駅|飛鳥山駅|栄町駅|滝野川一丁目駅|西ヶ原四丁目駅|西ケ原駅|王子神谷駅|梶原駅|東十条駅",
+    "station_count": 10
+  },
+  "スタジオ リル 千葉市川市店": {
+    "primary_station": "行徳駅",
+    "distance_to_primary_station_m": 164,
+    "candidate_stations": "行徳駅|妙典駅|南行徳駅|瑞江駅",
+    "station_count": 4
+  },
+  "スタジオ ルカロ": {
+    "primary_station": "岩塚駅",
+    "distance_to_primary_station_m": 523,
+    "candidate_stations": "岩塚駅|近鉄八田駅|八田駅|小本駅|烏森駅|高畑駅|中村公園駅|黄金駅|荒子駅",
+    "station_count": 9
+  },
+  "スタジオ・アヴァンティ": {
+    "primary_station": "東村山駅",
+    "distance_to_primary_station_m": 281,
+    "candidate_stations": "東村山駅|久米川駅|八坂駅|西武園駅",
+    "station_count": 4
+  },
+  "スタジオ・エルカミーノ": {
+    "primary_station": "小岩駅",
+    "distance_to_primary_station_m": 194,
+    "candidate_stations": "小岩駅|京成小岩駅|江戸川駅",
+    "station_count": 3
+  },
+  "スタジオ・ブリエ 四谷": {
+    "primary_station": "四谷三丁目駅",
+    "distance_to_primary_station_m": 430,
+    "candidate_stations": "四谷三丁目駅|曙橋駅|四ツ谷駅|市ケ谷駅|信濃町駅|麹町駅|牛込柳町駅|新宿御苑前駅|若松河田駅|国立競技場駅",
+    "station_count": 10
+  },
+  "スタジオ・マンサナ": {
+    "primary_station": "後楽園駅",
+    "distance_to_primary_station_m": 148,
+    "candidate_stations": "後楽園駅|春日駅|水道橋駅|本郷三丁目駅|飯田橋駅|東大前駅|白山駅|茗荷谷駅|九段下駅|根津駅",
+    "station_count": 10
+  },
+  "スタジオ・リアル": {
+    "primary_station": "中野新橋駅",
+    "distance_to_primary_station_m": 316,
+    "candidate_stations": "中野新橋駅|西新宿五丁目駅（清水橋）|中野坂上駅|中野富士見町駅|新中野駅|都庁前駅|西新宿駅|初台駅|幡ヶ谷駅|東中野駅",
+    "station_count": 10
+  },
+  "スタジオBOS": {
+    "primary_station": "東武練馬駅",
+    "distance_to_primary_station_m": 787,
+    "candidate_stations": "東武練馬駅|上板橋駅|志村三丁目駅|蓮根駅|平和台駅",
+    "station_count": 5
+  },
+  "スタジオＤ２": {
+    "primary_station": "白山駅",
+    "distance_to_primary_station_m": 389,
+    "candidate_stations": "白山駅|東大前駅|本駒込駅|後楽園駅|春日駅|根津駅|千石駅|千駄木駅|本郷三丁目駅|茗荷谷駅",
+    "station_count": 10
+  },
+  "スタジオＤＤＦ": {
+    "primary_station": "西葛西駅",
+    "distance_to_primary_station_m": 146,
+    "candidate_stations": "西葛西駅|葛西駅",
+    "station_count": 2
+  },
+  "スタジオGAEA": {
+    "primary_station": "沼袋駅",
+    "distance_to_primary_station_m": 174,
+    "candidate_stations": "沼袋駅|新井薬師前駅|野方駅|中野駅|新江古田駅|落合南長崎駅|中井駅|都立家政駅",
+    "station_count": 8
+  },
+  "スタジオK": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "スタジオmi-sa｜フラメンコ・フラダンス教室・レンタルスタジオ": {
+    "primary_station": "板橋区役所前駅",
+    "distance_to_primary_station_m": 270,
+    "candidate_stations": "板橋区役所前駅|下板橋駅|新板橋駅|板橋駅|大山駅|北池袋駅|板橋本町駅|十条駅|中板橋駅|西巣鴨駅",
+    "station_count": 10
+  },
+  "スタジオSOPIC": {
+    "primary_station": "成瀬駅",
+    "distance_to_primary_station_m": 95,
+    "candidate_stations": "成瀬駅|つくし野駅|長津田駅|恩田駅",
+    "station_count": 4
+  },
+  "スタジオアリス 足立舎人店": {
+    "primary_station": "舎人駅",
+    "distance_to_primary_station_m": 47,
+    "candidate_stations": "舎人駅|舎人公園駅|見沼代親水公園駅|谷在家駅",
+    "station_count": 4
+  },
+  "スタジオカリヨン": {
+    "primary_station": "東武練馬駅",
+    "distance_to_primary_station_m": 784,
+    "candidate_stations": "東武練馬駅|下赤塚駅|地下鉄赤塚駅|平和台駅",
+    "station_count": 4
+  },
+  "スタジオキャリコ": {
+    "primary_station": "大師前駅",
+    "distance_to_primary_station_m": 209,
+    "candidate_stations": "大師前駅|西新井駅|西新井大師西駅|江北駅|梅島駅|高野駅|谷在家駅|竹ノ塚駅|扇大橋駅",
+    "station_count": 9
+  },
+  "スタジオジパング 池上スタジオSTANDARD": {
+    "primary_station": "池上駅",
+    "distance_to_primary_station_m": 162,
+    "candidate_stations": "池上駅|蓮沼駅|矢口渡駅|千鳥町駅|武蔵新田駅|蒲田駅|西馬込駅|下丸子駅|久が原駅",
+    "station_count": 9
+  },
+  "スタジオピネ": {
+    "primary_station": "北岡崎駅",
+    "distance_to_primary_station_m": 1266,
+    "candidate_stations": "北岡崎駅|大門駅",
+    "station_count": 2
+  },
+  "スタジオファイン": {
+    "primary_station": "茂原駅",
+    "distance_to_primary_station_m": 1970,
+    "candidate_stations": "茂原駅",
+    "station_count": 1
+  },
+  "スタジオプラーナ": {
+    "primary_station": "中島駅",
+    "distance_to_primary_station_m": 31,
+    "candidate_stations": "中島駅|南荒子駅|港北駅|荒子駅|高畑駅",
+    "station_count": 5
+  },
+  "スタジオメッセ": {
+    "primary_station": "豊島園駅",
+    "distance_to_primary_station_m": 225,
+    "candidate_stations": "豊島園駅|練馬駅|練馬春日町駅|中村橋駅|桜台駅|平和台駅|氷川台駅|新桜台駅|富士見台駅",
+    "station_count": 9
+  },
+  "スタジオライブラ": {
+    "primary_station": "東中野駅",
+    "distance_to_primary_station_m": 43,
+    "candidate_stations": "東中野駅|落合駅|中井駅|中野坂上駅|大久保駅|下落合駅|新井薬師前駅|西新宿駅|新大久保駅|中野駅",
+    "station_count": 10
+  },
+  "スタジオリーガル池袋": {
+    "primary_station": "北池袋駅",
+    "distance_to_primary_station_m": 507,
+    "candidate_stations": "北池袋駅|巣鴨新田駅|庚申塚駅|板橋駅|西巣鴨駅|新庚申塚駅|下板橋駅|大塚駅|新板橋駅|西ヶ原四丁目駅",
+    "station_count": 10
+  },
+  "スタジオリリオ＆カフェ": {
+    "primary_station": "亀有駅",
+    "distance_to_primary_station_m": 142,
+    "candidate_stations": "亀有駅|北綾瀬駅|京成金町駅|金町駅",
+    "station_count": 4
+  },
+  "スタジオレブローテ": {
+    "primary_station": "小岩駅",
+    "distance_to_primary_station_m": 367,
+    "candidate_stations": "小岩駅|京成小岩駅|江戸川駅|国府台駅",
+    "station_count": 4
+  },
+  "スタジオ階梯-空-": {
+    "primary_station": "東長崎駅",
+    "distance_to_primary_station_m": 316,
+    "candidate_stations": "東長崎駅|落合南長崎駅|椎名町駅|新江古田駅|千川駅|江古田駅|中井駅|要町駅|新井薬師前駅|下落合駅",
+    "station_count": 10
+  },
+  "monoダンススタジオ西巣鴨（レンタルスタジオ）": {
+    "primary_station": "西巣鴨駅",
+    "distance_to_primary_station_m": 212,
+    "candidate_stations": "西巣鴨駅|西ヶ原四丁目駅|新庚申塚駅|庚申塚駅|板橋駅|新板橋駅|巣鴨新田駅|王子駅|西ケ原駅|王子駅前駅",
+    "station_count": 10
+  },
+  "BUZZ レンタルスタジオ巣鴨店": {
+    "primary_station": "巣鴨駅",
+    "distance_to_primary_station_m": 125,
+    "candidate_stations": "巣鴨駅|駒込駅|千石駅|庚申塚駅|大塚駅|巣鴨新田駅|新庚申塚駅|西ヶ原四丁目駅|新大塚駅|西ケ原駅",
+    "station_count": 10
+  },
+  "スタジオα": {
+    "primary_station": "ひばりヶ丘駅",
+    "distance_to_primary_station_m": 326,
+    "candidate_stations": "ひばりヶ丘駅|東久留米駅",
+    "station_count": 2
+  },
+  "monoダンススタジオ-レンタル": {
+    "primary_station": "大塚駅",
+    "distance_to_primary_station_m": 49,
+    "candidate_stations": "大塚駅|向原駅|新大塚駅|庚申塚駅|東池袋四丁目駅|巣鴨駅|東池袋駅|新庚申塚駅|都電雑司ヶ谷駅|西巣鴨駅",
+    "station_count": 10
+  },
+  "レンタルスタジオSunny 駒込店": {
+    "primary_station": "駒込駅",
+    "distance_to_primary_station_m": 526,
+    "candidate_stations": "駒込駅|千石駅|本駒込駅|巣鴨駅|田端駅|白山駅|千駄木駅|西日暮里駅|上中里駅|尾久駅",
+    "station_count": 10
+  },
+  "スペースF・L・S｜昭島レンタルスタジオ": {
+    "primary_station": "中神駅",
+    "distance_to_primary_station_m": 145,
+    "candidate_stations": "中神駅|東中神駅|昭島駅|西立川駅|西武立川駅",
+    "station_count": 5
+  },
+  "スペースアルファ": {
+    "primary_station": "西永福駅",
+    "distance_to_primary_station_m": 183,
+    "candidate_stations": "西永福駅|永福町駅|浜田山駅|桜上水駅|下高井戸駅|上北沢駅|明大前駅|方南町駅|高井戸駅",
+    "station_count": 9
+  },
+  "スペースアルファ㈱光音社": {
+    "primary_station": "西永福駅",
+    "distance_to_primary_station_m": 183,
+    "candidate_stations": "西永福駅|永福町駅|浜田山駅|桜上水駅|下高井戸駅|上北沢駅|明大前駅|方南町駅|高井戸駅",
+    "station_count": 9
+  },
+  "スポーツクラブ ルネサンス 光が丘": {
+    "primary_station": "光が丘駅",
+    "distance_to_primary_station_m": 758,
+    "candidate_stations": "光が丘駅|練馬高野台駅|練馬春日町駅|石神井公園駅",
+    "station_count": 4
+  },
+  "スポーツクラブ ルネサンス 富士見台24": {
+    "primary_station": "富士見台駅",
+    "distance_to_primary_station_m": 192,
+    "candidate_stations": "富士見台駅|中村橋駅|練馬高野台駅|下井草駅|井荻駅|鷺ノ宮駅|豊島園駅",
+    "station_count": 7
+  },
+  "スマイルスタジオTAKANO": {
+    "primary_station": "四ツ木駅",
+    "distance_to_primary_station_m": 627,
+    "candidate_stations": "四ツ木駅|京成立石駅|お花茶屋駅|八広駅|堀切菖蒲園駅|青砥駅|鐘ケ淵駅",
+    "station_count": 7
+  },
+  "セミナールーム茅場町 Co-Edo 3F 貸会議室": {
+    "primary_station": "茅場町駅",
+    "distance_to_primary_station_m": 223,
+    "candidate_stations": "茅場町駅|水天宮前駅|八丁堀駅|日本橋駅|人形町駅|京橋駅|新富町駅|三越前駅|東京駅|門前仲町駅",
+    "station_count": 10
+  },
+  "ソウプラス白金高輪店 ピラティス＆シルクサスペンション": {
+    "primary_station": "白金高輪駅",
+    "distance_to_primary_station_m": 325,
+    "candidate_stations": "白金高輪駅|泉岳寺駅|白金台駅|高輪ゲートウェイ駅|高輪台駅|品川駅|田町駅|三田駅|広尾駅|目黒駅",
+    "station_count": 10
+  },
+  "ソニズダンススタジオ南阿佐ヶ谷": {
+    "primary_station": "南阿佐ケ谷駅",
+    "distance_to_primary_station_m": 100,
+    "candidate_stations": "南阿佐ケ谷駅|阿佐ヶ谷駅|新高円寺駅|荻窪駅|高円寺駅",
+    "station_count": 5
+  },
+  "ソピックカルチャー総合サイト": {
+    "primary_station": "成瀬駅",
+    "distance_to_primary_station_m": 111,
+    "candidate_stations": "成瀬駅|つくし野駅|長津田駅|恩田駅",
+    "station_count": 4
+  },
+  "タカノ": {
+    "primary_station": "四ツ木駅",
+    "distance_to_primary_station_m": 627,
+    "candidate_stations": "四ツ木駅|京成立石駅|お花茶屋駅|八広駅|堀切菖蒲園駅|鐘ケ淵駅|青砥駅",
+    "station_count": 7
+  },
+  "タグチソシアルダンススクール": {
+    "primary_station": "駒沢大学駅",
+    "distance_to_primary_station_m": 248,
+    "candidate_stations": "駒沢大学駅|桜新町駅|松陰神社前駅|世田谷駅|西太子堂駅|若林駅|上町駅|三軒茶屋駅",
+    "station_count": 8
+  },
+  "タケウチ": {
+    "primary_station": "新丸子駅",
+    "distance_to_primary_station_m": 226,
+    "candidate_stations": "新丸子駅|武蔵小杉駅|沼部駅|多摩川駅|向河原駅|田園調布駅|鵜の木駅|御嶽山駅|雪が谷大塚駅|武蔵中原駅",
+    "station_count": 10
+  },
+  "タナカダンススクール": {
+    "primary_station": "重原駅",
+    "distance_to_primary_station_m": 785,
+    "candidate_stations": "重原駅|知立駅|一ツ木駅",
+    "station_count": 3
+  },
+  "Ballet Fl?gel バレエフリューゲル": {
+    "primary_station": "聖蹟桜ヶ丘駅",
+    "distance_to_primary_station_m": 181,
+    "candidate_stations": "聖蹟桜ヶ丘駅|中河原駅|百草園駅",
+    "station_count": 3
+  },
+  "ダンス スタジオ パドブレ": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "ダンスカレッジ古都": {
+    "primary_station": "要町駅",
+    "distance_to_primary_station_m": 220,
+    "candidate_stations": "要町駅|千川駅|椎名町駅|池袋駅|東長崎駅|大山駅|目白駅|北池袋駅|落合南長崎駅|小竹向原駅",
+    "station_count": 10
+  },
+  "ダンススタジオ": {
+    "primary_station": "北見駅",
+    "distance_to_primary_station_m": 471,
+    "candidate_stations": "北見駅",
+    "station_count": 1
+  },
+  "ダンススタジオ NEST": {
+    "primary_station": "東青梅駅",
+    "distance_to_primary_station_m": 668,
+    "candidate_stations": "東青梅駅|河辺駅|青梅駅",
+    "station_count": 3
+  },
+  "ダンススタジオ スターゲート": {
+    "primary_station": "鶴里駅",
+    "distance_to_primary_station_m": 53,
+    "candidate_stations": "鶴里駅|桜本町駅|桜駅|野並駅|本笠寺駅|新瑞橋駅|呼続駅|妙音通駅|瑞穂運動場東駅",
+    "station_count": 9
+  },
+  "ダンススタジオ セピア": {
+    "primary_station": "市川駅",
+    "distance_to_primary_station_m": 348,
+    "candidate_stations": "市川駅|市川真間駅|国府台駅|江戸川駅|菅野駅",
+    "station_count": 5
+  },
+  "ダンススタジオ ハッピーターン": {
+    "primary_station": "両国駅",
+    "distance_to_primary_station_m": 503,
+    "candidate_stations": "両国駅|森下駅|菊川駅|浜町駅|浅草橋駅|東日本橋駅|蔵前駅|清澄白河駅|馬喰横山駅|馬喰町駅",
+    "station_count": 10
+  },
+  "ダンススタジオ ファンデーション 東中野落合校": {
+    "primary_station": "東中野駅",
+    "distance_to_primary_station_m": 392,
+    "candidate_stations": "東中野駅|落合駅|中井駅|新井薬師前駅|中野坂上駅|下落合駅|中野駅|落合南長崎駅|新中野駅|大久保駅",
+    "station_count": 10
+  },
+  "ダンススタジオ ファンデーション 茂原校": {
+    "primary_station": "新茂原駅",
+    "distance_to_primary_station_m": 381,
+    "candidate_stations": "新茂原駅",
+    "station_count": 1
+  },
+  "ダンススタジオ ユー": {
+    "primary_station": "東府中駅",
+    "distance_to_primary_station_m": 77,
+    "candidate_stations": "東府中駅|多磨霊園駅|府中競馬正門前駅|府中駅|白糸台駅|是政駅|競艇場前駅|府中本町駅|武蔵野台駅",
+    "station_count": 9
+  },
+  "ダンススタジオ・スターハウス": {
+    "primary_station": "新浦安駅",
+    "distance_to_primary_station_m": 1841,
+    "candidate_stations": "新浦安駅",
+    "station_count": 1
+  },
+  "Dance space BUG FIX,": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "ダンススタジオ・ミカ": {
+    "primary_station": "麻生駅",
+    "distance_to_primary_station_m": 149,
+    "candidate_stations": "麻生駅|新琴似駅|北３４条駅|新川駅|太平駅",
+    "station_count": 5
+  },
+  "ダンススタジオhow to fly fellows 新浦安校": {
+    "primary_station": "新浦安駅",
+    "distance_to_primary_station_m": 1593,
+    "candidate_stations": "新浦安駅|東京ディズニーシー・ステーション駅|リゾートゲートウェイ・ステーション駅",
+    "station_count": 3
+  },
+  "ダンススタジオｈｏｗｔｏｆｌｙ": {
+    "primary_station": "行徳駅",
+    "distance_to_primary_station_m": 194,
+    "candidate_stations": "行徳駅|妙典駅|南行徳駅|瑞江駅",
+    "station_count": 4
+  },
+  "ダンススタジオｉｎｇ": {
+    "primary_station": "箱崎九大前駅",
+    "distance_to_primary_station_m": 216,
+    "candidate_stations": "箱崎九大前駅|箱崎宮前駅|箱崎駅|馬出九大病院前駅|貝塚駅|吉塚駅",
+    "station_count": 6
+  },
+  "ダンススタジオJJ": {
+    "primary_station": "川越駅",
+    "distance_to_primary_station_m": 241,
+    "candidate_stations": "川越駅|本川越駅|川越市駅",
+    "station_count": 3
+  },
+  "ダンススタジオRUCHIRU": {
+    "primary_station": "草加駅",
+    "distance_to_primary_station_m": 240,
+    "candidate_stations": "草加駅|谷塚駅|獨協大学前(草加松原)駅",
+    "station_count": 3
+  },
+  "バレエスタジオ ソレイユ 大阪高槻校": {
+    "primary_station": "高槻駅",
+    "distance_to_primary_station_m": 1391,
+    "candidate_stations": "高槻駅|高槻市駅",
+    "station_count": 2
+  },
+  "レンタルスタジオ man?ge": {
+    "primary_station": "高槻駅",
+    "distance_to_primary_station_m": 1393,
+    "candidate_stations": "高槻駅|高槻市駅",
+    "station_count": 2
+  },
+  "子ども向け体操教室LUNA STUDIO 松蔭神社前校": {
+    "primary_station": "松陰神社前駅",
+    "distance_to_primary_station_m": 154,
+    "candidate_stations": "松陰神社前駅|世田谷駅|若林駅|上町駅|西太子堂駅|宮の坂駅|駒沢大学駅|豪徳寺駅|山下駅|梅ヶ丘駅",
+    "station_count": 10
+  },
+  "個室レンタルジム AllDayGym 松陰神社店": {
+    "primary_station": "松陰神社前駅",
+    "distance_to_primary_station_m": 191,
+    "candidate_stations": "松陰神社前駅|若林駅|世田谷駅|上町駅|西太子堂駅|宮の坂駅|梅ヶ丘駅|豪徳寺駅|山下駅|三軒茶屋駅",
+    "station_count": 10
+  },
+  "ダンススタジオファンデーション 一宮校": {
+    "primary_station": "東浪見駅",
+    "distance_to_primary_station_m": 1399,
+    "candidate_stations": "東浪見駅",
+    "station_count": 1
+  },
+  "ダンススタジオブリリアント": {
+    "primary_station": "三田本町駅",
+    "distance_to_primary_station_m": 1250,
+    "candidate_stations": "三田本町駅|三田駅|道場駅",
+    "station_count": 3
+  },
+  "NEW STEP Dance Arts Studio": {
+    "primary_station": "布忍駅",
+    "distance_to_primary_station_m": 269,
+    "candidate_stations": "布忍駅|高見ノ里駅|河内天美駅|河内松原駅",
+    "station_count": 4
+  },
+  "ダンススタジオ新宿（レンタルスタジオ）": {
+    "primary_station": "川越駅",
+    "distance_to_primary_station_m": 937,
+    "candidate_stations": "川越駅|川越市駅|本川越駅",
+    "station_count": 3
+  },
+  "ダンススペースDD": {
+    "primary_station": "二子新地駅",
+    "distance_to_primary_station_m": 81,
+    "candidate_stations": "二子新地駅|高津駅|二子玉川駅|溝の口駅|武蔵溝ノ口駅|上野毛駅",
+    "station_count": 6
+  },
+  "ダンススペースオオヤ": {
+    "primary_station": "菊川駅",
+    "distance_to_primary_station_m": 80,
+    "candidate_stations": "菊川駅|森下駅|清澄白河駅|住吉駅|錦糸町駅|両国駅|浜町駅|東日本橋駅|西大島駅|水天宮前駅",
+    "station_count": 10
+  },
+  "ダンスプレイスフェリーチェ (dance place FELICE)": {
+    "primary_station": "金町駅",
+    "distance_to_primary_station_m": 110,
+    "candidate_stations": "金町駅|京成金町駅|柴又駅",
+    "station_count": 3
+  },
+  "ダンスフロアーNEWプラスパ": {
+    "primary_station": "東久留米駅",
+    "distance_to_primary_station_m": 318,
+    "candidate_stations": "東久留米駅|清瀬駅|ひばりヶ丘駅",
+    "station_count": 3
+  },
+  "ダンスホール ESPACE": {
+    "primary_station": "八幡山駅",
+    "distance_to_primary_station_m": 108,
+    "candidate_stations": "八幡山駅|芦花公園駅|上北沢駅|千歳烏山駅|桜上水駅|高井戸駅|浜田山駅|富士見ヶ丘駅",
+    "station_count": 8
+  },
+  "ダンスラッシュ": {
+    "primary_station": "北２４条駅",
+    "distance_to_primary_station_m": 465,
+    "candidate_stations": "北２４条駅|北１８条駅|北１２条駅|北１３条東駅|北３４条駅|東区役所前駅|桑園駅|札幌駅",
+    "station_count": 8
+  },
+  "ダンスレンタルスタジオ プラーナ": {
+    "primary_station": "聖蹟桜ヶ丘駅",
+    "distance_to_primary_station_m": 552,
+    "candidate_stations": "聖蹟桜ヶ丘駅|中河原駅",
+    "station_count": 2
+  },
+  "タントタンツダンススタジオ小金井教室": {
+    "primary_station": "武蔵小金井駅",
+    "distance_to_primary_station_m": 162,
+    "candidate_stations": "武蔵小金井駅|東小金井駅",
+    "station_count": 2
+  },
+  "タントタンツダンススタジオ東所沢教室": {
+    "primary_station": "東所沢駅",
+    "distance_to_primary_station_m": 181,
+    "candidate_stations": "東所沢駅",
+    "station_count": 1
+  },
+  "チコバレエ・アカデミー二号館": {
+    "primary_station": "桜新町駅",
+    "distance_to_primary_station_m": 221,
+    "candidate_stations": "桜新町駅|用賀駅|上町駅|駒沢大学駅|世田谷駅|松陰神社前駅",
+    "station_count": 6
+  },
+  "チコバレエアカデミー1号館": {
+    "primary_station": "上町駅",
+    "distance_to_primary_station_m": 617,
+    "candidate_stations": "上町駅|宮の坂駅|世田谷駅|桜新町駅|経堂駅|松陰神社前駅|山下駅|豪徳寺駅|用賀駅|千歳船橋駅",
+    "station_count": 10
+  },
+  "ちるどれ 上町スタジオ": {
+    "primary_station": "玉造駅",
+    "distance_to_primary_station_m": 710,
+    "candidate_stations": "玉造駅|谷町六丁目駅|森ノ宮駅|谷町四丁目駅|松屋町駅|大阪上本町駅|鶴橋駅|谷町九丁目駅|天満橋駅|大阪城公園駅",
+    "station_count": 10
+  },
+  "ツチヤダンスガーデン": {
+    "primary_station": "高津駅",
+    "distance_to_primary_station_m": 74,
+    "candidate_stations": "高津駅|溝の口駅|武蔵溝ノ口駅|二子新地駅|二子玉川駅|梶が谷駅|津田山駅",
+    "station_count": 7
+  },
+  "ティアラ": {
+    "primary_station": "荏原中延駅",
+    "distance_to_primary_station_m": 91,
+    "candidate_stations": "荏原中延駅|中延駅|戸越公園駅|荏原町駅|戸越駅|戸越銀座駅|旗の台駅|西大井駅|西小山駅|下神明駅",
+    "station_count": 10
+  },
+  "テルコ・ダンススタジオ": {
+    "primary_station": "北３４条駅",
+    "distance_to_primary_station_m": 331,
+    "candidate_stations": "北３４条駅|麻生駅|新琴似駅|北２４条駅|新川駅",
+    "station_count": 5
+  },
+  "スタジオグロウ": {
+    "primary_station": "東中野駅",
+    "distance_to_primary_station_m": 532,
+    "candidate_stations": "東中野駅|中野坂上駅|落合駅|西新宿駅|大久保駅|西新宿五丁目駅（清水橋）|新大久保駅|都庁前駅|中野新橋駅|西武新宿駅",
+    "station_count": 10
+  },
+  "トゥインクルクラブ": {
+    "primary_station": "土橋駅",
+    "distance_to_primary_station_m": 162,
+    "candidate_stations": "土橋駅|三河豊田駅",
+    "station_count": 2
+  },
+  "なかすた（スタジオ神田川）": {
+    "primary_station": "中野富士見町駅",
+    "distance_to_primary_station_m": 163,
+    "candidate_stations": "中野富士見町駅|中野新橋駅|新中野駅|方南町駅|東高円寺駅|幡ヶ谷駅|西新宿五丁目駅（清水橋）|中野坂上駅|笹塚駅|新高円寺駅",
+    "station_count": 10
+  },
+  "ナガトスタジオ": {
+    "primary_station": "葛西駅",
+    "distance_to_primary_station_m": 688,
+    "candidate_stations": "葛西駅|浦安駅|西葛西駅",
+    "station_count": 3
+  },
+  "ナッツ・レンタル・スタジオ": {
+    "primary_station": "駒込駅",
+    "distance_to_primary_station_m": 469,
+    "candidate_stations": "駒込駅|田端駅|千石駅|巣鴨駅|尾久駅|本駒込駅|上中里駅|西日暮里駅|西ケ原駅|千駄木駅",
+    "station_count": 10
+  },
+  "ノアスタジオ 都立大２号店": {
+    "primary_station": "都立大学駅",
+    "distance_to_primary_station_m": 61,
+    "candidate_stations": "都立大学駅|緑が丘駅|自由が丘駅|学芸大学駅|大岡山駅|奥沢駅|洗足駅|九品仏駅|北千束駅",
+    "station_count": 9
+  },
+  "ノアスタジオ 都立大店（ダンス・演劇）": {
+    "primary_station": "都立大学駅",
+    "distance_to_primary_station_m": 151,
+    "candidate_stations": "都立大学駅|自由が丘駅|緑が丘駅|大岡山駅|奥沢駅|学芸大学駅|九品仏駅|洗足駅",
+    "station_count": 8
+  },
+  "シバヨガ鶴川スタジオ": {
+    "primary_station": "鶴川駅",
+    "distance_to_primary_station_m": 1402,
+    "candidate_stations": "鶴川駅",
+    "station_count": 1
+  },
+  "スタジオクレイン鶴川": {
+    "primary_station": "鶴川駅",
+    "distance_to_primary_station_m": 167,
+    "candidate_stations": "鶴川駅|柿生駅",
+    "station_count": 2
+  },
+  "ハーラウ ナー マモ オ カアラ‐ナゴヤ": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "ハーラウオフイロカヒ H?lau?oHui L?kahi": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "ハウススタジオ プラネアールときわ台スタジオ": {
+    "primary_station": "ときわ台駅",
+    "distance_to_primary_station_m": 159,
+    "candidate_stations": "ときわ台駅|中板橋駅|上板橋駅|板橋本町駅|本蓮沼駅|大山駅|志村坂上駅|志村三丁目駅",
+    "station_count": 8
+  },
+  "パルティールバレエスタジオ": {
+    "primary_station": "春日駅",
+    "distance_to_primary_station_m": 292,
+    "candidate_stations": "春日駅|後楽園駅|本郷三丁目駅|東大前駅|水道橋駅|白山駅|飯田橋駅|根津駅|湯島駅|御茶ノ水駅",
+    "station_count": 10
+  },
+  "バレエアカデミー 江川明バレエ・スタジオ": {
+    "primary_station": "大岡山駅",
+    "distance_to_primary_station_m": 145,
+    "candidate_stations": "大岡山駅|北千束駅|緑が丘駅|洗足駅|洗足池駅|石川台駅|長原駅|奥沢駅|旗の台駅|西小山駅",
+    "station_count": 10
+  },
+  "バレエアトリエ クレール": {
+    "primary_station": "唐木田駅",
+    "distance_to_primary_station_m": 746,
+    "candidate_stations": "唐木田駅|小田急多摩センター駅|京王多摩センター駅|京王堀之内駅",
+    "station_count": 4
+  },
+  "バレエアトリエリュミエール": {
+    "primary_station": "早稲田駅",
+    "distance_to_primary_station_m": 464,
+    "candidate_stations": "早稲田駅|面影橋駅|西早稲田駅|若松河田駅|学習院下駅|牛込柳町駅|高田馬場駅|東新宿駅|雑司が谷駅|江戸川橋駅",
+    "station_count": 10
+  },
+  "バレエスタジオ ピアチェーレ": {
+    "primary_station": "葛西駅",
+    "distance_to_primary_station_m": 991,
+    "candidate_stations": "葛西駅|葛西臨海公園駅|西葛西駅",
+    "station_count": 3
+  },
+  "K Dance Nexus DANCE STUDIO 百合ヶ丘A": {
+    "primary_station": "百合ヶ丘駅",
+    "distance_to_primary_station_m": 95,
+    "candidate_stations": "百合ヶ丘駅|新百合ヶ丘駅|読売ランド前駅",
+    "station_count": 3
+  },
+  "K Dance Nexus DANCE STUDIO 百合ケ丘B": {
+    "primary_station": "百合ヶ丘駅",
+    "distance_to_primary_station_m": 382,
+    "candidate_stations": "百合ヶ丘駅|新百合ヶ丘駅|読売ランド前駅|五月台駅",
+    "station_count": 4
+  },
+  "バレエスタジオJewels": {
+    "primary_station": "千歳船橋駅",
+    "distance_to_primary_station_m": 579,
+    "candidate_stations": "千歳船橋駅|経堂駅|宮の坂駅|上町駅|山下駅|豪徳寺駅|松原駅|世田谷駅|祖師ヶ谷大蔵駅",
+    "station_count": 9
+  },
+  "バレエスタジオＭＯＭＯ": {
+    "primary_station": "千川駅",
+    "distance_to_primary_station_m": 196,
+    "candidate_stations": "千川駅|小竹向原駅|東長崎駅|要町駅|江古田駅|椎名町駅|大山駅|新桜台駅|新江古田駅|落合南長崎駅",
+    "station_count": 10
+  },
+  "K Dance Nexus Dance Studio 読売ランド前": {
+    "primary_station": "読売ランド前駅",
+    "distance_to_primary_station_m": 92,
+    "candidate_stations": "読売ランド前駅|生田駅|百合ヶ丘駅",
+    "station_count": 3
+  },
+  "バレエスタジオコルツァ（Ballet Studio Colza）": {
+    "primary_station": "めじろ台駅",
+    "distance_to_primary_station_m": 108,
+    "candidate_stations": "めじろ台駅|狭間駅|山田駅|西八王子駅",
+    "station_count": 4
+  },
+  "パンキースタジオ": {
+    "primary_station": "京王堀之内駅",
+    "distance_to_primary_station_m": 153,
+    "candidate_stations": "京王堀之内駅|唐木田駅",
+    "station_count": 2
+  },
+  "バンドスタジオ ベースオントップ京橋店": {
+    "primary_station": "京橋駅",
+    "distance_to_primary_station_m": 345,
+    "candidate_stations": "京橋駅|蒲生四丁目駅|大阪ビジネスパーク駅|鴫野駅|ＪＲ野江駅|大阪城北詰駅|大阪城公園駅|野江駅|野江内代駅|都島駅",
+    "station_count": 10
+  },
+  "カンパニードゥ・ダンスアカデミー": {
+    "primary_station": "西調布駅",
+    "distance_to_primary_station_m": 469,
+    "candidate_stations": "西調布駅|飛田給駅|京王多摩川駅|矢野口駅|武蔵野台駅|調布駅|白糸台駅",
+    "station_count": 7
+  },
+  "ピラティス&キッズダンス studio p-body": {
+    "primary_station": "大泉学園駅",
+    "distance_to_primary_station_m": 1835,
+    "candidate_stations": "大泉学園駅",
+    "station_count": 1
+  },
+  "ピラティス＆ヨガスタジオOlulu -オルル- 練馬スタジオ": {
+    "primary_station": "練馬駅",
+    "distance_to_primary_station_m": 174,
+    "candidate_stations": "練馬駅|桜台駅|豊島園駅|新桜台駅|新江古田駅|氷川台駅|江古田駅|中村橋駅",
+    "station_count": 8
+  },
+  "ファーストクラブ": {
+    "primary_station": "一橋学園駅",
+    "distance_to_primary_station_m": 242,
+    "candidate_stations": "一橋学園駅|青梅街道駅|新小平駅|小平駅|鷹の台駅|萩山駅",
+    "station_count": 6
+  },
+  "フラダンス教室 Hula Halau LIKO": {
+    "primary_station": "鷹の台駅",
+    "distance_to_primary_station_m": 1741,
+    "candidate_stations": "鷹の台駅|国立駅|恋ヶ窪駅",
+    "station_count": 3
+  },
+  "フラダンス教室 ハーラウ･オ･リーリーレフア": {
+    "primary_station": "代々木上原駅",
+    "distance_to_primary_station_m": 265,
+    "candidate_stations": "代々木上原駅|代々木八幡駅|代々木公園駅|東北沢駅|幡ヶ谷駅|駒場東大前駅|池ノ上駅|初台駅|参宮橋駅|笹塚駅",
+    "station_count": 10
+  },
+  "IK noelle Ballet Contemporary": {
+    "primary_station": "上北沢駅",
+    "distance_to_primary_station_m": 94,
+    "candidate_stations": "上北沢駅|八幡山駅|桜上水駅|芦花公園駅|浜田山駅|西永福駅|下高井戸駅|高井戸駅|松原駅|永福町駅",
+    "station_count": 10
+  },
+  "プリンセスユーダンスセンター 武蔵小山ダンススクール": {
+    "primary_station": "武蔵小山駅",
+    "distance_to_primary_station_m": 206,
+    "candidate_stations": "武蔵小山駅|西小山駅|戸越銀座駅|不動前駅|洗足駅|荏原中延駅|戸越駅|旗の台駅|北千束駅|中延駅",
+    "station_count": 10
+  },
+  "ブレイクダンスタジオ パワームーブ大阪": {
+    "primary_station": "大阪上本町駅",
+    "distance_to_primary_station_m": 589,
+    "candidate_stations": "大阪上本町駅|谷町九丁目駅|谷町六丁目駅|松屋町駅|鶴橋駅|玉造駅|谷町四丁目駅|長堀橋駅|日本橋駅|近鉄日本橋駅",
+    "station_count": 10
+  },
+  "フレックススタイル 船堀校": {
+    "primary_station": "船堀駅",
+    "distance_to_primary_station_m": 192,
+    "candidate_stations": "船堀駅|東大島駅|一之江駅",
+    "station_count": 3
+  },
+  "ヘルシースタジオ": {
+    "primary_station": "新木曽川駅",
+    "distance_to_primary_station_m": 518,
+    "candidate_stations": "新木曽川駅|木曽川駅|黒田駅",
+    "station_count": 3
+  },
+  "ペンテフラットスタジオ": {
+    "primary_station": "浦安駅",
+    "distance_to_primary_station_m": 182,
+    "candidate_stations": "浦安駅|南行徳駅",
+    "station_count": 2
+  },
+  "ポールダンススタジオBird of Paradise": {
+    "primary_station": "東金駅",
+    "distance_to_primary_station_m": 1903,
+    "candidate_stations": "東金駅",
+    "station_count": 1
+  },
+  "スイープスタジオ": {
+    "primary_station": "板橋区役所前駅",
+    "distance_to_primary_station_m": 139,
+    "candidate_stations": "板橋区役所前駅|下板橋駅|大山駅|新板橋駅|板橋駅|北池袋駅|板橋本町駅|中板橋駅|十条駅|西巣鴨駅",
+    "station_count": 10
+  },
+  "studioハレマニ": {
+    "primary_station": "西巣鴨駅",
+    "distance_to_primary_station_m": 380,
+    "candidate_stations": "西巣鴨駅|板橋駅|新庚申塚駅|庚申塚駅|北池袋駅|新板橋駅|西ヶ原四丁目駅|下板橋駅|大塚駅|向原駅",
+    "station_count": 10
+  },
+  "スタジオチアベル studioCheerBell （チアダンス教室）": {
+    "primary_station": "高島平駅",
+    "distance_to_primary_station_m": 95,
+    "candidate_stations": "高島平駅|新高島平駅|西台駅|西高島平駅|蓮根駅",
+    "station_count": 5
+  },
+  "ホットヨガスタジオLAVA 中野坂上店": {
+    "primary_station": "中野坂上駅",
+    "distance_to_primary_station_m": 254,
+    "candidate_stations": "中野坂上駅|西新宿五丁目駅（清水橋）|中野新橋駅|西新宿駅|都庁前駅|新中野駅|東中野駅|中野富士見町駅|大久保駅|新宿西口駅",
+    "station_count": 10
+  },
+  "Gerbera Ballet ＊ バレエ教室": {
+    "primary_station": "上板橋駅",
+    "distance_to_primary_station_m": 281,
+    "candidate_stations": "上板橋駅|東武練馬駅|ときわ台駅|氷川台駅|平和台駅",
+    "station_count": 5
+  },
+  "スタジオルミエル": {
+    "primary_station": "新板橋駅",
+    "distance_to_primary_station_m": 272,
+    "candidate_stations": "新板橋駅|板橋駅|西巣鴨駅|下板橋駅|西ヶ原四丁目駅|新庚申塚駅|北池袋駅|滝野川一丁目駅|庚申塚駅|板橋区役所前駅",
+    "station_count": 10
+  },
+  "Legato HALL": {
+    "primary_station": "高島平駅",
+    "distance_to_primary_station_m": 159,
+    "candidate_stations": "高島平駅|新高島平駅|西台駅|蓮根駅|西高島平駅",
+    "station_count": 5
+  },
+  "マイダンススクール": {
+    "primary_station": "聖蹟桜ヶ丘駅",
+    "distance_to_primary_station_m": 105,
+    "candidate_stations": "聖蹟桜ヶ丘駅|中河原駅|百草園駅",
+    "station_count": 3
+  },
+  "マイムダンススクール": {
+    "primary_station": "若林駅",
+    "distance_to_primary_station_m": 485,
+    "candidate_stations": "若林駅",
+    "station_count": 1
+  },
+  "マインクラブダンススタジオ": {
+    "primary_station": "祐天寺駅",
+    "distance_to_primary_station_m": 145,
+    "candidate_stations": "祐天寺駅|中目黒駅|学芸大学駅|代官山駅|池尻大橋駅|恵比寿駅|三軒茶屋駅",
+    "station_count": 7
+  },
+  "マウリ・ナニスタジオ": {
+    "primary_station": "南町田グランベリーパーク駅",
+    "distance_to_primary_station_m": 347,
+    "candidate_stations": "南町田グランベリーパーク駅|つきみ野駅|すずかけ台駅",
+    "station_count": 3
+  },
+  "マツイダンスアカデミー": {
+    "primary_station": "小池駅",
+    "distance_to_primary_station_m": 1253,
+    "candidate_stations": "小池駅|愛知大学前駅|柳生橋駅|新豊橋駅|豊橋駅|南栄駅",
+    "station_count": 6
+  },
+  "BUZZ レンタルスタジオ 大阪京橋店": {
+    "primary_station": "京橋駅",
+    "distance_to_primary_station_m": 280,
+    "candidate_stations": "京橋駅|大阪城北詰駅|大阪ビジネスパーク駅|大阪城公園駅|ＪＲ野江駅|蒲生四丁目駅|鴫野駅|桜ノ宮駅|都島駅|野江内代駅",
+    "station_count": 10
+  },
+  "マヅカダンスカンパニー": {
+    "primary_station": "浜田山駅",
+    "distance_to_primary_station_m": 211,
+    "candidate_stations": "浜田山駅|西永福駅|高井戸駅|永福町駅|上北沢駅|桜上水駅|八幡山駅|下高井戸駅",
+    "station_count": 8
+  },
+  "マリーコンツェルト": {
+    "primary_station": "中板橋駅",
+    "distance_to_primary_station_m": 184,
+    "candidate_stations": "中板橋駅|ときわ台駅|板橋本町駅|大山駅|板橋区役所前駅|本蓮沼駅|上板橋駅",
+    "station_count": 7
+  },
+  "ミタニダンススタジオ": {
+    "primary_station": "高宮駅",
+    "distance_to_primary_station_m": 463,
+    "candidate_stations": "高宮駅|南彦根駅|スクリーン駅|彦根口駅",
+    "station_count": 4
+  },
+  "ミハタホール": {
+    "primary_station": "八幡山駅",
+    "distance_to_primary_station_m": 100,
+    "candidate_stations": "八幡山駅|芦花公園駅|上北沢駅|千歳烏山駅|高井戸駅|桜上水駅|浜田山駅|富士見ヶ丘駅",
+    "station_count": 8
+  },
+  "ミュージックサロン アマーブルNUTSスタジオ駒込店": {
+    "primary_station": "駒込駅",
+    "distance_to_primary_station_m": 472,
+    "candidate_stations": "駒込駅|田端駅|千石駅|巣鴨駅|尾久駅|本駒込駅|上中里駅|西日暮里駅|西ケ原駅|千駄木駅",
+    "station_count": 10
+  },
+  "ミュージックサロン アマーブル十条店": {
+    "primary_station": "十条駅",
+    "distance_to_primary_station_m": 245,
+    "candidate_stations": "十条駅|東十条駅|王子神谷駅|板橋本町駅|新板橋駅|板橋区役所前駅|赤羽駅|本蓮沼駅|王子駅前駅|板橋駅",
+    "station_count": 10
+  },
+  "SOLARI Rental Studio 日本橋 - 日本橋人形町・馬喰町エリアのレンタルスタジオ": {
+    "primary_station": "馬喰横山駅",
+    "distance_to_primary_station_m": 302,
+    "candidate_stations": "馬喰横山駅|馬喰町駅|人形町駅|小伝馬町駅|浅草橋駅|両国駅|水天宮前駅|新日本橋駅|岩本町駅|森下駅",
+    "station_count": 10
+  },
+  "モノダンススタジオ 八王子校": {
+    "primary_station": "北野駅",
+    "distance_to_primary_station_m": 34,
+    "candidate_stations": "北野駅|長沼駅|片倉駅|京王片倉駅|京王八王子駅|八王子駅",
+    "station_count": 6
+  },
+  "ヨガ・ピラティススタジオSerenita西新井店": {
+    "primary_station": "西新井駅",
+    "distance_to_primary_station_m": 229,
+    "candidate_stations": "西新井駅|大師前駅|梅島駅|竹ノ塚駅|西新井大師西駅|江北駅",
+    "station_count": 6
+  },
+  "リアクション2MANA": {
+    "primary_station": "本郷三丁目駅",
+    "distance_to_primary_station_m": 283,
+    "candidate_stations": "本郷三丁目駅|春日駅|後楽園駅|水道橋駅|御茶ノ水駅|湯島駅|東大前駅|神保町駅|飯田橋駅|新御茶ノ水駅",
+    "station_count": 10
+  },
+  "リアクション2はなれ": {
+    "primary_station": "氷川台駅",
+    "distance_to_primary_station_m": 367,
+    "candidate_stations": "氷川台駅|新桜台駅|平和台駅|上板橋駅|小竹向原駅|桜台駅|江古田駅|東武練馬駅",
+    "station_count": 8
+  },
+  "リーホースタジオ": {
+    "primary_station": "南砂町駅",
+    "distance_to_primary_station_m": 756,
+    "candidate_stations": "南砂町駅|西葛西駅|東陽町駅",
+    "station_count": 3
+  },
+  "レキップバレエスタジオ": {
+    "primary_station": "大泉学園駅",
+    "distance_to_primary_station_m": 107,
+    "candidate_stations": "大泉学園駅|保谷駅",
+    "station_count": 2
+  },
+  "レンタルスタジオ": {
+    "primary_station": "長原駅",
+    "distance_to_primary_station_m": 91,
+    "candidate_stations": "長原駅|洗足池駅|北千束駅|旗の台駅|洗足駅|荏原町駅|大岡山駅|石川台駅|中延駅|馬込駅",
+    "station_count": 10
+  },
+  "レンタルスタジオ 【MO-LE STUDIO】": {
+    "primary_station": "方南町駅",
+    "distance_to_primary_station_m": 441,
+    "candidate_stations": "方南町駅|永福町駅|中野富士見町駅|新高円寺駅|東高円寺駅|代田橋駅|西永福駅|笹塚駅|明大前駅|新中野駅",
+    "station_count": 10
+  },
+  "レンタルスタジオ D-Base 高津店": {
+    "primary_station": "高津駅",
+    "distance_to_primary_station_m": 187,
+    "candidate_stations": "高津駅|二子新地駅|溝の口駅|武蔵溝ノ口駅|二子玉川駅|梶が谷駅|津田山駅|武蔵新城駅",
+    "station_count": 8
+  },
+  "レンタルスタジオ D-Base 大岡山店": {
+    "primary_station": "大岡山駅",
+    "distance_to_primary_station_m": 355,
+    "candidate_stations": "大岡山駅|北千束駅|洗足池駅|緑が丘駅|石川台駅|洗足駅|長原駅|奥沢駅|旗の台駅|雪が谷大塚駅",
+    "station_count": 10
+  },
+  "アテール明大前第２スタジオ（レンタルスタジオ）": {
+    "primary_station": "明大前駅",
+    "distance_to_primary_station_m": 189,
+    "candidate_stations": "明大前駅|代田橋駅|東松原駅|下高井戸駅|永福町駅|新代田駅|松原駅|笹塚駅|梅ヶ丘駅|方南町駅",
+    "station_count": 10
+  },
+  "レンタルスタジオ D-Base 武蔵境店": {
+    "primary_station": "武蔵境駅",
+    "distance_to_primary_station_m": 185,
+    "candidate_stations": "武蔵境駅|三鷹駅|新小金井駅|東小金井駅",
+    "station_count": 4
+  },
+  "レンタルスタジオ Grip 下高井戸": {
+    "primary_station": "下高井戸駅",
+    "distance_to_primary_station_m": 419,
+    "candidate_stations": "下高井戸駅|桜上水駅|松原駅|明大前駅|上北沢駅|永福町駅|山下駅|経堂駅|豪徳寺駅|西永福駅",
+    "station_count": 10
+  },
+  "八王子レンタルスタジオ・アドレ": {
+    "primary_station": "めじろ台駅",
+    "distance_to_primary_station_m": 816,
+    "candidate_stations": "めじろ台駅|西八王子駅|狭間駅|山田駅",
+    "station_count": 4
+  },
+  "レンタルスタジオ LOOP": {
+    "primary_station": "蟹江駅",
+    "distance_to_primary_station_m": 277,
+    "candidate_stations": "蟹江駅|近鉄蟹江駅|戸田駅",
+    "station_count": 3
+  },
+  "レンタルスタジオ studio agend 浦安・市川": {
+    "primary_station": "南行徳駅",
+    "distance_to_primary_station_m": 42,
+    "candidate_stations": "南行徳駅|浦安駅|行徳駅",
+    "station_count": 3
+  },
+  "レンタルスタジオ Studio One": {
+    "primary_station": "十条駅",
+    "distance_to_primary_station_m": 245,
+    "candidate_stations": "十条駅|東十条駅|王子神谷駅|板橋本町駅|新板橋駅|板橋区役所前駅|赤羽駅|本蓮沼駅|王子駅前駅|板橋駅",
+    "station_count": 10
+  },
+  "レンタルスタジオ アーマーズピンクドア": {
+    "primary_station": "東長崎駅",
+    "distance_to_primary_station_m": 98,
+    "candidate_stations": "東長崎駅|落合南長崎駅|千川駅|椎名町駅|新江古田駅|江古田駅|要町駅|小竹向原駅|中井駅|新桜台駅",
+    "station_count": 10
+  },
+  "レンタルスタジオ シンデレラドリーム": {
+    "primary_station": "東陽町駅",
+    "distance_to_primary_station_m": 264,
+    "candidate_stations": "東陽町駅|南砂町駅|潮見駅|木場駅",
+    "station_count": 4
+  },
+  "レンタルスタジオ ふわり": {
+    "primary_station": "新桜台駅",
+    "distance_to_primary_station_m": 354,
+    "candidate_stations": "新桜台駅|桜台駅|江古田駅|新江古田駅|練馬駅|氷川台駅|小竹向原駅|豊島園駅|東長崎駅",
+    "station_count": 9
+  },
+  "レンタルスタジオ ワンデースタジオ": {
+    "primary_station": "大泉学園駅",
+    "distance_to_primary_station_m": 549,
+    "candidate_stations": "大泉学園駅|保谷駅",
+    "station_count": 2
+  },
+  "レンタルスタジオ・Ｆ": {
+    "primary_station": "鷹の台駅",
+    "distance_to_primary_station_m": 1115,
+    "candidate_stations": "鷹の台駅|小川駅|新小平駅|東大和市駅",
+    "station_count": 4
+  },
+  "レンタルスタジオ・ジェッター": {
+    "primary_station": "上野原駅",
+    "distance_to_primary_station_m": 464,
+    "candidate_stations": "上野原駅",
+    "station_count": 1
+  },
+  "レンタルスタジオ/ステップ東村山１号店": {
+    "primary_station": "久米川駅",
+    "distance_to_primary_station_m": 123,
+    "candidate_stations": "久米川駅|八坂駅|萩山駅|東村山駅|小川駅|小平駅",
+    "station_count": 6
+  },
+  "レンタルスタジオ/ステップ東村山２号店": {
+    "primary_station": "久米川駅",
+    "distance_to_primary_station_m": 299,
+    "candidate_stations": "久米川駅|八坂駅|萩山駅|東村山駅|小川駅|小平駅|青梅街道駅|新小平駅",
+    "station_count": 8
+  },
+  "レンタルスタジオ8 NORTH GATE": {
+    "primary_station": "山田駅",
+    "distance_to_primary_station_m": 653,
+    "candidate_stations": "山田駅|西八王子駅|めじろ台駅|京王片倉駅|八王子駅",
+    "station_count": 5
+  },
+  "レンタルスタジオART FACTORY淡路店": {
+    "primary_station": "淡路駅",
+    "distance_to_primary_station_m": 77,
+    "candidate_stations": "淡路駅|ＪＲ淡路駅|下新庄駅|崇禅寺駅|東淀川駅|柴島駅|南吹田駅|新大阪駅|東三国駅|上新庄駅",
+    "station_count": 10
+  },
+  "レンタルスタジオCLI CLI": {
+    "primary_station": "長原駅",
+    "distance_to_primary_station_m": 113,
+    "candidate_stations": "長原駅|旗の台駅|北千束駅|洗足池駅|荏原町駅|洗足駅|大岡山駅|中延駅|石川台駅|西小山駅",
+    "station_count": 10
+  },
+  "レンタルスタジオ葛西": {
+    "primary_station": "葛西駅",
+    "distance_to_primary_station_m": 100,
+    "candidate_stations": "葛西駅|西葛西駅|浦安駅",
+    "station_count": 3
+  },
+  "レンタルスタジオ池袋・駒込マイックル": {
+    "primary_station": "駒込駅",
+    "distance_to_primary_station_m": 334,
+    "candidate_stations": "駒込駅|上中里駅|尾久駅|西ケ原駅|田端駅|巣鴨駅|千石駅|梶原駅|荒川車庫前駅|本駒込駅",
+    "station_count": 10
+  },
+  "レンタルスペース リノスペcamp東京ドーム": {
+    "primary_station": "水道橋駅",
+    "distance_to_primary_station_m": 167,
+    "candidate_stations": "水道橋駅|九段下駅|神保町駅|飯田橋駅|春日駅|後楽園駅|御茶ノ水駅|本郷三丁目駅|新御茶ノ水駅|竹橋駅",
+    "station_count": 10
+  },
+  "レンタルスペース・スタジオ": {
+    "primary_station": "御嶽山駅",
+    "distance_to_primary_station_m": 61,
+    "candidate_stations": "御嶽山駅|久が原駅|雪が谷大塚駅|沼部駅|鵜の木駅|多摩川駅|石川台駅|下丸子駅|千鳥町駅|洗足池駅",
+    "station_count": 10
+  },
+  "レンタルホールフレンド永山": {
+    "primary_station": "小田急永山駅",
+    "distance_to_primary_station_m": 133,
+    "candidate_stations": "小田急永山駅|京王永山駅|はるひ野駅",
+    "station_count": 3
+  },
+  "レンタルリレイション(下馬校)": {
+    "primary_station": "下馬駅",
+    "distance_to_primary_station_m": 711,
+    "candidate_stations": "下馬駅|塩釜駅|多賀城駅|西塩釜駅",
+    "station_count": 4
+  },
+  "レンタル撮影スタジオDOLLY飯田橋1号店": {
+    "primary_station": "飯田橋駅",
+    "distance_to_primary_station_m": 134,
+    "candidate_stations": "飯田橋駅|水道橋駅|九段下駅|後楽園駅|牛込神楽坂駅|春日駅|神楽坂駅|神保町駅|本郷三丁目駅|江戸川橋駅",
+    "station_count": 10
+  },
+  "SISTERS TOKYO 八王子校 ダンススクール": {
+    "primary_station": "日野駅",
+    "distance_to_primary_station_m": 1102,
+    "candidate_stations": "日野駅|豊田駅|北八王子駅",
+    "station_count": 3
+  },
+  "ワーサルレンタルスタジオ（Aスタジオ）": {
+    "primary_station": "笹塚駅",
+    "distance_to_primary_station_m": 386,
+    "candidate_stations": "笹塚駅|代田橋駅|方南町駅|新代田駅|明大前駅|東北沢駅|幡ヶ谷駅|下北沢駅|東松原駅|代々木上原駅",
+    "station_count": 10
+  },
+  "ワーサルレンタルスタジオ（Cスタジオ）": {
+    "primary_station": "代田橋駅",
+    "distance_to_primary_station_m": 201,
+    "candidate_stations": "代田橋駅|笹塚駅|明大前駅|新代田駅|東松原駅|方南町駅|下北沢駅|東北沢駅|世田谷代田駅|幡ヶ谷駅",
+    "station_count": 10
+  },
+  "ポールダンススタジオ アンジュエル豊田校": {
+    "primary_station": "豊田市駅",
+    "distance_to_primary_station_m": 552,
+    "candidate_stations": "豊田市駅|新豊田駅|上挙母駅|新上挙母駅|梅坪駅",
+    "station_count": 5
+  },
+  "安城市クロスポート音楽教室＆ダンススクール日の出町校": {
+    "primary_station": "南安城駅",
+    "distance_to_primary_station_m": 322,
+    "candidate_stations": "南安城駅|安城駅|北安城駅|碧海古井駅",
+    "station_count": 4
+  },
+  "伊藤ダンススクールＫＡＮＡＭＡＣＨＩ": {
+    "primary_station": "金町駅",
+    "distance_to_primary_station_m": 81,
+    "candidate_stations": "金町駅|京成金町駅|柴又駅",
+    "station_count": 3
+  },
+  "永福町スタジオ/ライマーラマ:タヒチアンダンススタジオ": {
+    "primary_station": "永福町駅",
+    "distance_to_primary_station_m": 205,
+    "candidate_stations": "永福町駅|西永福駅|下高井戸駅|明大前駅|桜上水駅|代田橋駅|松原駅|浜田山駅|方南町駅|東松原駅",
+    "station_count": 10
+  },
+  "演劇舞台稽古場 ファンファーレレンタルスタジオ新宿御苑（撮影スタジオとして利用可能）": {
+    "primary_station": "新宿御苑前駅",
+    "distance_to_primary_station_m": 497,
+    "candidate_stations": "新宿御苑前駅|四谷三丁目駅|曙橋駅|若松河田駅|新宿三丁目駅|東新宿駅|国立競技場駅|新宿駅|信濃町駅|西武新宿駅",
+    "station_count": 10
+  },
+  "遠藤ユキヒコ・ダンススタジオ 新浦安教室": {
+    "primary_station": "新浦安駅",
+    "distance_to_primary_station_m": 869,
+    "candidate_stations": "新浦安駅",
+    "station_count": 1
+  },
+  "塩野啓子バレエスタジオ": {
+    "primary_station": "矢川駅",
+    "distance_to_primary_station_m": 91,
+    "candidate_stations": "矢川駅|西国立駅|谷保駅",
+    "station_count": 3
+  },
+  "王子飛鳥山レンタルスタジオ": {
+    "primary_station": "王子駅",
+    "distance_to_primary_station_m": 267,
+    "candidate_stations": "王子駅|王子駅前駅|滝野川一丁目駅|西ケ原駅|西ヶ原四丁目駅|上中里駅|梶原駅|西巣鴨駅|新庚申塚駅|荒川車庫前駅",
+    "station_count": 10
+  },
+  "加藤みや子ダンススペース ANNEX SENGAWA-FACTORY": {
+    "primary_station": "仙川駅",
+    "distance_to_primary_station_m": 271,
+    "candidate_stations": "仙川駅|つつじヶ丘駅|千歳烏山駅|柴崎駅",
+    "station_count": 4
+  },
+  "花柳 珠絃": {
+    "primary_station": "扇大橋駅",
+    "distance_to_primary_station_m": 587,
+    "candidate_stations": "扇大橋駅|高野駅|江北駅|足立小台駅|大師前駅|西新井駅|西新井大師西駅",
+    "station_count": 7
+  },
+  "学園坂スタジオ": {
+    "primary_station": "一橋学園駅",
+    "distance_to_primary_station_m": 239,
+    "candidate_stations": "一橋学園駅|青梅街道駅|新小平駅|小平駅|鷹の台駅|萩山駅",
+    "station_count": 6
+  },
+  "学園坂スタジオ（E,Fスタジオ）": {
+    "primary_station": "一橋学園駅",
+    "distance_to_primary_station_m": 175,
+    "candidate_stations": "一橋学園駅|青梅街道駅|新小平駅|鷹の台駅|小平駅|萩山駅|恋ヶ窪駅",
+    "station_count": 7
+  },
+  "楽?can": {
+    "primary_station": "西新宿五丁目駅（清水橋）",
+    "distance_to_primary_station_m": 421,
+    "candidate_stations": "西新宿五丁目駅（清水橋）|中野坂上駅|中野新橋駅|都庁前駅|西新宿駅|新中野駅|中野富士見町駅|初台駅|東中野駅|新宿西口駅",
+    "station_count": 10
+  },
+  "株式会社Dia Corporation": {
+    "primary_station": "土橋駅",
+    "distance_to_primary_station_m": 162,
+    "candidate_stations": "土橋駅|三河豊田駅",
+    "station_count": 2
+  },
+  "GUIDANCE DANCE STUDIO": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "鏡陽司ダンススタジオ": {
+    "primary_station": "小川駅",
+    "distance_to_primary_station_m": 299,
+    "candidate_stations": "小川駅|八坂駅|新小平駅|萩山駅|久米川駅|青梅街道駅|鷹の台駅",
+    "station_count": 7
+  },
+  "金町 レンタルスタジオ ダンスロッヂ": {
+    "primary_station": "京成金町駅",
+    "distance_to_primary_station_m": 350,
+    "candidate_stations": "京成金町駅|金町駅|柴又駅",
+    "station_count": 3
+  },
+  "金町カフェレンタルスタジオ": {
+    "primary_station": "金町駅",
+    "distance_to_primary_station_m": 175,
+    "candidate_stations": "金町駅|京成金町駅|柴又駅",
+    "station_count": 3
+  },
+  "結城ダンス教室": {
+    "primary_station": "久米川駅",
+    "distance_to_primary_station_m": 121,
+    "candidate_stations": "久米川駅|八坂駅|萩山駅|東村山駅|小川駅|小平駅",
+    "station_count": 6
+  },
+  "月島スタジオ": {
+    "primary_station": "月島駅",
+    "distance_to_primary_station_m": 301,
+    "candidate_stations": "月島駅|勝どき駅|築地駅|新富町駅|越中島駅|八丁堀駅|築地市場駅|東銀座駅|宝町駅|門前仲町駅",
+    "station_count": 10
+  },
+  "御茶ノ水 おちゃすた レンタルスタジオ": {
+    "primary_station": "神保町駅",
+    "distance_to_primary_station_m": 305,
+    "candidate_stations": "神保町駅|新御茶ノ水駅|御茶ノ水駅|小川町駅|竹橋駅|九段下駅|水道橋駅|神田駅|大手町駅|岩本町駅",
+    "station_count": 10
+  },
+  "江古田ダンスアカデミー": {
+    "primary_station": "新桜台駅",
+    "distance_to_primary_station_m": 145,
+    "candidate_stations": "新桜台駅|江古田駅|桜台駅|新江古田駅|小竹向原駅|氷川台駅|練馬駅|東長崎駅|千川駅|豊島園駅",
+    "station_count": 10
+  },
+  "高円寺スタジオ": {
+    "primary_station": "高円寺駅",
+    "distance_to_primary_station_m": 147,
+    "candidate_stations": "高円寺駅|新高円寺駅|東高円寺駅|阿佐ヶ谷駅|中野駅|野方駅|南阿佐ケ谷駅|都立家政駅|沼袋駅|新中野駅",
+    "station_count": 10
+  },
+  "国立ミュージカルスタジオ": {
+    "primary_station": "国立駅",
+    "distance_to_primary_station_m": 179,
+    "candidate_stations": "国立駅|西国分寺駅|谷保駅|恋ヶ窪駅",
+    "station_count": 4
+  },
+  "佐々木隆子タップダンススタジオ（蒲田本部スタジオ）": {
+    "primary_station": "糀谷駅",
+    "distance_to_primary_station_m": 402,
+    "candidate_stations": "糀谷駅|京急蒲田駅|雑色駅|蒲田駅|大鳥居駅|梅屋敷駅|蓮沼駅",
+    "station_count": 7
+  },
+  "桜丘けい子ジャズダンススタジオ": {
+    "primary_station": "新津田沼駅",
+    "distance_to_primary_station_m": 285,
+    "candidate_stations": "新津田沼駅|京成津田沼駅|津田沼駅|谷津駅|前原駅",
+    "station_count": 5
+  },
+  "三浦恵子ダンススタジオ": {
+    "primary_station": "西岡崎駅",
+    "distance_to_primary_station_m": 679,
+    "candidate_stations": "西岡崎駅|矢作橋駅",
+    "station_count": 2
+  },
+  "仕田原 京 バレエスタジオ": {
+    "primary_station": "尾山台駅",
+    "distance_to_primary_station_m": 136,
+    "candidate_stations": "尾山台駅|等々力駅|九品仏駅|上野毛駅|自由が丘駅|田園調布駅|奥沢駅",
+    "station_count": 7
+  },
+  "寺島ゆかりバレエクラス スタジオ マカロン": {
+    "primary_station": "梅ヶ丘駅",
+    "distance_to_primary_station_m": 81,
+    "candidate_stations": "梅ヶ丘駅|豪徳寺駅|世田谷代田駅|山下駅|東松原駅|新代田駅|若林駅|宮の坂駅|松原駅|松陰神社前駅",
+    "station_count": 10
+  },
+  "舎人公園 ドッグラン": {
+    "primary_station": "舎人公園駅",
+    "distance_to_primary_station_m": 181,
+    "candidate_stations": "舎人公園駅|舎人駅|谷在家駅|西新井大師西駅|見沼代親水公園駅|竹ノ塚駅",
+    "station_count": 6
+  },
+  "舎人公園陸上競技場": {
+    "primary_station": "舎人公園駅",
+    "distance_to_primary_station_m": 480,
+    "candidate_stations": "舎人公園駅|舎人駅|谷在家駅|見沼代親水公園駅",
+    "station_count": 4
+  },
+  "社交ダンススタジオリハーサル": {
+    "primary_station": "西武立川駅",
+    "distance_to_primary_station_m": 1833,
+    "candidate_stations": "西武立川駅",
+    "station_count": 1
+  },
+  "社交ダンス教室セイブグローリーダンス": {
+    "primary_station": "西小山駅",
+    "distance_to_primary_station_m": 312,
+    "candidate_stations": "西小山駅|武蔵小山駅|洗足駅|北千束駅|戸越銀座駅|荏原中延駅|旗の台駅|不動前駅|学芸大学駅|大岡山駅",
+    "station_count": 10
+  },
+  "Studio Sun-Sea": {
+    "primary_station": "堀切菖蒲園駅",
+    "distance_to_primary_station_m": 89,
+    "candidate_stations": "堀切菖蒲園駅|堀切駅|お花茶屋駅|京成関屋駅|牛田駅|綾瀬駅|鐘ケ淵駅|小菅駅|四ツ木駅|北千住駅",
+    "station_count": 10
+  },
+  "渋谷笹塚スタジオ": {
+    "primary_station": "笹塚駅",
+    "distance_to_primary_station_m": 126,
+    "candidate_stations": "笹塚駅|代田橋駅|幡ヶ谷駅|東北沢駅|方南町駅|新代田駅|代々木上原駅|下北沢駅|明大前駅|東松原駅",
+    "station_count": 10
+  },
+  "BUZZ竹ノ塚": {
+    "primary_station": "竹ノ塚駅",
+    "distance_to_primary_station_m": 295,
+    "candidate_stations": "竹ノ塚駅|舎人公園駅|谷在家駅|大師前駅|舎人駅",
+    "station_count": 5
+  },
+  "笑舞CHEER&DANCE STUDIO 板橋スクール": {
+    "primary_station": "志村三丁目駅",
+    "distance_to_primary_station_m": 25,
+    "candidate_stations": "志村三丁目駅|志村坂上駅|蓮根駅|西台駅|浮間舟渡駅|上板橋駅|本蓮沼駅",
+    "station_count": 7
+  },
+  "城北公園前レンタルスタジオ": {
+    "primary_station": "蓮根駅",
+    "distance_to_primary_station_m": 255,
+    "candidate_stations": "蓮根駅|志村三丁目駅|西台駅|浮間舟渡駅|志村坂上駅|高島平駅",
+    "station_count": 6
+  },
+  "森下スタジオ": {
+    "primary_station": "森下駅",
+    "distance_to_primary_station_m": 269,
+    "candidate_stations": "森下駅|菊川駅|清澄白河駅|浜町駅|両国駅|住吉駅|水天宮前駅|東日本橋駅|錦糸町駅|人形町駅",
+    "station_count": 10
+  },
+  "森山みえフラメンコ教室": {
+    "primary_station": "小岩駅",
+    "distance_to_primary_station_m": 260,
+    "candidate_stations": "小岩駅|京成小岩駅|江戸川駅",
+    "station_count": 3
+  },
+  "森谷クラシックバレエ": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "神楽坂バレエクラス": {
+    "primary_station": "飯田橋駅",
+    "distance_to_primary_station_m": 400,
+    "candidate_stations": "飯田橋駅|牛込神楽坂駅|神楽坂駅|江戸川橋駅|水道橋駅|九段下駅|後楽園駅|市ケ谷駅|牛込柳町駅|春日駅",
+    "station_count": 10
+  },
+  "神楽坂フミバレエアカデミー": {
+    "primary_station": "飯田橋駅",
+    "distance_to_primary_station_m": 476,
+    "candidate_stations": "飯田橋駅|神楽坂駅|牛込神楽坂駅|後楽園駅|江戸川橋駅|春日駅|水道橋駅|茗荷谷駅|九段下駅|本郷三丁目駅",
+    "station_count": 10
+  },
+  "水道橋ダンススタジオ": {
+    "primary_station": "水道橋駅",
+    "distance_to_primary_station_m": 168,
+    "candidate_stations": "水道橋駅|九段下駅|飯田橋駅|神保町駅|後楽園駅|春日駅|本郷三丁目駅|御茶ノ水駅|新御茶ノ水駅|竹橋駅",
+    "station_count": 10
+  },
+  "杉並だんすアトリウム": {
+    "primary_station": "下高井戸駅",
+    "distance_to_primary_station_m": 94,
+    "candidate_stations": "下高井戸駅|松原駅|桜上水駅|明大前駅|永福町駅|西永福駅|東松原駅|山下駅|豪徳寺駅|上北沢駅",
+    "station_count": 10
+  },
+  "菅井ダンス・スタジオ": {
+    "primary_station": "連坊駅",
+    "distance_to_primary_station_m": 193,
+    "candidate_stations": "連坊駅|五橋駅|愛宕橋駅|榴ヶ岡駅|宮城野通駅|河原町駅|仙台駅|薬師堂駅|あおば通駅|宮城野原駅",
+    "station_count": 10
+  },
+  "清瀬のレンタルスタジオ｜ダンススタジオ｜レンタルスタジオ｜レンタルスペース【studio NEW YORK】": {
+    "primary_station": "清瀬駅",
+    "distance_to_primary_station_m": 255,
+    "candidate_stations": "清瀬駅|東久留米駅",
+    "station_count": 2
+  },
+  "西荻窪永谷ダンススタジオ": {
+    "primary_station": "西荻窪駅",
+    "distance_to_primary_station_m": 107,
+    "candidate_stations": "西荻窪駅|三鷹台駅|井の頭公園駅|吉祥寺駅|久我山駅|荻窪駅",
+    "station_count": 6
+  },
+  "西荻窪七宝レンタルスペース": {
+    "primary_station": "西荻窪駅",
+    "distance_to_primary_station_m": 259,
+    "candidate_stations": "西荻窪駅|井の頭公園駅|吉祥寺駅|三鷹台駅|久我山駅|荻窪駅",
+    "station_count": 6
+  },
+  "西葛西ダンススタジオ mind-blowing": {
+    "primary_station": "西葛西駅",
+    "distance_to_primary_station_m": 140,
+    "candidate_stations": "西葛西駅|葛西駅",
+    "station_count": 2
+  },
+  "スタジオアンダンティーノ": {
+    "primary_station": "田端駅",
+    "distance_to_primary_station_m": 152,
+    "candidate_stations": "田端駅|西日暮里駅|赤土小学校前駅|尾久駅|駒込駅|新三河島駅|千駄木駅|小台駅|日暮里駅|上中里駅",
+    "station_count": 10
+  },
+  "斉藤ひろ子バレエスタジオ": {
+    "primary_station": "梅島駅",
+    "distance_to_primary_station_m": 562,
+    "candidate_stations": "梅島駅|五反野駅|西新井駅|青井駅|小菅駅",
+    "station_count": 5
+  },
+  "石原ダンスクラブ 本店": {
+    "primary_station": "四ツ谷駅",
+    "distance_to_primary_station_m": 165,
+    "candidate_stations": "四ツ谷駅|市ケ谷駅|四谷三丁目駅|麹町駅|曙橋駅|半蔵門駅|信濃町駅|牛込柳町駅|赤坂見附駅|永田町駅",
+    "station_count": 10
+  },
+  "石原ヒサシダンススクール": {
+    "primary_station": "市ケ谷駅",
+    "distance_to_primary_station_m": 169,
+    "candidate_stations": "市ケ谷駅|四ツ谷駅|麹町駅|牛込神楽坂駅|半蔵門駅|曙橋駅|牛込柳町駅|神楽坂駅|飯田橋駅|四谷三丁目駅",
+    "station_count": 10
+  },
+  "梅島ミアスタジオ": {
+    "primary_station": "梅島駅",
+    "distance_to_primary_station_m": 472,
+    "candidate_stations": "梅島駅|西新井駅|大師前駅|五反野駅",
+    "station_count": 4
+  },
+  "石川須?子・田中いづみダンスアカデミー": {
+    "primary_station": "小竹向原駅",
+    "distance_to_primary_station_m": 244,
+    "candidate_stations": "小竹向原駅|江古田駅|新桜台駅|千川駅|新江古田駅|東長崎駅|桜台駅|氷川台駅",
+    "station_count": 8
+  },
+  "ココのスタジオ": {
+    "primary_station": "梅島駅",
+    "distance_to_primary_station_m": 224,
+    "candidate_stations": "梅島駅|西新井駅|五反野駅|大師前駅|小菅駅",
+    "station_count": 5
+  },
+  "仙川 スタジオ 舞仙 レンタルダンススタジオ": {
+    "primary_station": "仙川駅",
+    "distance_to_primary_station_m": 52,
+    "candidate_stations": "仙川駅|つつじヶ丘駅|千歳烏山駅|柴崎駅",
+    "station_count": 4
+  },
+  "相田フラメンコ教室": {
+    "primary_station": "豊田駅",
+    "distance_to_primary_station_m": 358,
+    "candidate_stations": "豊田駅|南平駅|平山城址公園駅|北八王子駅",
+    "station_count": 4
+  },
+  "Starbox": {
+    "primary_station": "木場駅",
+    "distance_to_primary_station_m": 410,
+    "candidate_stations": "木場駅|東陽町駅|潮見駅|門前仲町駅|越中島駅|南砂町駅|清澄白河駅",
+    "station_count": 7
+  },
+  "村山・横川バレエスクール": {
+    "primary_station": "北綾瀬駅",
+    "distance_to_primary_station_m": 1439,
+    "candidate_stations": "北綾瀬駅|六町駅",
+    "station_count": 2
+  },
+  "多摩市ダンススクールFANTASY": {
+    "primary_station": "小田急永山駅",
+    "distance_to_primary_station_m": 698,
+    "candidate_stations": "小田急永山駅|京王永山駅|京王多摩センター駅|小田急多摩センター駅",
+    "station_count": 4
+  },
+  "多目的スペース「時々海風が吹くスタジオ」": {
+    "primary_station": "亀戸水神駅",
+    "distance_to_primary_station_m": 399,
+    "candidate_stations": "亀戸水神駅|亀戸駅|大島駅|西大島駅|東あずま駅|平井駅|東大島駅|小村井駅|錦糸町駅|住吉駅",
+    "station_count": 10
+  },
+  "多目的貸スタジオ-TSスタジオ": {
+    "primary_station": "志村三丁目駅",
+    "distance_to_primary_station_m": 267,
+    "candidate_stations": "志村三丁目駅|蓮根駅|志村坂上駅|西台駅|上板橋駅|浮間舟渡駅|本蓮沼駅",
+    "station_count": 7
+  },
+  "体幹・柔軟性強化&ポールダンス スタジオWeBA（ウィーバ）": {
+    "primary_station": "大島駅",
+    "distance_to_primary_station_m": 413,
+    "candidate_stations": "大島駅|西大島駅|東大島駅|亀戸駅|亀戸水神駅|住吉駅|南砂町駅",
+    "station_count": 7
+  },
+  "貸し会議室 & 全国蕎麦製粉会館【JK Room 駒込】": {
+    "primary_station": "駒込駅",
+    "distance_to_primary_station_m": 168,
+    "candidate_stations": "駒込駅|巣鴨駅|千石駅|田端駅|上中里駅|本駒込駅|西ケ原駅|尾久駅|白山駅|西ヶ原四丁目駅",
+    "station_count": 10
+  },
+  "貸スペース 東京レンタルスタジオ": {
+    "primary_station": "亀有駅",
+    "distance_to_primary_station_m": 380,
+    "candidate_stations": "亀有駅|お花茶屋駅",
+    "station_count": 2
+  },
+  "貸ホールスペース６": {
+    "primary_station": "千歳烏山駅",
+    "distance_to_primary_station_m": 100,
+    "candidate_stations": "千歳烏山駅|芦花公園駅|八幡山駅|仙川駅|富士見ヶ丘駅",
+    "station_count": 5
+  },
+  "Ohana Room Studio浦安": {
+    "primary_station": "浦安駅",
+    "distance_to_primary_station_m": 119,
+    "candidate_stations": "浦安駅|南行徳駅|葛西駅",
+    "station_count": 3
+  },
+  "大宮 ラージス レンタルスタジオ": {
+    "primary_station": "大宮駅",
+    "distance_to_primary_station_m": 511,
+    "candidate_stations": "大宮駅|北大宮駅|さいたま新都心駅|鉄道博物館駅|大宮公園駅|北与野駅",
+    "station_count": 6
+  },
+  "大人バレエMiho Ballet Arts下高井戸": {
+    "primary_station": "下高井戸駅",
+    "distance_to_primary_station_m": 92,
+    "candidate_stations": "下高井戸駅|松原駅|桜上水駅|明大前駅|永福町駅|西永福駅|東松原駅|山下駅|豪徳寺駅|上北沢駅",
+    "station_count": 10
+  },
+  "大泉学園ノートル": {
+    "primary_station": "大泉学園駅",
+    "distance_to_primary_station_m": 159,
+    "candidate_stations": "大泉学園駅|保谷駅|石神井公園駅",
+    "station_count": 3
+  },
+  "大谷哲章バレエスタジオアプロン": {
+    "primary_station": "中野坂上駅",
+    "distance_to_primary_station_m": 181,
+    "candidate_stations": "中野坂上駅|東中野駅|西新宿五丁目駅（清水橋）|中野新橋駅|西新宿駅|新中野駅|都庁前駅|大久保駅|落合駅|新宿西口駅",
+    "station_count": 10
+  },
+  "中目黒 すわ山 レンタルスタジオ": {
+    "primary_station": "中目黒駅",
+    "distance_to_primary_station_m": 412,
+    "candidate_stations": "中目黒駅|祐天寺駅|代官山駅|池尻大橋駅|恵比寿駅|学芸大学駅|神泉駅|渋谷駅",
+    "station_count": 8
+  },
+  "島村楽器 イオンモール札幌平岡店": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "東久留米駅前ダンススタジオテレマーク": {
+    "primary_station": "東久留米駅",
+    "distance_to_primary_station_m": 95,
+    "candidate_stations": "東久留米駅|ひばりヶ丘駅|清瀬駅",
+    "station_count": 3
+  },
+  "東急スポーツオアシス聖路加ガーデン": {
+    "primary_station": "築地駅",
+    "distance_to_primary_station_m": 559,
+    "candidate_stations": "築地駅|月島駅|新富町駅|八丁堀駅|勝どき駅|東銀座駅|築地市場駅|宝町駅|京橋駅|銀座一丁目駅",
+    "station_count": 10
+  },
+  "東急スポーツオアシス雪谷24Plus": {
+    "primary_station": "御嶽山駅",
+    "distance_to_primary_station_m": 410,
+    "candidate_stations": "御嶽山駅|雪が谷大塚駅|沼部駅|多摩川駅|久が原駅|石川台駅|鵜の木駅|田園調布駅|新丸子駅|洗足池駅",
+    "station_count": 10
+  },
+  "スタジオ イリス": {
+    "primary_station": "なし",
+    "station_count": 0
+  },
+  "東京バレエ学園": {
+    "primary_station": "豊田駅",
+    "distance_to_primary_station_m": 215,
+    "candidate_stations": "豊田駅|南平駅|平山城址公園駅",
+    "station_count": 3
+  },
+  "東京バレエ学園麹町教室": {
+    "primary_station": "麹町駅",
+    "distance_to_primary_station_m": 314,
+    "candidate_stations": "麹町駅|市ケ谷駅|半蔵門駅|四ツ谷駅|永田町駅|赤坂見附駅|曙橋駅|四谷三丁目駅|牛込神楽坂駅|九段下駅",
+    "station_count": 10
+  },
+  "徳永由貴バレエスクール": {
+    "primary_station": "中板橋駅",
+    "distance_to_primary_station_m": 15,
+    "candidate_stations": "中板橋駅|ときわ台駅|大山駅|板橋本町駅|板橋区役所前駅|本蓮沼駅|上板橋駅|小竹向原駅|千川駅",
+    "station_count": 9
+  },
+  "楠潤一郎ダンスアカデミー": {
+    "primary_station": "大塚駅",
+    "distance_to_primary_station_m": 179,
+    "candidate_stations": "大塚駅|向原駅|新大塚駅|庚申塚駅|巣鴨駅|新庚申塚駅|東池袋四丁目駅|東池袋駅|西巣鴨駅|西ヶ原四丁目駅",
+    "station_count": 10
+  },
+  "二子玉川レンタルスタジオ M?ni Frey": {
+    "primary_station": "二子玉川駅",
+    "distance_to_primary_station_m": 248,
+    "candidate_stations": "二子玉川駅|二子新地駅|上野毛駅|高津駅|等々力駅|用賀駅|溝の口駅|武蔵溝ノ口駅",
+    "station_count": 8
+  },
+  "八百和子 バレエ教室": {
+    "primary_station": "尾久駅",
+    "distance_to_primary_station_m": 375,
+    "candidate_stations": "尾久駅|荒川遊園地前駅|小台駅|荒川車庫前駅|宮ノ前駅|田端駅|赤土小学校前駅|上中里駅|熊野前駅|梶原駅",
+    "station_count": 10
+  },
+  "バーミリオン フェニックス チアダンス スタジオ": {
+    "primary_station": "練馬駅",
+    "distance_to_primary_station_m": 512,
+    "candidate_stations": "練馬駅|豊島園駅|中村橋駅|桜台駅|都立家政駅|鷺ノ宮駅|野方駅|富士見台駅|新桜台駅|新江古田駅",
+    "station_count": 10
+  },
+  "飛鳥ダンススクール（パソコンスクール＆塾）": {
+    "primary_station": "つつじヶ丘駅",
+    "distance_to_primary_station_m": 239,
+    "candidate_stations": "つつじヶ丘駅|柴崎駅|仙川駅|国領駅",
+    "station_count": 4
+  },
+  "浜松ダンススクール ゲットアヘッド": {
+    "primary_station": "天竜川駅",
+    "distance_to_primary_station_m": 1920,
+    "candidate_stations": "天竜川駅",
+    "station_count": 1
+  },
+  "舞空間ばくdance studio": {
+    "primary_station": "葛西駅",
+    "distance_to_primary_station_m": 70,
+    "candidate_stations": "葛西駅|西葛西駅|浦安駅",
+    "station_count": 3
+  },
+  "望月愛生バレエスタジオ": {
+    "primary_station": "久が原駅",
+    "distance_to_primary_station_m": 44,
+    "candidate_stations": "久が原駅|鵜の木駅|御嶽山駅|千鳥町駅|下丸子駅|沼部駅|武蔵新田駅|雪が谷大塚駅|池上駅|向河原駅",
+    "station_count": 10
+  },
+  "名古屋レンタルスタジオPovit": {
+    "primary_station": "名古屋駅",
+    "distance_to_primary_station_m": 404,
+    "candidate_stations": "名古屋駅|名鉄名古屋駅|近鉄名古屋駅|太閤通駅|米野駅|ささしまライブ駅|国際センター駅|亀島駅|黄金駅|本陣駅",
+    "station_count": 10
+  },
+  "名古屋今池 NY 9st. Studio ｜ニューヨークナインストリートスタジオ": {
+    "primary_station": "今池駅",
+    "distance_to_primary_station_m": 501,
+    "candidate_stations": "今池駅|千種駅|車道駅|池下駅|覚王山駅|吹上駅|新栄町駅|森下駅|ナゴヤドーム前矢田駅|大曽根駅",
+    "station_count": 10
+  },
+  "明治座森下スタジオ": {
+    "primary_station": "森下駅",
+    "distance_to_primary_station_m": 307,
+    "candidate_stations": "森下駅|菊川駅|清澄白河駅|両国駅|浜町駅|住吉駅|錦糸町駅|水天宮前駅|東日本橋駅|馬喰横山駅",
+    "station_count": 10
+  },
+  "練馬 RB レンタルスタジオ": {
+    "primary_station": "練馬駅",
+    "distance_to_primary_station_m": 513,
+    "candidate_stations": "練馬駅|豊島園駅|中村橋駅|桜台駅|都立家政駅|鷺ノ宮駅|野方駅|富士見台駅|新桜台駅|新江古田駅",
+    "station_count": 10
+  },
+  "茗荷谷ダンスプラザ": {
+    "primary_station": "茗荷谷駅",
+    "distance_to_primary_station_m": 274,
+    "candidate_stations": "茗荷谷駅|江戸川橋駅|護国寺駅|白山駅|新大塚駅|千石駅|後楽園駅|神楽坂駅|春日駅|本駒込駅",
+    "station_count": 10
+  },
+  "#ERROR!": {
+    "primary_station": "南砂町駅",
+    "distance_to_primary_station_m": 599,
+    "candidate_stations": "南砂町駅|東陽町駅|潮見駅",
+    "station_count": 3
+  },
+  "なかすた": {
+    "primary_station": "中野富士見町駅",
+    "distance_to_primary_station_m": 163,
+    "candidate_stations": "中野富士見町駅|中野新橋駅|新中野駅|方南町駅|東高円寺駅|幡ヶ谷駅|西新宿五丁目駅（清水橋）|中野坂上駅|笹塚駅|新高円寺駅",
+    "station_count": 10
+  }
+}

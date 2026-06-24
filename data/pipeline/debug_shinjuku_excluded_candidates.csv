@@ -1,0 +1,18 @@
+﻿studio_title,address,dslurl,is_partner,distance_to_article_station_m,article_match_method,rental_fit_score,rental_fit_reason,suspicious_location,suspicious_reason,fallback_allowed,fallback_reason,excluded_by_fit,exclude_reason
+レンタルスタジオswamp西新宿,〒160-0023 東京都新宿区西新宿５丁目２１-５ ＢＩＴ西新宿 B01号室,,0,1464.5,candidate_stations_fallback,50,+20(rental=1)|+30(レンタルスタジオ),0,,0,fallback:dist=1464m>1200m 非提携or低fit,1,fallback:dist=1464m>1200m 非提携or低fit
+NOAダンスアカデミー 新宿本校,〒160-0023 東京都新宿区西新宿１丁目３-１４ 新宿プラザ（受付 6F,,0,413.1,station_distance,-30,+20(rental=1)|-50(アカデミー),0,,1,,1,非提携でscore=-30<20
+NOAダンス教室 新宿校,〒160-0023 東京都新宿区西新宿１丁目３-１４ 9F,,0,413.1,station_distance,-20,+20(rental=1)|-40(教室),0,,1,,1,非提携でscore=-20<20
+NOAバレエスクール 新宿校,〒160-0023 東京都新宿区西新宿１丁目３-１４ 9F,,0,413.1,station_distance,-90,+20(rental=1)|-60(バレエスクール)|-50(スクール),0,,1,,1,非提携でscore=-90<20
+studio worcle shinjuku-gyoen,〒160-0004 東京都新宿区四谷４丁目３２-４ B1 B2,,0,1353.3,candidate_stations_fallback,20,+20(rental=1),0,,0,fallback:dist=1353m>1200m 非提携or低fit,1,fallback:dist=1353m>1200m 非提携or低fit
+サウンドスタジオノア 新宿店,〒160-0023 東京都新宿区西新宿７丁目１０-１２,,0,503.4,station_distance,-20,+20(rental=1)|-40(サウンド系),0,,1,,1,非提携でscore=-20<20
+サウンドスタジオノア 代々木,〒151-0051 東京都渋谷区千駄ケ谷４丁目２６-５ 代々木ノアビル,,0,1060.5,station_distance,-20,+20(rental=1)|-40(サウンド系),0,,1,,1,非提携でscore=-20<20
+ミューズエンタープライズ（プロダクション、スクール＆レンタル）,〒151-0053 東京都渋谷区代々木１丁目３１-２ ミューズ 本館,,0,907.9,station_distance,-30,+20(rental=1)|-50(スクール),0,,1,,1,非提携でscore=-30<20
+演劇舞台稽古場 ファンファーレレンタルスタジオ新宿御苑（撮影スタジオとして利用可能）,〒162-0067 東京都新宿区富久町１３-１５ サウスタワー地下2階,,0,1354.0,candidate_stations_fallback,50,+20(rental=1)|+30(レンタルスタジオ),0,,0,fallback:dist=1354m>1200m 非提携or低fit,1,fallback:dist=1354m>1200m 非提携or低fit
+新宿 | PECO先生のベリーダンス スクール・アンジェリカ,〒160-0023 東京都新宿区西新宿７丁目２２-３１ 柏木 MURA BF,,0,850.1,station_distance,-30,+20(rental=1)|-50(スクール),0,,1,,1,非提携でscore=-30<20
+新宿・大久保マイックル,〒169-0073 東京都新宿区百人町１丁目１９-２３,,0,1267.9,candidate_stations_fallback,20,+20(rental=1),0,,0,fallback:dist=1268m>1200m 非提携or低fit,1,fallback:dist=1268m>1200m 非提携or低fit
+新宿村スタジオ,〒169-0074 東京都新宿区北新宿２丁目１-２,,0,1242.7,candidate_stations_fallback,20,+20(rental=1),0,,0,fallback:dist=1243m>1200m 非提携or低fit,1,fallback:dist=1243m>1200m 非提携or低fit
+代々木アフタースクールCreo BOX,〒151-0053 東京都渋谷区代々木２丁目３９-６ １F,,0,672.3,station_distance,-30,+20(rental=1)|-50(スクール),0,,1,,1,非提携でscore=-30<20
+レンタルピラティススタジオAivic北参道,東京都渋谷区千駄ヶ谷3-13-14 清和ビル403,https://dance-studio-lab.com/room/MWZkYTk2NGMtMDU4OC00YjY5LWI5MjYtNjNhNmYyMWI4M2Q2/detail,1,1406.8,candidate_stations_fallback,-30,+30(dslurl)|+20(rental=1)|-80(ピラティス),0,,0,fallback:dist=1407m>1200m 非提携or低fit,1,fallback:dist=1407m>1200m 非提携or低fit
+SOUND STUDIO M 小岩店,新宿区百人町1-23-26　みなみビルＢ１－Ｂ号室,,0,1046.3,station_distance,-20,+20(rental=1)|-40(サウンド系),0,,1,,1,絶対除外(sound studio)
+レンタルピラティススタジオAivic新宿,東京都新宿区歌舞伎町2-1-2 HANROKUビル2階ー１,https://dance-studio-lab.com/room/MWY5Yzc5YzMtMmViOC00MmI0LWIwNzUtNDY1MDUzZjY4MzVm/detail,1,815.3,station_distance,-30,+30(dslurl)|+20(rental=1)|-80(ピラティス),0,,1,,1,絶対除外(ピラティス)
+レンタルピラティススタジオAivic西新宿,東京都新宿区西新宿7-6-5 グローリア初穂　生沼ビル405,https://dance-studio-lab.com/room/ZGY5MzY2ZjgtMzk1Mi00YTY0LWE2OWEtZDc3Y2RiYjllMmJh/detail,1,896.7,station_distance,-30,+30(dslurl)|+20(rental=1)|-80(ピラティス),0,,1,,1,絶対除外(ピラティス)
