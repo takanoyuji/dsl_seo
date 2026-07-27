@@ -30,6 +30,7 @@ TOP15_CSV       = "data/pipeline/article_top15_final.csv"
 STUDIO_CSV      = "data/master/studio_with_tags_dslurl_address_filled.csv"
 DSL_ROOM_CSV    = "data/master/studio_room_all_columns_excel.csv"
 DESC_CSV        = "data/pipeline/studio_descriptions.csv"
+FAQ_CSV         = "data/pipeline/article_faqs.csv"
 PLACES_API_CSV  = "data/pipeline/places_api_results.csv"
 OUTPUT_DIR      = Path("articles")
 SUMMARY_CSV     = "data/pipeline/article_generation_summary.csv"
@@ -41,7 +42,8 @@ OGP_IMAGE_URL   = "https://dance-studio-lab.com/media/ogp-default.jpg"  # デフ
 
 # ルーム画像
 ROOM_IMAGES_DIR = Path("room_images_backup/private/uploads/room")
-DSL_IMAGE_BASE  = "https://dance-studio-lab.com/private/uploads/room"
+DSL_IMAGE_BASE  = "https://dance-studio-lab.com/private/uploads/room"  # 旧パス（参照のみ）
+SITE_IMAGE_BASE = "https://dance-studio-lab.com/media/room-images"     # 公開パス
 
 MIN_GROUPS           = 10
 MAX_GROUPS           = 15
@@ -97,19 +99,96 @@ RENTAL_LOW_KW = [
 ]
 # 完全非ダンス系（音楽スタジオ・専業ヨガ・ジム等）: -5
 NON_DANCE_KW = [
-    # 音楽スタジオ
+    # 音楽スタジオ・楽器
     "サウンドスタジオ", "音楽スタジオ", "バンドスタジオ", "ピアノスタジオ",
     "アカペラスタジオ", "sound studio", "rinky dink",
+    "ミュージックスクエア", "楽器店", "music school",
     # ヨガ専業
     "ホットヨガ",
     # ジム・スポーツ施設
     "スポーツオアシス", "ゴールドジム", "joyfit", "フィットネスジム",
     # 格闘技・道場
     "道場",
+    # ポートレート・証明写真専業（ダンス不可）
+    "就活写真", "証明写真", "宣材写真", "写真館",
+    # アミューズメント・商業施設
+    "ラウンドワン", "ドン・キホーテ", "donki",
+    # 駐車場
+    "タイムズパーキング",
+    # トランポリン
+    "トランポリン", "jump one",
+    # 屋外・スポーツ施設（ダンス不可）
+    "ドッグラン", "陸上競技場", "スイミング", "プール", "スポーツプラザ",
+    # コワーキング・ビジネス系
+    "コワーキング",
+    # 子供向け習い事
+    "ならいごと",
+    # 閉業
+    "閉業", "【閉店】",
 ]
 # 非ダンス寄り（ヨガ・ピラティス・フィットネス等）: -3
 NON_DANCE_LIGHT_KW = [
     "ヨガスタジオ", "ピラティス", "pilates", "フィットネス", "gym",
+    # 地域公共施設（ダンス専用でない）
+    "市民活動センター", "コミュニティセンター", "区民センター", "市民センター",
+]
+
+# Google Tag Manager（dance-studio-lab.com 本番の計測タグ）
+#
+# ⚠️ 2026-07-27 まで生成スクリプトはGTMを出力しておらず、生成後に手作業で
+#    注入されていた。そのため「再生成して media/ にコピーすると全記事の計測が
+#    黙って止まる」状態だった（エラーが出ないので気づけない）。
+#    ここで出力するようにして、再生成しても消えないようにしている。
+#
+# 位置は本番の既存記事に合わせてある（GTM_HEAD は <head> 直後、
+# GTM_BODY は <body> 直後）。変更すると全記事に差分が出るので動かさないこと。
+GTM_ID = "GTM-T5Z7R7C6"
+
+GTM_HEAD = f"""<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){{w[l]=w[l]||[];w[l].push({{'gtm.start':
+new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+}})(window,document,'script','dataLayer','{GTM_ID}');</script>
+<!-- End Google Tag Manager -->"""
+
+GTM_BODY = f"""<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={GTM_ID}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->"""
+
+
+# レンタル利用不可と確認済みの店舗（studio_title に含まれたら即除外）
+#
+# ⚠️ これはキーワードによる自動減点ではなく、一次情報で「レンタルしていない」と
+# 確認した店舗の個別除外リスト。追加するときは必ず公式サイト等で裏を取ること。
+# 逆に、レンタルを始めた場合はここから外す。
+#
+# ⚠️ 部分一致なので、短い語を入れると無関係な店舗を巻き込む。
+#    例: "pink" だと「すむぞうスタジオ 渋谷公園通りスタジオPINK&BLUE」
+#    「Studio.pinktiger」など実在のレンタルスタジオ6件まで除外されてしまう。
+#    ブランド名は必ず他店と衝突しない長さで書く。
+NOT_RENTAL_STUDIOS = [
+    # レッスンスクール専業。渋谷校/新宿校/池袋校の3校（2026-07-27 高野確認）
+    "pinks（旧:東京ダンスヴィレッジ）",
+    "東京ダンスヴィレッジ",   # PiNKs の旧名。表記が戻った場合に備える
+]
+
+# 生成説明文に含まれる場合に除外するフレーズ（ダンス不適切を示す文言）
+DESC_DISQUALIFY_PHRASES = [
+    "ダンス練習専用施設ではないため",
+    "ダンス練習向けというより",
+    "コワーキングスペースとしての利用が中心",
+    "ダンススタジオとしての具体的な環境情報が限定的",
+    "ダンス専用スタジオではなく",
+    "ダンス練習や動画撮影に適した環境情報は不足",
+    "スイミング施設",
+    "陸上競技場",
+    "トランポリンフィットネス",
+    "バンド練習まで快適に利用",
+    "スプリント練習や長距離走",
+    "駐車場施設",
+    "音楽教室がメイン",
 ]
 
 # NG表現の置換ルール（紹介文サニタイズ用）
@@ -124,6 +203,8 @@ NG_PATTERNS: list[tuple[str, str]] = [
     (r"通(える|学|い、|い。)", "利用"),
     (r"プロ(の|による|講師)", ""),
     (r"(通|学べ)るスタジオ", "使えるスタジオ"),
+    # 表記ゆれ修正
+    (r"バチャタ", "バチャータ"),
     # 禁止フレーズ（テンプレート汚染）
     (r"本格的な音響設備(を備え|が充実|があり)", "音響設備があり"),
     (r"ダンサーの動きに配慮した素材", "ダンス練習に使いやすい床材"),
@@ -607,7 +688,15 @@ def classify_usage_type(row) -> str:
     """施設タイプを分類する（優先順: 音楽 > 撮影 > ピラティス > ダンス > 多目的 > 要確認）"""
     name_l = str(row.get("studio_title", row.get("タイトル", ""))).lower()
     web_l  = str(row.get("Webサイト", "")).lower()
-    text   = name_l + " " + web_l
+    # google_name は信頼度 >= 0.6 のみ参照
+    gname_l = ""
+    conf = row.get("match_confidence")
+    try:
+        if conf is not None and float(conf) >= 0.6:
+            gname_l = str(row.get("google_name", "")).lower()
+    except (ValueError, TypeError):
+        pass
+    text   = name_l + " " + web_l + " " + gname_l
 
     for kw in _USAGE_KW_MUSIC:
         if kw.lower() in text:
@@ -637,8 +726,34 @@ def calc_rental_fit_score(row: pd.Series) -> int:
     """
     score = 5
     name_l = str(row.get("studio_title", "")).lower()
+
+    # レンタル不可と確認済みの店舗は即除外（提携フラグより優先する）
+    if any(kw in name_l for kw in NOT_RENTAL_STUDIOS):
+        return -100
+
+    # 駅名そのもの（「〇〇駅」のみ）は即除外
+    import re as _re
+    if _re.fullmatch(r'.{2,6}駅', str(row.get("studio_title", "")).strip()):
+        return -100
+
+    # タイムズ駐車場：「タイムズ」で始まりスタジオ/スペースを含まない
+    _raw_name = str(row.get("studio_title", ""))
+    if _raw_name.startswith("タイムズ") and not any(
+        kw in _raw_name for kw in ["スタジオ", "スペース", "ホール"]
+    ):
+        return -100
+
     tags_l = str(row.get("article_tags", "")).lower()
     web_l  = str(row.get("Webサイト", "")).lower()
+
+    # google_name は信頼度が高い場合のみ参照（誤マッチ防止）
+    gname_l = ""
+    conf = row.get("match_confidence")
+    try:
+        if conf is not None and float(conf) >= 0.6:
+            gname_l = str(row.get("google_name", "")).lower()
+    except (ValueError, TypeError):
+        pass
 
     # + dslurl あり（提携確認済み）
     dslurl = str(row.get("dslurl", "")).strip()
@@ -657,17 +772,24 @@ def calc_rental_fit_score(row: pd.Series) -> int:
     if any(kw in web_l for kw in ["dance", "rental", "studio"]):
         score += 1
 
-    # − スクール/アカデミー系
+    # − スクール/アカデミー系（studio_title のみ）
     if any(kw.lower() in name_l for kw in RENTAL_LOW_KW):
         score -= 4
 
-    # − 完全非ダンス系（音楽スタジオ・専業ヨガ・ジム等）
+    # − 完全非ダンス系（studio_title + google_name）
     if any(kw.lower() in name_l for kw in NON_DANCE_KW):
         score -= 5
+    elif gname_l and any(kw.lower() in gname_l for kw in NON_DANCE_KW):
+        score -= 5
 
-    # − 非ダンス寄り（ヨガ・ピラティス・フィットネス等）
+    # − 非ダンス寄り（studio_title のみ）
     if any(kw.lower() in name_l for kw in NON_DANCE_LIGHT_KW):
         score -= 3
+
+    # − 生成説明文にダンス不適切フレーズが含まれる場合は即除外
+    desc_l = str(row.get("description", "")).lower()
+    if any(phrase in desc_l for phrase in DESC_DISQUALIFY_PHRASES):
+        return -100
 
     return max(0, min(10, score))
 
@@ -740,9 +862,11 @@ def build_studio_groups(rows: pd.DataFrame) -> list[StudioGroup]:
             g.best_rating       = r
             g.best_review_count = rc
 
-        # 提携
+        # 提携 (check=1 のスタジオは提携フラグを立てない)
         dslurl = str(row.get("dslurl", "")).strip()
-        if pd.notna(row.get("dslurl")) and dslurl:
+        _cv = row.get("check", 0)
+        check_flag = 0 if pd.isna(_cv) else int(_cv)
+        if pd.notna(row.get("dslurl")) and dslurl and check_flag != 1:
             g.is_partner = True
             g.dslurl_map[str(row["studio_title"])] = dslurl
 
@@ -1240,12 +1364,15 @@ CSS = """<link rel="preconnect" href="https://fonts.googleapis.com">
 # ============================================================
 
 # ── だん著者ボックス ──────────────────────────────────────
+_DCL_LINK = '<a href="https://dancecoverlab.com/" target="_blank" rel="noopener">Dance Cover Lab</a>'
+
+
 def make_author_box() -> str:
     return (
         '\n<div class="author-box">\n'
         '  <div class="author-avatar">📸</div>\n'
         '  <div class="author-content">\n'
-        '    <p class="author-name"><strong>だん</strong>（Dance Cover Lab・28歳・都内在住）</p>\n'
+        f'    <p class="author-name"><strong>だん</strong>（{_DCL_LINK}所属・ダンス専門カメラマン・28歳）</p>\n'
         '    <p class="author-bio">ダンス専門カメラマンとして都内を中心に活動しています。'
         '撮影現場でスタジオ選びの相談をよく受けるようになり、このサイトにまとめることにしました📸 '
         '鏡・床材・光の入り方など、カメラマン目線での情報もお届けします！</p>\n'
@@ -1304,7 +1431,7 @@ def make_hero_image_html(
             if not images:
                 continue
             uuid, filename = images[0]
-            abs_url = f"{DSL_IMAGE_BASE}/{uuid}/main_images/{filename}"
+            ogp_url = f"{SITE_IMAGE_BASE}/{uuid}/{filename}"
             if output_dir is not None:
                 src = ROOM_IMAGES_DIR / uuid / "main_images" / filename
                 dst_dir = output_dir / "room-images" / uuid
@@ -1314,14 +1441,14 @@ def make_hero_image_html(
                     shutil.copy2(src, dst)
                 local_url = f"room-images/{uuid}/{filename}"
             else:
-                local_url = abs_url
+                local_url = ogp_url
             hero_html = (
                 f'\n<div class="hero-image">\n'
                 f'  <img src="{local_url}" alt="{g.group_name}のダンスルーム" '
                 f'loading="eager" width="800" height="450">\n'
                 f'</div>\n'
             )
-            return hero_html, abs_url
+            return hero_html, ogp_url
     return "", ""
 
 
@@ -1533,15 +1660,19 @@ def make_meta_description(area_or_station: str, count: int = 0) -> str:
 
 def make_intro(area_or_station: str, article_type: str, count: int,
                distant_stations: list[str] | None = None) -> str:
-    area = area_or_station or "このエリア"
+    is_local = article_type in ("エリア", "駅")
+    area = area_or_station if is_local else "東京"
     distant_stations = distant_stations or []
 
     # 掲載数に応じた注記
     if count <= 4:
-        count_note = (
-            f"<p>※ {area}周辺は候補スタジオが少なめなので、"
-            f"近隣エリア・駅のスタジオも含めて紹介しています🙏</p>\n"
-        )
+        if is_local:
+            count_note = (
+                f"<p>※ {area}周辺は候補スタジオが少なめなので、"
+                f"近隣エリア・駅のスタジオも含めて紹介しています🙏</p>\n"
+            )
+        else:
+            count_note = "<p>※ 条件に合うスタジオが少なめなので、近隣エリアのスタジオも含めて紹介しています🙏</p>\n"
     else:
         count_note = ""
 
@@ -1587,7 +1718,6 @@ def make_breadcrumb_html(page_title: str) -> str:
         '\n<nav class="breadcrumb" aria-label="パンくずリスト">\n'
         '  <ol>\n'
         '    <li><a href="https://dance-studio-lab.com/">ホーム</a></li>\n'
-        '    <li><a href="https://dance-studio-lab.com/studio/">スタジオ一覧</a></li>\n'
         f'    <li>{page_title}</li>\n'
         '  </ol>\n'
         '</nav>\n'
@@ -1614,8 +1744,10 @@ def make_ranking_note(g: "StudioGroup") -> str:
     return f'  <div class="ranking-note">{"".join(tags)}</div>\n'
 
 
-def make_toc(groups: list[StudioGroup], area_or_station: str) -> str:
-    area = area_or_station or "このエリア"
+def make_toc(groups: list[StudioGroup], area_or_station: str,
+             article_type: str = "") -> str:
+    is_local = article_type in ("エリア", "駅")
+    area = area_or_station if is_local else "東京"
     items = []
     for i, g in enumerate(groups, 1):
         if len(g.studios) > 1:
@@ -2089,8 +2221,10 @@ def make_studio_card(
         )
 
 
-def make_selection_points_section(area_or_station: str) -> str:
-    area = area_or_station or "このエリア"
+def make_selection_points_section(area_or_station: str,
+                                   article_type: str = "") -> str:
+    is_local = article_type in ("エリア", "駅")
+    area = area_or_station if is_local else "東京"
     return (
         f'\n<section class="info-section" id="points">\n'
         f'  <h2>{area}でレンタルダンススタジオを選ぶポイント</h2>\n'
@@ -2207,16 +2341,31 @@ def make_area_section(area_or_station: str, groups: list[StudioGroup]) -> str:
     )
 
 
-def make_sidebar_html(article_title: str, title_type_map: dict[str, str],
-                      article_type: str = "") -> str:
-    """サイドバーHTML（掲載CTA + エリア別/駅別/その他の関連記事）を生成する"""
-    # 汎用ワードを除いたキーワード抽出（関連度スコアリング用）
-    GENERIC = {"レンタル", "ダンス", "スタジオ", "おすすめ", "使える", "東京", "ある"}
-    kws = {w for w in re.findall(r'[\u4e00-\u9fff\u30a0-\u30ff]{2,}', article_title)
-           if w not in GENERIC}
+def _haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    """2点間の距離(km)をHaversine式で計算"""
+    R = 6371.0
+    φ1, φ2 = math.radians(lat1), math.radians(lat2)
+    Δφ = math.radians(lat2 - lat1)
+    Δλ = math.radians(lon2 - lon1)
+    a = math.sin(Δφ / 2) ** 2 + math.cos(φ1) * math.cos(φ2) * math.sin(Δλ / 2) ** 2
+    return R * 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
 
-    def rel_score(t: str):
-        return (-sum(1 for k in kws if k in t), t)
+
+def make_sidebar_html(article_title: str, title_type_map: dict[str, str],
+                      article_type: str = "",
+                      loc_map: dict[str, tuple[float, float]] | None = None) -> str:
+    """サイドバーHTML（掲載CTA + エリア別/駅別/その他の関連記事）を生成する"""
+
+    # ソートキー: 座標が取れれば距離順、なければタイトル順
+    cur_loc = (loc_map or {}).get(article_title)
+
+    def geo_sort_key(t: str):
+        if cur_loc and loc_map and t in loc_map:
+            return _haversine_km(cur_loc[0], cur_loc[1], *loc_map[t])
+        return float("inf")
+
+    def sort_key(t: str):
+        return (geo_sort_key(t), t)
 
     # タイプ別に分類（現在の記事は除外）
     by_type: dict[str, list[str]] = {"エリア": [], "駅": [], "条件": []}
@@ -2225,7 +2374,7 @@ def make_sidebar_html(article_title: str, title_type_map: dict[str, str],
             continue
         by_type.setdefault(tp, []).append(t)
 
-    # 各グループを関連度順にソートして上位N件
+    # 各グループを距離順にソートして上位N件
     # 駅別記事なら「駅別」を先頭、それ以外は「エリア別」を先頭
     MAX_PER_GROUP = 6
     if article_type == "駅":
@@ -2245,7 +2394,7 @@ def make_sidebar_html(article_title: str, title_type_map: dict[str, str],
     for heading, titles in sections:
         if not titles:
             continue
-        top = sorted(titles, key=rel_score)[:MAX_PER_GROUP]
+        top = sorted(titles, key=sort_key)[:MAX_PER_GROUP]
         items = "\n".join(
             f'    <li><a href="{slugify(t)}.html">{t}</a></li>'
             for t in top
@@ -2290,41 +2439,46 @@ def make_equipment_section() -> str:
     )
 
 
-def make_faq(area_or_station: str) -> tuple[str, list[dict]]:
+def make_faq(area_or_station: str, faq_data: list | None = None) -> tuple[str, list[dict]]:
     area = area_or_station or "このエリア"
-    faqs = [
-        {
-            "q": f"{area}でレンタルダンススタジオを選ぶポイントは？",
-            "a": (f"駅からの距離、床材（フローリング・リノリウムなど）、鏡の有無と大きさ、"
-                  f"部屋の広さ、音楽再生設備を確認するのが基本です。"
-                  f"練習人数や内容に合わせて選ぶと、実際に使ったときのミスマッチを減らせます。"),
-        },
-        {
-            "q": "個人練習でも1人でレンタルできますか？",
-            "a": ("多くのレンタルダンススタジオは1人からの利用に対応しています。"
-                  "ただし最低利用時間や最低料金が設定されている場合があるため、"
-                  "予約前に各スタジオの条件をご確認ください。"),
-        },
-        {
-            "q": "グループ練習で確認しておくべき設備は？",
-            "a": ("部屋の広さ（4〜10人が動ける30㎡以上が目安）、鏡の配置、"
-                  "スピーカーの音量、着替えスペースの有無を確認しておくと安心です。"
-                  "人数上限が設定されているスタジオもあるため、事前に確認しましょう。"),
-        },
-        {
-            "q": "深夜や早朝に使えるスタジオはありますか？",
-            "a": ("24時間・深夜対応のスタジオは限られています。"
-                  "各スタジオの営業時間を事前に確認するか、「深夜可」などの条件で"
-                  "絞り込んで探すのがおすすめです。"),
-        },
-        {
-            "q": "予約前に確認しておくべきことは？",
-            "a": ("①空き状況・料金体系、②キャンセルポリシー、"
-                  "③持ち込み機材の可否（スピーカー・三脚など）、"
-                  "④シャワーや更衣室の有無、⑤複数人で使う場合の人数上限、"
-                  "の5点を確認しておくと安心です。"),
-        },
-    ]
+
+    # 記事固有のFAQデータがあればそれを使用
+    if faq_data and len(faq_data) >= 3:
+        faqs = faq_data
+    else:
+        faqs = [
+            {
+                "q": f"{area}でレンタルダンススタジオを選ぶポイントは？",
+                "a": (f"駅からの距離、床材（フローリング・リノリウムなど）、鏡の有無と大きさ、"
+                      f"部屋の広さ、音楽再生設備を確認するのが基本です。"
+                      f"練習人数や内容に合わせて選ぶと、実際に使ったときのミスマッチを減らせます。"),
+            },
+            {
+                "q": "個人練習でも1人でレンタルできますか？",
+                "a": ("多くのレンタルダンススタジオは1人からの利用に対応しています。"
+                      "ただし最低利用時間や最低料金が設定されている場合があるため、"
+                      "予約前に各スタジオの条件をご確認ください。"),
+            },
+            {
+                "q": "グループ練習で確認しておくべき設備は？",
+                "a": ("部屋の広さ（4〜10人が動ける30㎡以上が目安）、鏡の配置、"
+                      "スピーカーの音量、着替えスペースの有無を確認しておくと安心です。"
+                      "人数上限が設定されているスタジオもあるため、事前に確認しましょう。"),
+            },
+            {
+                "q": "深夜や早朝に使えるスタジオはありますか？",
+                "a": ("24時間・深夜対応のスタジオは限られています。"
+                      "各スタジオの営業時間を事前に確認するか、「深夜可」などの条件で"
+                      "絞り込んで探すのがおすすめです。"),
+            },
+            {
+                "q": "予約前に確認しておくべきことは？",
+                "a": ("①空き状況・料金体系、②キャンセルポリシー、"
+                      "③持ち込み機材の可否（スピーカー・三脚など）、"
+                      "④シャワーや更衣室の有無、⑤複数人で使う場合の人数上限、"
+                      "の5点を確認しておくと安心です。"),
+            },
+        ]
 
     items = []
     for f in faqs:
@@ -2344,24 +2498,31 @@ def make_faq(area_or_station: str) -> tuple[str, list[dict]]:
     return html, faqs
 
 
-def make_summary(area_or_station: str, groups: list[StudioGroup]) -> str:
-    area       = area_or_station or "このエリア"
-    top_names  = "、".join(g.group_name for g in groups[:3])
-    search_url = (DSL_SITE_URL + "/search?free="
-                  + urllib.parse.quote(area))
+def make_summary(area_or_station: str, groups: list[StudioGroup],
+                 article_type: str = "") -> str:
+    is_local = article_type in ("エリア", "駅")
+    area      = area_or_station if is_local else "東京"
+    top_names = "、".join(g.group_name for g in groups[:3])
+
+    if is_local:
+        search_url  = DSL_SITE_URL + "/search?free=" + urllib.parse.quote(area)
+        btn_label   = f"{area}周辺のレンタルダンススタジオを検索する"
+    else:
+        search_url  = DSL_SITE_URL
+        btn_label   = "東京のダンススタジオを検索する"
 
     return (
         '\n<div id="summary">\n'
         '<section class="article-summary">\n'
         '  <h2>まとめ</h2>\n'
-        f'  <p>{area}エリアには、{top_names}などのレンタルダンススタジオがあります。'
+        f'  <p>東京には、{top_names}などのレンタルダンススタジオがあります。'
         f'いずれも駅から近い立地にあり、個人練習・グループ練習・振付確認など幅広い用途に使えます。</p>\n'
         f'  <p>気になるスタジオがあれば、空き状況や設備条件を確認しながら練習スタイルに合う場所を選んでみてください💪'
         f' 鏡の有無・床の種類・部屋の広さなど、用途に合わせた条件で比較するのが選びやすいですよ！</p>\n'
-        f'  <p class="dan-sign">— だん（Dance Cover Lab）📸</p>\n'
+        f'  <p class="dan-sign">— だん（{_DCL_LINK}）📸</p>\n'
         f'  <div class="dsl-search-link">\n'
         f'    <a href="{search_url}" target="_blank" rel="noopener">'
-        f'{area}周辺のレンタルダンススタジオを検索する</a>\n'
+        f'{btn_label}</a>\n'
         f'  </div>\n'
         f'</section>\n</div>'
     )
@@ -2371,7 +2532,7 @@ def make_editorial_note() -> str:
     return (
         '\n<section class="editorial-note" aria-label="編集方針">\n'
         '  <h2>この記事について</h2>\n'
-        '  <p>この記事は<strong>だん</strong>（Dance Cover Lab・ダンス専門カメラマン・28歳）が執筆・監修しています。'
+        f'  <p>この記事は<strong>だん</strong>（{_DCL_LINK}所属・ダンス専門カメラマン・28歳）が執筆・監修しています。'
         '撮影現場でのスタジオ選びの経験をもとに、鏡・床材・光環境などカメラマン目線の情報をシェアしています📸</p>\n'
         '  <ul>\n'
         '    <li>掲載スタジオはGoogle口コミ評価・駅からの距離・ダンス利用実績をもとに選定しています。</li>\n'
@@ -2444,12 +2605,10 @@ def make_breadcrumb_jsonld(area_or_station: str, canonical_url: str) -> str:
     items = [
         {"@type": "ListItem", "position": 1, "name": "ホーム",
          "item": "https://dance-studio-lab.com/"},
-        {"@type": "ListItem", "position": 2, "name": "ダンススタジオ一覧",
-         "item": "https://dance-studio-lab.com/studio/"},
     ]
     if area_or_station:
         items.append({
-            "@type": "ListItem", "position": 3,
+            "@type": "ListItem", "position": 2,
             "name": f"{area_or_station}のレンタルダンススタジオ",
             "item": canonical_url or "https://dance-studio-lab.com/",
         })
@@ -2465,43 +2624,17 @@ def make_breadcrumb_jsonld(area_or_station: str, canonical_url: str) -> str:
     )
 
 
-def make_itemlist_jsonld(groups: list[StudioGroup], article_title: str) -> str:
-    items = []
-    for i, g in enumerate(groups, 1):
-        url_val = next(iter(g.dslurl_map.values())) if g.dslurl_map else g.website
-        item: dict = {
-            "@type": "ListItem",
-            "position": i,
-            "name": g.group_name,
-        }
-        if url_val:
-            item["url"] = url_val
-        if g.address:
-            item["address"] = g.address
-        if g.best_rating is not None:
-            item["aggregateRating"] = {
-                "@type": "AggregateRating",
-                "ratingValue": g.best_rating,
-                "ratingCount": g.best_review_count or 1,
-            }
-        items.append(item)
-
-    data = {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": article_title,
-        "numberOfItems": len(groups),
-        "itemListElement": items,
-    }
-    return (
-        '<script type="application/ld+json">\n'
-        + json.dumps(data, ensure_ascii=False, indent=2)
-        + "\n</script>"
-    )
-
-
 def make_local_business_jsonld(groups: list[StudioGroup], article_title: str) -> str:
-    """各スタジオの SportsActivityLocation + ImageObject schema"""
+    """記事の ItemList（各スタジオ = SportsActivityLocation + ImageObject）
+
+    ⚠️ aggregateRating は必ず ListItem > item > SportsActivityLocation に付けること。
+    ListItem に直接 aggregateRating を付けると、ListItem はレビュースニペットの
+    対象タイプではないため Search Console で
+    「項目 <parent_node> のオブジェクトタイプが無効です」が出る。
+    （2026-07-27 修正: 同内容の ItemList を2ブロック出力しており、
+     片方が ListItem 直付けだった。不正な方 make_itemlist_jsonld() を廃止し、
+     この関数の1ブロックに統合した）
+    """
     list_items = []
     for i, g in enumerate(groups, 1):
         item: dict = {
@@ -2536,7 +2669,7 @@ def make_local_business_jsonld(groups: list[StudioGroup], article_title: str) ->
                     uuid, filename = imgs[0]
                     item["photo"] = {
                         "@type": "ImageObject",
-                        "contentUrl": f"{DSL_IMAGE_BASE}/{uuid}/main_images/{filename}",
+                        "contentUrl": f"{SITE_IMAGE_BASE}/{uuid}/{filename}",
                         "name": f"{g.group_name}のダンスルーム",
                         "description": f"{g.group_name}のレンタルダンススタジオ内観",
                     }
@@ -2547,6 +2680,7 @@ def make_local_business_jsonld(groups: list[StudioGroup], article_title: str) ->
         "@context": "https://schema.org",
         "@type": "ItemList",
         "name": article_title,
+        "numberOfItems": len(list_items),
         "itemListElement": list_items,
     }
     return (
@@ -2558,7 +2692,7 @@ def make_local_business_jsonld(groups: list[StudioGroup], article_title: str) ->
 
 def build_html(
     page_title: str, meta_desc: str, body_html: str,
-    faq_jsonld: str, itemlist_jsonld: str,
+    faq_jsonld: str,
     sidebar_html: str = "",
     canonical_slug: str = "",
     area_or_station: str = "",
@@ -2587,25 +2721,26 @@ def build_html(
     canonical_url = (CANONICAL_BASE + encoded_slug) if encoded_slug else ""
     canonical_tag = (f'  <link rel="canonical" href="{canonical_url}">\n'
                      if canonical_url else "")
-    _ogp_img = ogp_image_url or OGP_IMAGE_URL
+    _ogp_img = ogp_image_url or ""
     ogp_tags = (
         f'  <meta property="og:type" content="article">\n'
         f'  <meta property="og:title" content="{page_title}">\n'
         f'  <meta property="og:description" content="{meta_desc}">\n'
         + (f'  <meta property="og:url" content="{canonical_url}">\n' if canonical_url else "")
-        + f'  <meta property="og:image" content="{_ogp_img}">\n'
+        + (f'  <meta property="og:image" content="{_ogp_img}">\n' if _ogp_img else "")
         + '  <meta property="og:site_name" content="Dance Studio Lab">\n'
         '  <meta property="og:locale" content="ja_JP">\n'
         '  <meta name="twitter:card" content="summary_large_image">\n'
         f'  <meta name="twitter:title" content="{page_title}">\n'
         f'  <meta name="twitter:description" content="{meta_desc}">\n'
-        f'  <meta name="twitter:image" content="{_ogp_img}">\n'
+        + (f'  <meta name="twitter:image" content="{_ogp_img}">\n' if _ogp_img else "")
     )
     article_jsonld   = make_article_jsonld(page_title, canonical_url, area_or_station)
     breadcrumb_jsonld = make_breadcrumb_jsonld(area_or_station, canonical_url)
     return (
         '<!DOCTYPE html>\n<html lang="ja">\n<head>\n'
-        '  <meta charset="UTF-8">\n'
+        + GTM_HEAD + "\n"
+        + '  <meta charset="UTF-8">\n'
         '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
         '  <meta name="robots" content="index,follow">\n'
         f'  <title>{page_title}</title>\n'
@@ -2614,9 +2749,9 @@ def build_html(
         f'{ogp_tags}'
         f'  {CSS}\n'
         '</head>\n<body>\n'
+        + GTM_BODY + "\n"
         + main_content + "\n"
         + faq_jsonld + "\n"
-        + itemlist_jsonld + "\n"
         + article_jsonld + "\n"
         + breadcrumb_jsonld + "\n"
         + (local_business_jsonld + "\n" if local_business_jsonld else "")
@@ -2737,6 +2872,22 @@ def quality_check_article(html: str, title: str) -> None:
 # ============================================================
 # 1記事生成
 # ============================================================
+def build_article_loc_map(df_top15: pd.DataFrame, df_studios: pd.DataFrame) -> dict[str, tuple[float, float]]:
+    """各記事の代表座標（掲載スタジオの重心）を返す {article_title: (lat, lon)}"""
+    studio_coords = df_studios[["タイトル", "latitude", "longitude"]].rename(
+        columns={"タイトル": "studio_title"}
+    )
+    merged = df_top15[["article_title", "studio_title"]].merge(
+        studio_coords, on="studio_title", how="left"
+    )
+    loc_map: dict[str, tuple[float, float]] = {}
+    for atitle, grp in merged.groupby("article_title"):
+        valid = grp.dropna(subset=["latitude", "longitude"])
+        if not valid.empty:
+            loc_map[str(atitle)] = (float(valid["latitude"].mean()), float(valid["longitude"].mean()))
+    return loc_map
+
+
 def generate_one_article(
     article_title: str,
     df_top15:      pd.DataFrame,
@@ -2747,6 +2898,8 @@ def generate_one_article(
     api_map:       dict,
     title_type_map: dict[str, str] | None = None,
     dsl_data:      dict | None = None,
+    faq_map:       dict | None = None,
+    loc_map:       dict | None = None,
 ) -> tuple[Path, dict, list[dict]]:
 
     rows = df_top15[df_top15["article_title"] == article_title].copy()
@@ -2767,7 +2920,7 @@ def generate_one_article(
         log.debug(f"  提携スタジオ追加: {injected_count}件")
 
     # スタジオマスタとマージ（Webサイト・article_tags など）
-    studio_cols = ["タイトル", "Webサイト", "電話番号", "営業時間", "article_tags"]
+    studio_cols = ["タイトル", "Webサイト", "電話番号", "営業時間", "article_tags", "check"]
     rows = rows.merge(
         df_studios[studio_cols].rename(columns={"タイトル": "studio_title"}),
         on="studio_title", how="left",
@@ -2776,7 +2929,11 @@ def generate_one_article(
     # グルーピング前プレフィルタ: 個別スコアが低く提携でもない行を除外
     # （ブランドグループの高スコア店舗に引き上げられるのを防ぐ）
     pre_scores = rows.apply(calc_rental_fit_score, axis=1)
-    is_partner_col = rows["dslurl"].notna() & (rows["dslurl"].astype(str).str.strip() != "")
+    is_partner_col = (
+        rows["dslurl"].notna()
+        & (rows["dslurl"].astype(str).str.strip() != "")
+        & ~(rows["check"].fillna(0).astype(float).astype(int) == 1)
+    )
     rows = rows[(pre_scores >= RENTAL_FIT_THRESHOLD) | is_partner_col].copy()
 
     candidate_count  = len(rows)
@@ -2835,22 +2992,22 @@ def generate_one_article(
 
     intro_html   = make_intro(area_or_station, article_type, count,
                               distant_stations=distant_stations)
-    toc_html     = make_toc(selected, area_or_station)
+    toc_html     = make_toc(selected, area_or_station, article_type)
     cmp_html     = make_comparison_table(selected)
     cards_html   = "\n".join(
         make_studio_card(i + 1, g, active_desc_map, article_type, area_or_station,
                          output_dir=output_dir, dsl_data=dsl_data)
         for i, g in enumerate(selected)
     )
-    points_html   = make_selection_points_section(area_or_station)
+    points_html   = make_selection_points_section(area_or_station, article_type)
     area_html     = make_area_section(area_or_station, selected)
     equip_html    = make_equipment_section()
-    faq_html, faqs    = make_faq(area_or_station)
-    summary_html      = make_summary(area_or_station, selected)
+    article_faqs = (faq_map or {}).get(article_title)
+    faq_html, faqs    = make_faq(area_or_station, faq_data=article_faqs)
+    summary_html      = make_summary(area_or_station, selected, article_type)
     editorial_html    = make_editorial_note()
 
     faq_jsonld            = make_faq_jsonld(faqs)
-    itemlist_jsonld       = make_itemlist_jsonld(selected, article_title)
     local_business_jsonld = make_local_business_jsonld(selected, article_title)
 
     from datetime import date
@@ -2882,8 +3039,8 @@ def generate_one_article(
         + author_box
     )
 
-    sidebar_html = make_sidebar_html(article_title, title_type_map or {}, article_type)
-    html     = build_html(page_title, meta_desc, body, faq_jsonld, itemlist_jsonld, sidebar_html,
+    sidebar_html = make_sidebar_html(article_title, title_type_map or {}, article_type, loc_map=loc_map)
+    html     = build_html(page_title, meta_desc, body, faq_jsonld, sidebar_html,
                           canonical_slug=slug, area_or_station=area_or_station,
                           ogp_image_url=ogp_img,
                           local_business_jsonld=local_business_jsonld)
@@ -2949,6 +3106,25 @@ def main():
     # DSL ルームデータ読み込み（提携スタジオの詳細説明文生成に使用）
     dsl_data = load_dsl_room_data(DSL_ROOM_CSV)
 
+    # 記事ごとのFAQデータ読み込み
+    faq_map: dict[str, list] = {}
+    faq_path = Path(FAQ_CSV)
+    if faq_path.exists():
+        df_faq = pd.read_csv(faq_path)
+        for _, frow in df_faq.iterrows():
+            title_key = str(frow["article_title"])
+            faqs_for_article = []
+            for i in range(1, 6):
+                q = str(frow.get(f"faq_{i}_q", "") or "")
+                a = str(frow.get(f"faq_{i}_a", "") or "")
+                if q and a:
+                    faqs_for_article.append({"q": q, "a": a})
+            if faqs_for_article:
+                faq_map[title_key] = faqs_for_article
+        log.info(f"  記事別FAQ: {len(faq_map)}件ロード")
+    else:
+        log.warning(f"  {FAQ_CSV} が見つかりません。汎用FAQを使用します")
+
     targets = (df_top15["article_title"].unique().tolist()
                if args.all else [args.article])
     title_type_map = (
@@ -2958,6 +3134,9 @@ def main():
         .to_dict()
     )
 
+    loc_map = build_article_loc_map(df_top15, df_studios)
+    log.info(f"  記事座標マップ: {len(loc_map)}件")
+
     all_stats, all_selected = [], []
     success, fail = 0, 0
 
@@ -2966,7 +3145,7 @@ def main():
             result = generate_one_article(
                 title, df_top15, df_studios, OUTPUT_DIR, desc_map,
                 all_partners, api_map, title_type_map,
-                dsl_data=dsl_data)
+                dsl_data=dsl_data, faq_map=faq_map, loc_map=loc_map)
             _, stats, sel_rows = result
             if stats:
                 all_stats.append(stats)
