@@ -2627,10 +2627,17 @@ def make_breadcrumb_jsonld(area_or_station: str, canonical_url: str) -> str:
 def make_local_business_jsonld(groups: list[StudioGroup], article_title: str) -> str:
     """記事の ItemList（各スタジオ = SportsActivityLocation + ImageObject）
 
-    ⚠️ aggregateRating は必ず ListItem > item > SportsActivityLocation に付けること。
-    ListItem に直接 aggregateRating を付けると、ListItem はレビュースニペットの
-    対象タイプではないため Search Console で
-    「項目 <parent_node> のオブジェクトタイプが無効です」が出る。
+    ⚠️ aggregateRating を出力してはいけない（2026-07-27 高野判断で削除）。
+    記事に載せている評価は Google マップから取得した他社スタジオの評点であり、
+    構造化データとして出すのは Google のレビュースニペットのポリシー
+    （他サイトの集約評価を自サイトのマークアップとして出さない）に反する。
+    記事本文の「Google評価 4.6（174件）」等の表示は残しているが、
+    それはあくまで本文の記述であって構造化データではない。
+
+    ⚠️ 将来 aggregateRating を復活させる場合も、必ず
+    ListItem > item > SportsActivityLocation に付けること。ListItem に直接
+    付けると、ListItem はレビュースニペットの対象タイプではないため
+    Search Console で「項目 <parent_node> のオブジェクトタイプが無効です」が出る。
     （2026-07-27 修正: 同内容の ItemList を2ブロック出力しており、
      片方が ListItem 直付けだった。不正な方 make_itemlist_jsonld() を廃止し、
      この関数の1ブロックに統合した）
@@ -2654,13 +2661,7 @@ def make_local_business_jsonld(groups: list[StudioGroup], article_title: str) ->
             item["url"] = url_val
         if g.website and g.website != url_val:
             item["sameAs"] = g.website
-        # Google評価
-        if g.best_rating is not None and g.best_review_count:
-            item["aggregateRating"] = {
-                "@type": "AggregateRating",
-                "ratingValue": round(g.best_rating, 1),
-                "ratingCount": g.best_review_count,
-            }
+        # Google評価は構造化データに出さない（docstring 参照）
         # ImageObject（提携スタジオのみ）
         if g.is_partner and g.dslurl_map:
             for dslurl in g.dslurl_map.values():
